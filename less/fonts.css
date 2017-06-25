@@ -1,0 +1,49 @@
+.font1 {
+  font-family: 'Open Sans', sans-serif;
+}
+.font2 {
+  font-family: 'montserrat', sans-serif;
+}
+.font2hairline {
+  font-family: 'montserrathairline', sans-serif;
+}
+.font2ultralight {
+  font-family: 'montserratultra_light', sans-serif;
+}
+.font2light {
+  font-family: 'montserratlight', sans-serif;
+}
+.font2semibold {
+  font-family: 'montserratsemi_bold', sans-serif;
+}
+.font2bold {
+  font-family: 'montserratbold', sans-serif;
+}
+.font2extrabold {
+  font-family: 'montserratextra_bold', sans-serif;
+}
+.font2black {
+  font-family: 'montserratblack', sans-serif;
+}
+.font3 {
+  font-family: 'Raleway', sans-serif;
+}
+body,
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+.menu-panel ul li a {
+  font-family: 'montserrat', sans-serif;
+}
+.sub-menu a {
+  font-family: 'montserratlight', sans-serif !important;
+}
+#main_nav a {
+  font-family: 'montserratlight', sans-serif;
+}
+.btn-remark {
+  font-family: 'montserrat', sans-serif;
+}
+.agency-home-caption {
+  font-family: 'montserrat', sans-serif !important;
+}
