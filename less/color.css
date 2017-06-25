@@ -1,5 +1,5 @@
 .color {
-  color: #a48c3f;
+  color: #cb450f;
 }
 .white {
   color: #ffffff;
@@ -20,7 +20,7 @@
   color: #cb450f;
 }
 .color-bg {
-  background-color: #a48c3f;
+  background-color: #cb450f;
 }
 .white-bg {
   background-color: #ffffff;
@@ -41,14 +41,14 @@ a {
   color: #000000;
 }
 a:hover {
-  color: #a48c3f;
+  color: #cb450f;
 }
 ::selection {
-  background: #a48c3f;
+  background: #cb450f;
   color: #000000;
 }
 ::-moz-selection {
-  background: #a48c3f;
+  background: #cb450f;
   color: #000000;
 }
 .btn-remark-white {
@@ -56,7 +56,7 @@ a:hover {
   color: #000000;
 }
 .btn-remark-white:hover {
-  background-color: #a48c3f !important;
+  background-color: #cb450f !important;
   color: #ffffff !important;
 }
 .btn-remark-dark {
@@ -64,11 +64,11 @@ a:hover {
   color: #ffffff !important;
 }
 .btn-remark-dark:hover {
-  background-color: #a48c3f !important;
+  background-color: #cb450f !important;
   color: #000000 !important;
 }
 .btn-remark-color {
-  background-color: #a48c3f !important;
+  background-color: #cb450f !important;
   color: #ffffff !important;
 }
 .btn-remark-color:hover {
@@ -82,13 +82,13 @@ section.mastwrap {
   background: #ffffff;
 }
 .featured-work-caption > span:before {
-  background-color: #a48c3f;
+  background-color: #cb450f;
 }
 .works-item a {
   background-color: #000000;
 }
 .works-item-inner h3 > span {
-  border-color: #a48c3f;
+  border-color: #cb450f;
 }
 .menu-bg {
   background-color: #000000;
@@ -97,7 +97,7 @@ section.mastwrap {
   color: #ffffff;
 }
 .menu-panel ul li a:hover {
-  color: #a48c3f;
+  color: #cb450f;
 }
 .works-filter li a,
 .works-filter li:after {
@@ -107,10 +107,10 @@ section.mastwrap {
   color: #292929;
 }
 .agency-tile h6:after {
-  background-color: #a48c3f;
+  background-color: #cb450f;
 }
 .team-social a:hover span {
-  color: #a48c3f;
+  color: #cb450f;
 }
 .filter-notification {
   background-color: #ffffff;
@@ -122,9 +122,9 @@ textarea {
 }
 input:focus,
 textarea:focus {
-  border-color: #a48c3f !important;
-  color: #a48c3f !important;
+  border-color: #cb450f !important;
+  color: #cb450f !important;
 }
 .sub-menu {
-  border-color: #a48c3f;
+  border-color: #cb450f;
 }
