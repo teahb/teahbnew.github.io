@@ -1225,6 +1225,23 @@ fieldset h1 {
     }
 
 
+
+.super-responsive-wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.board-wrapper {
+  margin: auto;
+  text-align: center;
+}
+
+.board-wrapper span {
+  overflow: hidden;
+  max-width: 100%!important;
+}
+
+
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*LESS Compiled to CSS and minified (for live preview purpose only):
 Please note: You should remove these CSS rules and work with original LESS files included in the template.
