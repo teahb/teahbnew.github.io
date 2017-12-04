@@ -8,33 +8,6 @@ replace preview images directly;
 */
 
 
-.intro-03-slide-01{
-    background-image: url('../images/featured/01.jpg');
-}
-.intro-03-slide-02{
-    background-image: url('../images/featured/02.jpg');
-}
-.intro-03-slide-03{
-    background-image: url('../images/featured/03.jpg');
-}
-.intro-03-slide-04{
-    background-image: url('../images/featured/04.jpg');
-}
-.intro-03-slide-05{
-    background-image: url('../images/featured/05.jpg');
-}
-.about-bg{
-    background-image: url('../images/bg/01.jpg');
-}
-.news-post-01-bg{
-    background-image: url('../images/news/01.jpg');
-}
-.news-post-02-bg{
-    background-image: url('../images/news/02.jpg');
-}
-.news-post-03-bg{
-    background-image: url('../images/news/03.jpg');
-}
 
 .teah-bg{
     background-image: url('../images/newteah.jpg');
