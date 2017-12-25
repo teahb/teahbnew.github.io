@@ -1,0 +1,157 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	min-height: 100vh;
+	color: #fafae5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Fade effect */
+.js body {
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.js body.render {
+	opacity: 1;
+}
+
+a {
+	text-decoration: none;
+	color: #5d93d8;
+	color: var(--color-link);
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	color: #423c2b;
+	color: var(--color-link-hover);
+	outline: none;
+}
+
+
+/* Icons */
+main {
+	position: relative;
+	width: 100%;
+}
+
+.content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 3em 2em;
+}
+
+
+/* Common styles for the menus */
+.menu {
+	position: relative;
+	z-index: 10;
+}
+
+.menu__item {
+	line-height: 1;
+	position: relative;
+	display: block;
+	margin: 1em 0;
+	outline: none;
+}
+
+.menu__item-name,
+.menu__item-label {
+	position: relative;
+	display: inline-block;
+}
+
+.menu__item-name {
+	font-size: 1.25em;
+}
+
+.menu__item-label {
+	margin: 0 0 0 0.5em;
+}
+
+
+@media screen and (max-width: 50em) {
+	html,
+	body {
+		overflow-x: hidden;
+		width: 100vw;
+		height: 100%;
+	}
+	.content {
+		height: auto;
+		min-height: 0;
+		padding-bottom: 10em;
+	}
+}
+
+
+/* Tsula Style */
+.menu--tsula {
+	font-family: 'Space Mono', monospace;
+}
+
+.menu--tsula .menu__item {
+	padding-left: 0.25em;
+}
+
+.menu--tsula .menu__item-name {
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #5a5bd3;
+}
+
+.menu--tsula .menu__item:hover .menu__item-name,
+.menu--tsula .menu__item:focus .menu__item-name {
+	color: #222328;
+	background: #5a5bd3;
+}
+
+.menu--tsula .menu__item:hover .menu__item-label,
+.menu--tsula .menu__item:focus .menu__item-label {
+	color: green;
+}
+
+.menu--tsula .menu__item::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 100%;
+	width: 0.9em;
+	height: 1em;
+	opacity: 0;
+	background: rgba(90,91,211,0.3);
+	animation: none; /* For Chrome */
+}
+
+.menu--tsula .menu__item-label {
+	margin: 0;
+	color: black;
+}
+
+.menu--tsula .menu__item:hover::before,
+.menu--tsula .menu__item:focus::before {
+	animation: blinkblink 0.4s cubic-bezier(0.5,0,1,1) infinite alternate;
+}
+
+
+@keyframes blinkblink {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
