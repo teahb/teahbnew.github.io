@@ -24,8 +24,8 @@ html, body{
   color: #888;
 }
 p{
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 18px;
   margin-bottom: 0;
   color: #888;
 }
@@ -172,7 +172,7 @@ footer.mastfoot{
       transition: all .8s linear;
 }
 .credits p{
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
   letter-spacing: 1px;
 }
@@ -193,7 +193,7 @@ nav.mastnav{
   display: block;
 }
 .menu-trigger span{
-  font-size: 42px;
+  font-size: 30px;
   line-height: 42px;
   display: inline-block;
 }
@@ -251,7 +251,7 @@ nav.mastnav{
 }
 
 .overlay ul li a {
-  font-size: 36px;
+  font-size: 26px;
   text-transform: uppercase;
   letter-spacing: 8px;
   display: block;
@@ -312,7 +312,7 @@ nav.mastnav{
 @media screen and (max-height: 30.5em) {
   .overlay nav {
     height: 70%;
-    font-size: 34px;
+    font-size: 26px;
   }
   .overlay ul li {
     min-height: 34px;
@@ -332,7 +332,7 @@ nav.mastnav{
 }
 
 .sub-menu li a{
-  font-size: 14px !important;
+  font-size: 12px !important;
   line-height: 21px !important;
   letter-spacing: 2px !important;
 }
@@ -367,7 +367,7 @@ section.mastwrap{
 .featured-work-caption{
   background: transparent !important;
   background-color: transparent !important;
-  font-size: 48px;
+  font-size: 36px;
     line-height: 48px;
   text-align: center;
   text-transform: uppercase;
@@ -381,7 +381,7 @@ section.mastwrap{
 .agency-home-caption{
   background: transparent !important;
   background-color: transparent !important;
-  font-size: 32px !important;
+  font-size: 26px !important;
     line-height: 32px !important;
     text-transform: uppercase !important;
     letter-spacing: 4px !important;
@@ -559,7 +559,7 @@ section.mastwrap{
             padding: 60px;
         }
         .works-item-inner h3{
-            font-size: 18px;
+            font-size: 14px;
             letter-spacing: normal;
             line-height: 25px;
             text-transform: uppercase;
@@ -629,14 +629,14 @@ section.mastwrap{
 
 /*ABOUT*/
 .about-01 h1{
-  font-size: 48px;
+  font-size: 36px;
   line-height: 72px;
   letter-spacing: 16px;
   text-transform: uppercase;
 
 }
 .about-01 h2{
-  font-size: 20px;
+  font-size: 16px;
   line-height: 40px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -644,7 +644,7 @@ section.mastwrap{
   text-transform: uppercase;
 }
 .about-01 h6{
-  font-size: 16px;
+  font-size: 12px;
   line-height: 32px;
   font-weight: normal;
   margin-top: 10px;
