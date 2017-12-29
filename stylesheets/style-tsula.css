@@ -141,10 +141,6 @@ main {
 	color: #CAC1BF;
 }
 
-.greyed--out {
-	margin: 0;
-	color: grey;
-}
 
 
 .menu--tsula .menu__item:hover::before,
