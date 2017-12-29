@@ -75,7 +75,7 @@ main {
 }
 
 .menu__item-name {
-	font-size: 1.25em;
+	font-size: 1.75em;
 }
 
 .menu__item-label {
@@ -140,6 +140,12 @@ main {
 	margin: 0;
 	color: black;
 }
+
+.greyed--out {
+	margin: 0;
+	color: grey;
+}
+
 
 .menu--tsula .menu__item:hover::before,
 .menu--tsula .menu__item:focus::before {
