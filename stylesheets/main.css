@@ -583,7 +583,7 @@ section.mastwrap{
 }
 .works-masonry-container .works-item-one-third {
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 3em !important;
   width: 33.3% !important;
 }
 .works-masonry-container .works-item-two-third {
