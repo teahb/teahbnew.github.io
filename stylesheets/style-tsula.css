@@ -60,7 +60,7 @@ main {
 }
 
 .menu__item {
-	line-height: 1;
+	line-height: 1.75;
 	position: relative;
 	display: block;
 	margin: 1em 0;
@@ -107,9 +107,9 @@ main {
 }
 
 .menu--tsula .menu__item-name {
-	font-size: 1em;
-	/*text-transform: uppercase;*/
+	font-size: 1.75em;
 	color: #5a5bd3;
+	text-transform: uppercase;
 }
 
 .menu--tsula .menu__item:hover .menu__item-name,
