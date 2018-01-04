@@ -113,6 +113,15 @@ div#preloader.fluidview {
   background-color: rgba(0,0,0,0.2);
 }
 
+.quote-text{
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.quote-owner{
+  text-transform: uppercase;
+  font-weight: 900;
+}
 /* 2. Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header.masthead{
