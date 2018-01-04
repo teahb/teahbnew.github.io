@@ -371,7 +371,7 @@ section.mastwrap{
     line-height: 48px;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 12px;
+  /*letter-spacing: 12px;*/
 }
 
 .featured-work-caption > span{
