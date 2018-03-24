@@ -20,9 +20,10 @@
 
 /* 1. Common
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-html, body{
+html {
   color: red;
 }
+
 p{
   font-size: 16px;
   line-height: 18px;
@@ -42,6 +43,7 @@ h1{
 
 a{
   text-decoration:none;
+  color: red;
 }
 a:focus { 
       outline: none; 
@@ -1134,6 +1136,9 @@ fieldset h1 {
 .text-center {
     text-align: center;
 }
+.text-justify {
+    text-align: justify;
+}
 
 .ease{
             -webkit-transition: all .4s ease-in-out;
@@ -1258,7 +1263,7 @@ fieldset h1 {
     left: 50% !important;
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
-    max-height: 300px;
+    max-height: 400px;
 }
 
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
