@@ -1252,6 +1252,12 @@ fieldset h1 {
   max-width: 100%!important;
 }
 
+.centered {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*LESS Compiled to CSS and minified (for live preview purpose only):
