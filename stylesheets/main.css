@@ -1269,6 +1269,11 @@ fieldset h1 {
     max-height: 400px;
 }
 
+.homepage_wheat {
+  background-color: wheat;
+  
+}
+
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*LESS Compiled to CSS and minified (for live preview purpose only):
 Please note: You should remove these CSS rules and work with original LESS files included in the template.
