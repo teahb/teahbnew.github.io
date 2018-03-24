@@ -57,7 +57,7 @@ main {
 }
 
 .menu__item {
-	font-size: 30px;
+	font-size: 24px;
 	line-height: 1.75;
 	position: relative;
 	display: block;
@@ -94,7 +94,7 @@ main {
 	}
 }
 
-
+/* Old purple color: #5a5bd3 */
 /* Tsula Style */
 .menu--tsula {
 	font-family: 'Space Mono', monospace;
@@ -106,7 +106,7 @@ main {
 
 .menu--tsula .menu__item-name {
 	font-size: 1em;
-	color: #5a5bd3;
+	color: red;
 	text-transform: uppercase;
 }
 
@@ -138,13 +138,15 @@ main {
 	color: #CAC1BF;
 }
 
-
-
 .menu--tsula .menu__item:hover::before,
 .menu--tsula .menu__item:focus::before {
 	animation: blinkblink 0.4s cubic-bezier(0.5,0,1,1) infinite alternate;
 }
 
+.tsula_lg {
+	font-size: 36px;
+
+}
 
 @keyframes blinkblink {
 	from {
