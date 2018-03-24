@@ -66,6 +66,23 @@
     <div id="status"></div> 
   </div>
 
+    <!-- Mobile Only Navigation
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <nav class="mobile-nav">
+                <ul class="slimmenu font2">
+                  <li>
+                      <a href="index.html">home</a>
+                  </li>
+                  <li>
+                      <a href="about.html">about</a>
+                  </li>
+                  <li>
+                      <a href="projects.html">projects</a>
+                  </li>
+                  <li><a href="notebook.html">notebook</a></li>
+                </ul>
+    </nav>
+    <!-- mobile only navigation : ends -->
 
 
   <!-- Header
@@ -74,7 +91,8 @@
     <div class="valign">
         <div class="container-fluid">
             <div class="row">
-              <div class="col-md-12 text-center">
+              <div class="col-md-12 text-left">
+                <a href="index.html"><img data-no-retina alt="" title="" src="images/tablogolg.png"/></a>
               </div>
             </div>
         </div>
@@ -82,38 +100,79 @@
   </header>
 
 
+  <!-- Main Navigation
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="menu-trigger-wrap">
+    
+      <a id="trigger-overlay" class="menu-trigger" href="#">
+        <span class="ion-android-menu black"></span>
+      </a>
+
+  </div>
+
+
+  <!-- open/close -->
+  <div class="overlay overlay-cornershape fullheight" data-path-to="m 0,0 1439.999975,0 0,805.99999 -1439.999975,0 z">
+      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1440 806" preserveAspectRatio="none">
+        <path class="overlay-path" d="m 0,0 1439.999975,0 0,805.99999 0,-805.99999 z"/>
+      </svg>
+      <button type="button" class="overlay-close">Close</button>
+
+      <div class="valign">
+      <nav>
+        <ul class="font2bold white">
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li>
+              <a href="projects.html">Projects</a>
+          </li>
+          <li><a href="notebook.html">Notebook</a></li>
+        </ul>
+      </nav>
+      </div>
+  </div>
+
+
+  <!-- Filter Navigation
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="filter-trigger-wrap">
+    
+      <a class="filter-trigger" href="#">
+        <span class="ion-grid black"></span>
+      </a>
+
+  </div>
+
+
   <!-- MASTER CONTENT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-      <section>
-        <div>
-          <img class="centered" src="images/face_t.jpg"/>
-        </div>
-      </section>  
+  <section class="mastwrap fullheight">
 
-      <section>
-        <div>
-          <img class="centered" src="images/green_loader_face_t.gif"/>
-        </div>
-      </section> 
-
-<section class="mastwrap fullheight">  
+  
       <section class="about">
           <div class="welcome-text onethirdheight">
               <div class="valign">
                     <div class="container">
                       <div class="row col-md-12 text-center">
                           <section class="content">
-                            <h1 class="font2bold">site update in progress</h1>
+                            <nav class="menu menu--tsula">
+                              <a class="menu__item" href="about.html">
+                                <span class="menu__item-name">STUDYING</span>
+                                <span class="menu__item-label">what people want,</span>
+                              </a>
+                              <a class="menu__item" href="projects.html">
+                                <span class="menu__item-name">DESIGNING</span>
+                                <span class="menu__item-label">what people need.</span>
+                              </a>
+                            </nav>
                           </section>
                       </div>
                     </div>
               </div>
           </div>
       </section>
-
-
-
-
       <!-- end : about -->
   
 
@@ -124,7 +183,7 @@
 
   <!-- FOOTER
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <footer class="mastfoot black-bg">
+  <footer class="mastfoot white-bg">
     <div class="valign">
           <ul class="foot-social text-center">
             <li><a target="_blank" href="https://www.linkedin.com/in/teahbrands/"><img data-no-retina alt="" title="" src="images/social/01.svg"/></a></li>
