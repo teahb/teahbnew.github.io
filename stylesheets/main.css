@@ -85,7 +85,7 @@ div#preloader.fluidview {
     position: fixed;
     left: 50%;
     top: 50%;
-    background-image: url(../images/loader.gif);
+    background-image: url(../images/green_loader_face_t.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150px;
@@ -1271,7 +1271,7 @@ fieldset h1 {
 
 .homepage_wheat {
   background-color: wheat;
-  
+
 }
 
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
