@@ -7,7 +7,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	min-height: 100vh;
-	color: #fafae5;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -24,14 +23,12 @@ body {
 
 a {
 	text-decoration: none;
-	color: #5d93d8;
 	color: var(--color-link);
 	outline: none;
 }
 
 a:hover,
 a:focus {
-	color: #423c2b;
 	color: var(--color-link-hover);
 	outline: none;
 }
@@ -60,6 +57,7 @@ main {
 }
 
 .menu__item {
+	font-size: 30px;
 	line-height: 1.75;
 	position: relative;
 	display: block;
