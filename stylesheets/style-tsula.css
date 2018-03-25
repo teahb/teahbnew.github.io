@@ -14,32 +14,12 @@
 	opacity: 1;
 }
 
-/* a {
-	text-decoration: none;
-	outline: none;
-} */
 
 a:hover,
 a:focus {
 	outline: none;
 }
 
-
-/* Icons 
-main {
-	position: relative;
-	width: 100%;
-}
-
-.content {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
-	padding: 3em 2em;
-}
-*/
 
 /* Common styles for the menus */
 .menu {
@@ -94,14 +74,14 @@ main {
 
 .menu--tsula .menu__item-name {
 	font-size: 1em;
-	color: red;
+	color: dimgray;
 	text-transform: uppercase;
 }
 
 .menu--tsula .menu__item:hover .menu__item-name,
 .menu--tsula .menu__item:focus .menu__item-name {
 	color: white;
-	background: black;
+	background: red;
 }
 
 .menu--tsula .menu__item:hover .menu__item-label,
