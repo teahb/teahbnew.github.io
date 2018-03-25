@@ -45,6 +45,7 @@ a{
   text-decoration:none;
   color: red;
 }
+
 a:hover {
   color: #888;
 }
@@ -174,19 +175,19 @@ footer.mastfoot{
 .foot-social li a > img {
   width: 32px;
     opacity: 1;
-  -webkit-transition: all .8s linear;
-     -moz-transition: all .8s linear;
-    -ms-transition: all .8s linear;
-     -o-transition: all .8s linear;
-      transition: all .8s linear;
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+     -o-transition: all .2s linear;
+      transition: all .2s linear;
 }
 .foot-social li a > img:hover {
     opacity: 0.5;
-  -webkit-transition: all .8s linear;
-     -moz-transition: all .8s linear;
-    -ms-transition: all .8s linear;
-     -o-transition: all .8s linear;
-      transition: all .8s linear;
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+     -o-transition: all .2s linear;
+      transition: all .2s linear;
 }
 .credits p{
   font-size: 12px;
@@ -1269,10 +1270,6 @@ fieldset h1 {
     max-height: 400px;
 }
 
-.homepage_wheat {
-  background-color: wheat;
-
-}
 
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*LESS Compiled to CSS and minified (for live preview purpose only):

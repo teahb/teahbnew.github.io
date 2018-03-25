@@ -122,10 +122,10 @@ main {
 	animation: none; /* For Chrome */
 }
 
-/* .menu--tsula .menu__item-label {
-	margin: 0;
+/* Make default text color gray */
+ .menu--tsula .menu__item-label {
 	color: #CAC1BF;
-} */
+} 
 
 .menu--tsula .menu__item:hover::before,
 .menu--tsula .menu__item:focus::before {
