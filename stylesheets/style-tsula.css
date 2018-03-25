@@ -4,13 +4,6 @@
 	box-sizing: border-box;
 }
 
-/* body {
-	font-family: 'Roboto', sans-serif;
-	min-height: 100vh;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-} */
-
 /* Fade effect */
 .js body {
 	opacity: 0;
@@ -21,20 +14,18 @@
 	opacity: 1;
 }
 
-a {
+/* a {
 	text-decoration: none;
-	color: var(--color-link);
 	outline: none;
-}
+} */
 
 a:hover,
 a:focus {
-	color: var(--color-link-hover);
 	outline: none;
 }
 
 
-/* Icons */
+/* Icons 
 main {
 	position: relative;
 	width: 100%;
@@ -48,7 +39,7 @@ main {
 	margin: 0 auto;
 	padding: 3em 2em;
 }
-
+*/
 
 /* Common styles for the menus */
 .menu {
@@ -69,10 +60,6 @@ main {
 .menu__item-label {
 	position: relative;
 	display: inline-block;
-}
-
-.menu__item-name {
-	font-size: 1.75em;
 }
 
 .menu__item-label {
@@ -96,13 +83,14 @@ main {
 
 /* Old purple color: #5a5bd3 */
 /* Tsula Style */
-.menu--tsula {
-	font-family: 'Space Mono', monospace;
-}
 
-.menu--tsula .menu__item {
+/* .menu--tsula {
+	font-family: 'Space Mono', monospace;
+} */ 
+
+/* .menu--tsula .menu__item {
 	padding-left: 0.25em;
-}
+} */
 
 .menu--tsula .menu__item-name {
 	font-size: 1em;
@@ -121,6 +109,7 @@ main {
 	color: green;
 }
 
+/* Code for blinking blue square */
 .menu--tsula .menu__item::before {
 	content: '';
 	position: absolute;
@@ -133,10 +122,10 @@ main {
 	animation: none; /* For Chrome */
 }
 
-.menu--tsula .menu__item-label {
+/* .menu--tsula .menu__item-label {
 	margin: 0;
 	color: #CAC1BF;
-}
+} */
 
 .menu--tsula .menu__item:hover::before,
 .menu--tsula .menu__item:focus::before {
