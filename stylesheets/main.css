@@ -157,7 +157,7 @@ footer.mastfoot{
   position: fixed;
   bottom: 0;
   z-index: 9990;
-  background-color: none;
+  background-color: white;
 
 }
 .credits{
