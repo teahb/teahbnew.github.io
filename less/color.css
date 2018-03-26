@@ -1,5 +1,5 @@
 .color {
-  color: #FF8C00;
+  color: #FF0000;
 }
 .white {
   color: #ffffff;
@@ -17,10 +17,10 @@
   color: #000000;
 }
 .orange {
-  color: #cb450f;
+  color: #FF8C00;
 }
 .color-bg {
-  background-color: #FF8C00;
+  background-color: #FF0000;
 }
 .white-bg {
   background-color: #ffffff;
@@ -38,7 +38,7 @@
   background-color: #000000;
 }
 a {
-  color: #FF8C00;
+  color: #FF0000;
 }
 a:hover {
   color: #888;
