@@ -72,7 +72,7 @@ a:hover {
   color: #ffffff !important;
 }
 .btn-remark-color:hover {
-  background-color: #ffffff !important;
+  background-color: #888 !important;
   color: #000000 !important;
 }
 section.mastwrap {
@@ -85,7 +85,7 @@ section.mastwrap {
   background-color: #FF0000;
 }
 .works-item a {
-  background-color: #000000;
+  background-color: #FF0000;
 }
 .works-item-inner h3 > span {
   border-color: #cb450f;
