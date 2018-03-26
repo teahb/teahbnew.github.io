@@ -143,6 +143,7 @@ header.masthead{
   z-index: 9990;
   height: 90px;
   font-size: 40px;
+  background-color: white;
   -webkit-transition: all .8s linear;
      -moz-transition: all .8s linear;
     -ms-transition: all .8s linear;
