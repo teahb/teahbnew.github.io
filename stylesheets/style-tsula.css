@@ -81,12 +81,18 @@ a:focus {
 .menu--tsula .menu__item:hover .menu__item-name,
 .menu--tsula .menu__item:focus .menu__item-name {
 	color: white;
-	background: darkorange;
+	background: red;
 }
 
 .menu--tsula .menu__item:hover .menu__item-label,
 .menu--tsula .menu__item:focus .menu__item-label {
 	color: green;
+}
+
+.menu--tsula .menu__item:hover .menu__item-name .timelineorange,
+.menu--tsula .menu__item:focus .menu__item-name .timelineorange{
+	color: white;
+	background: darkorange;
 }
 
 /* Code for blinking blue square */
