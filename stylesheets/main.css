@@ -21,7 +21,7 @@
 /* 1. Common
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 html {
-  color: red;
+  color: darkorange;
 }
 
 p{
@@ -46,7 +46,7 @@ h3 {
 
 a{
   text-decoration:none;
-  color: red;
+  color: darkorange;
 }
 
 a:hover {

@@ -81,7 +81,7 @@ a:focus {
 .menu--tsula .menu__item:hover .menu__item-name,
 .menu--tsula .menu__item:focus .menu__item-name {
 	color: white;
-	background: red;
+	background: darkorange;
 }
 
 .menu--tsula .menu__item:hover .menu__item-label,
