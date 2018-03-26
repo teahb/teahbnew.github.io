@@ -143,12 +143,17 @@ header.masthead{
   z-index: 9990;
   height: 90px;
   font-size: 40px;
+  color: white;
   background-color: white;
   -webkit-transition: all .8s linear;
      -moz-transition: all .8s linear;
     -ms-transition: all .8s linear;
      -o-transition: all .8s linear;
       transition: all .8s linear;
+}
+
+header a {
+  color: #333;
 }
 
 /* 3. Footer
