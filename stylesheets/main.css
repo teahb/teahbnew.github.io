@@ -142,6 +142,7 @@ header.masthead{
   width: 100%;
   z-index: 9990;
   height: 90px;
+  font-size: 40px;
   -webkit-transition: all .8s linear;
      -moz-transition: all .8s linear;
     -ms-transition: all .8s linear;
@@ -149,7 +150,7 @@ header.masthead{
       transition: all .8s linear;
 }
 
-/* 3. Header
+/* 3. Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer.mastfoot{
   height: 90px;
