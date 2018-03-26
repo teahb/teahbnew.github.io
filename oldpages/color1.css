@@ -2,13 +2,13 @@
   color: #FF0000;
 }
 .white {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .silver {
-  color: #F8F8F8;
+  color: #f8f8f8;
 }
 .grey {
-  color: #CCCCCC;
+  color: #cccccc;
 }
 .dark {
   color: #292929;
@@ -19,41 +19,17 @@
 .orange {
   color: #FF8C00;
 }
-.red {
-  color: #FF0000;
-}
-.wheat {
-  color: #F5DEB3;
-}
-.dialuppink {
-  color: #ffadc6;
-}
-.dialupblue {
-  color: #10c0ff;
-}
-.yellow {
-  color: #888;
-}
-.dimgrey {
-  color: #696969;
-}
-.textgrey {
-  color: #333;
-}
-
-
-
 .color-bg {
   background-color: #FF0000;
 }
 .white-bg {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .silver-bg {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 .grey-bg {
-  background-color: #CCCCCC;
+  background-color: #cccccc;
 }
 .dark-bg {
   background-color: #292929;
@@ -61,90 +37,50 @@
 .black-bg {
   background-color: #000000;
 }
-.wheat-bg {
-  background-color: #F5DEB3;
-}
-
-
-
-
-html {
-  color: #FF0000;
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #333;
-}
 a {
   color: #FF0000;
 }
 a:hover {
   color: #888;
 }
-header a {
-  color: #696969;
-}
-
-
-
 ::selection {
-  background: #FF0000;
+  background: #cb450f;
   color: #000000;
 }
 ::-moz-selection {
-  background: #FF0000;
+  background: #cb450f;
   color: #000000;
 }
-
-
-
-
 .btn-remark-white {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #000000;
 }
 .btn-remark-white:hover {
-  background-color: #FF0000 !important;
-  color: #FFFFFF !important;
+  background-color: #888 !important;
+  color: #ffffff !important;
 }
 .btn-remark-dark {
   background-color: #000000 !important;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 .btn-remark-dark:hover {
-  background-color: #FF0000 !important;
+  background-color: #888 !important;
   color: #000000 !important;
 }
 .btn-remark-color {
   background-color: #FF0000 !important;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 .btn-remark-color:hover {
-  background-color: #696969 !important;
+  background-color: #888 !important;
   color: #000000 !important;
 }
-
-
-
 section.mastwrap {
-  border-color: #FFFFFF;
+  border-color: #ffffff !important;
 }
 .header-highlighted {
-  background: #FFFFFF;
+  background: #ffffff;
 }
-header.masthead {
-  color: #FFFFFF;
-}
-
-
-
-
-
 .featured-work-caption > span:before {
   background-color: #FF0000;
 }
@@ -152,24 +88,17 @@ header.masthead {
   background-color: #FF0000;
 }
 .works-item-inner h3 > span {
-  border-color: #FF0000;
+  border-color: #cb450f;
 }
-
-
-
 .menu-bg {
   background-color: #000000;
 }
 .menu-panel ul li a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .menu-panel ul li a:hover {
-  color: #FF0000;
+  color: #cb450f;
 }
-
-
-
-
 .works-filter li a,
 .works-filter li:after {
   color: #292929;
@@ -178,27 +107,24 @@ header.masthead {
   color: #292929;
 }
 .agency-tile h6:after {
-  background-color: #FF0000;
+  background-color: #cb450f;
 }
 .team-social a:hover span {
-  color: #FF0000;
+  color: #cb450f;
 }
 .filter-notification {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
-
-
-
 input,
 textarea {
-  border-color: #FFFFFF;
-  color: #FFFFFF !important;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
 }
 input:focus,
 textarea:focus {
-  border-color: #FF0000 !important;
-  color: #FF0000 !important;
+  border-color: #cb450f !important;
+  color: #cb450f !important;
 }
 .sub-menu {
-  border-color: #FF0000;
+  border-color: #cb450f;
 }

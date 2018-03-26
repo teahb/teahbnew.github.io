@@ -20,21 +20,15 @@
 
 /* 1. Common
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-html {
-  color: red;
-}
-
 p{
   font-size: 16px;
   line-height: 18px;
   margin-bottom: 0;
-  color: #333;
   text-align: justify;
 }
 h1,h2,h3,h4,h5,h6{
   margin-top: 0;
   margin-bottom: 0;
-  color: #333;
 }
 
 h1{
@@ -45,14 +39,6 @@ h3 {
   font-size: 20px;
 }
 
-a{
-  text-decoration:none;
-  color: red;
-}
-
-a:hover {
-  color: #888;
-}
 a:focus { 
       outline: none; 
 }
@@ -144,17 +130,12 @@ header.masthead{
   z-index: 9990;
   height: 90px;
   font-size: 40px;
-  color: white;
   background-color: white;
   -webkit-transition: all .8s linear;
      -moz-transition: all .8s linear;
     -ms-transition: all .8s linear;
      -o-transition: all .8s linear;
       transition: all .8s linear;
-}
-
-header a {
-  color: #333;
 }
 
 /* 3. Footer
@@ -950,10 +931,13 @@ textarea {
     transition: all .8s linear;
 }
 
+/* This is replaced in color.less (check to see if necessary code)
 input, textarea {
   border-color: #232323;
-  color: #999;
+  color: #999; 
 }
+*/
+
 input.send_message {
     cursor: pointer;
     float: left;

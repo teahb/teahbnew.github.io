@@ -1,160 +1,223 @@
-@color:#FF0000;
-@white:#FFFFFF;
-@silver:#F8F8F8;
-@grey:#CCCCCC;
-@dark:#292929;
-@black:#000000;
-@orange:#FF8C00;
-@red:red;
-@dialuppink:#ffadc6;
-@dialupblue:#10c0ff;
+/* COLORS */
+@color: #FF0000;
+@white: #FFFFFF;
+@silver: #F8F8F8;
+@grey: #CCCCCC;
+@dark: #292929;
+@black: #000000;
+@orange: #FF8C00;
+@red: #FF0000;
+@dialuppink: #ffadc6;
+@dialupblue: #10c0ff;
+@yellow: #888;
+@dimgrey: #696969;
+@textgrey: #333;
+@wheat: #F5DEB3;
 
 
+/* COLOR CLASSES */
 .color{
-	color:@color;
+	color: @color;
 }
 .white{
-	color:@white;
+	color: @white;
 }
 .silver{
-	color:@silver;
+	color: @silver;
 }
 .grey{
-	color:@grey ;
+	color: @grey ;
 }
 .dark{
-	color:@dark;
+	color: @dark;
 }
 .black{
-	color:@black;
+	color: @black;
 }
 .orange{
-	color:@orange;
+	color: @orange;
 }
 .red {
-	color:@red;
+	color: @red;
 }
 .wheat {
-	color:@wheat;
+	color: @wheat;
+}
+.dialuppink {
+	color: @dialuppink;
+}
+.dialupblue {
+	color: @dialupblue;
+}
+.yellow {
+	color: @yellow;
+}
+.dimgrey {
+	color: @dimgrey;
+}
+.textgrey {
+	color: @textgrey;
 }
 
+
+/* BACKGROUND COLORS */
 .color-bg{
-	background-color:@color;
+	background-color: @color;
 }
 .white-bg{
-	background-color:@white;
+	background-color: @white;
 }
 .silver-bg{
-	background-color:@silver;
+	background-color: @silver;
 }
 .grey-bg{
-	background-color:@grey;
+	background-color: @grey;
 }
 .dark-bg{
-	background-color:@dark;
+	background-color: @dark;
 }
 .black-bg{
-	background-color:@black;
+	background-color: @black;
 }
 .wheat-bg {
-	background-color:@wheat;
+	background-color: @wheat;
+}
+
+
+
+
+/* TEXT COLORS */
+html {
+	color: @color;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+	color: @textgrey;
 }
 
 a{
-	color:@black;
+	color: @color;
 }
 a:hover{
-	color:@color;
+	color: @yellow;
 }
+
+header a {
+  color: @dimgrey;
+}
+
+
+
+
+/* SELECTION COLORS */
 ::selection {
   background: @color;
-  color:@black;
+  color: @black;
 }
 ::-moz-selection {
   background: @color;
-  color:@black;
+  color: @black;
 }
 
+
+
+
+/* BUTTON COLORS */
 .btn-remark-white {
-	background-color:@white;
-	color:@black;
+	background-color: @white;
+	color: @black;
 }
-
 .btn-remark-white:hover {
-	background-color:@color !important;
-	color:@white !important;
+	background-color: @color !important;
+	color: @white !important;
 }
-
 .btn-remark-dark {
-	background-color:@black !important;
-	color:@white !important;
+	background-color: @black !important;
+	color: @white !important;
 }
-
 .btn-remark-dark:hover {
-	background-color:@color !important;
-	color:@black !important;
+	background-color: @color !important;
+	color :@black !important;
 }
-
 .btn-remark-color {
-	background-color:@color !important;
-	color:@white !important;
+	background-color: @color !important;
+	color: @white !important;
+}
+.btn-remark-color:hover {
+	background-color: @dimgrey !important;
+	color: @black !important;
 }
 
-.btn-remark-color:hover {
-	background-color:#888 !important;
-	color:@black !important;
-}
+
+
+/* HEADER/WRAPPER COLORS */
 section.mastwrap{
-	border-color:@white;
+	border-color: @white;
 }
 .header-highlighted{
   background: @white;
 }
+header.masthead{
+	color: @white;
+}
+
+
+
+/* WORKS ITEM COLORS */
 .featured-work-caption > span:before{
-	background-color:@color;
+	background-color: @color;
 }
 .works-item a{
-	background-color@color;
+	background-color: @color;
 }
  .works-item-inner h3 > span{ 
-	border-color:@color;
+	border-color: @color;
 }
+
+
+
+/* NAVIGATION COLORS */
 .menu-bg{
-	background-color:@black;
+	background-color: @black;
 }
 .menu-panel ul li a{
-	color:@white;
+	color: @white;
+}
+.menu-panel ul li a:hover{
+	color: @color;
 }
 
-.menu-panel ul li a:hover{
-	color:@color;
-}
+
+
+
+/* FILTER/FOOTER COLORS */
 .works-filter li a, .works-filter li:after{
-	color:@dark;
+	color: @dark;
 }
 .filter-notification a{
-	color:@dark;
+	color: @dark;
 }
-
 .agency-tile h6:after{
-	background-color:@color;
+	background-color: @color;
 }
 .team-social a:hover span{
-	color:@color;
+	color: @color;
 }
-
 .filter-notification{
-	background-color:@white;
+	background-color: @white;
 }
 
+
+
+/* OTHER COLORS */
 input, textarea {
-	border-color:@white;
-	color:@white !important;
+	border-color: @white;
+	color: @white !important;
 }
 input:focus, textarea:focus {
-	border-color:@color !important;
-	color:@color !important;
+	border-color: @color !important;
+	color: @color !important;
 }
 .sub-menu{
-	border-color:@color;
+	border-color: @color;
 }
