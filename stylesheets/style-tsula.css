@@ -68,10 +68,6 @@ a:focus {
 	font-family: 'Space Mono', monospace;
 } */ 
 
-/* .menu--tsula .menu__item {
-	padding-left: 0.25em;
-} */
-
 .menu--tsula .menu__item-name {
 	font-size: 1em;
 	color: dimgray;

@@ -189,7 +189,9 @@ header.masthead {
 .filter-notification {
   background-color: #FFFFFF;
 }
-
+.foot-social li a > img:hover {
+  color: @orange;
+}
 
 
 input,
