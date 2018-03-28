@@ -28,9 +28,17 @@
 .dialuppink {
   color: #ffadc6;
 }
+  a:hover .dialuppink {
+    color: #10c0ff;
+  }
+
 .dialupblue {
   color: #10c0ff;
 }
+  a:hover .dialupblue {
+    color: #ffadc6;
+  }
+
 .yellow {
   color: #fff888;
 }

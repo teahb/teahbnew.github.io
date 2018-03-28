@@ -74,6 +74,10 @@ a:focus {
 	text-transform: uppercase;
 }
 
+.menu__item-name .timelineorange {
+	background: #FF8C00;
+}
+
 .menu--tsula .menu__item:hover .menu__item-name,
 .menu--tsula .menu__item:focus .menu__item-name {
 	color: white;
@@ -85,9 +89,7 @@ a:focus {
 	color: green;
 }
 
-.menu__item-name .timelineorange {
-	background: #FF8C00;
-}
+
 
 /* Code for blinking blue square */
 .menu--tsula .menu__item::before {
@@ -98,7 +100,7 @@ a:focus {
 	width: 0.9em;
 	height: 1em;
 	opacity: 0;
-	background: rgba(90,91,211,0.3);
+	background: rgba(90,91,211,0.7);
 	animation: none; /* For Chrome */
 }
 
