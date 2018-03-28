@@ -208,7 +208,7 @@ nav.mastnav{
   display: inline-block;
 }
 
-/* Overlay style */
+/* Overlay style 
 .overlay {
   position: fixed;
   width: 100%;
@@ -218,8 +218,9 @@ nav.mastnav{
   background: rgba(0,0,0,0.9);
   z-index: 9999;
 }
+*/
 
-/* Overlay closing cross */
+/* Overlay closing cross 
 .overlay .overlay-close {
   width: 40px;
   height: 40px;
@@ -235,8 +236,9 @@ nav.mastnav{
   outline: none;
   z-index: 100;
 }
-
+*/
 /* Menu style */
+/*
 .overlay nav {
   text-align: center;
 }
@@ -253,9 +255,9 @@ nav.mastnav{
 .overlay ul li {
   display: block;
   padding: 10px 0;
-  /*height: 20%;
+  height: 20%;
   height: calc(100% / 5);
-  min-height: 54px;*/
+  min-height: 54px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -275,7 +277,7 @@ nav.mastnav{
   color: #f0f0f0;
 }
 
-/* Menu Effects */
+/* Menu Effects 
 .overlay-cornershape {
   background: transparent;
   visibility: hidden;
@@ -329,7 +331,7 @@ nav.mastnav{
   }
 }
 
-/*Sub Menu*/
+Sub Menu
 .sub-menu{
   display: none;
   border-top: solid 1px;
@@ -345,7 +347,7 @@ nav.mastnav{
   font-size: 14px !important;
   line-height: 21px !important;
   letter-spacing: 2px !important;
-}
+} */
 
 /* 5. Pages
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -374,6 +376,8 @@ section.mastwrap{
 .rev-image-overlay-white{
   background-color: rgba(255,255,255,0.5);
 }
+
+/* Work item hover effect */
 .featured-work-caption{
   background: transparent;
   background-color: transparent;
@@ -381,13 +385,14 @@ section.mastwrap{
     line-height: 48px;
   text-align: center;
   text-transform: uppercase;
-  /*letter-spacing: 12px;*/
 }
 
 .featured-work-caption > span{
   font-style: normal;
   margin-left: 20px;
 }
+
+/*
 .agency-home-caption{
   background: transparent !important;
   background-color: transparent !important;
@@ -396,13 +401,15 @@ section.mastwrap{
     text-transform: uppercase !important;
     letter-spacing: 4px !important;
   text-align: center;
-}
+}*/
+
 .rev_slider_wrapper iframe{
   border:none;
 }
 
 
 /*ABOUT 01*/
+/*
 .agency-tile{
   padding: 70px;  
 }
@@ -447,6 +454,8 @@ section.mastwrap{
   letter-spacing: 4px;
   font-style: italic;
 }
+*/
+
 
 /*WORKS*/
 
@@ -639,7 +648,7 @@ section.mastwrap{
   width: 23% !important;
 }
 
-/*ABOUT*/
+/*ABOUT
 .about-01 h1{
   font-size: 36px;
   line-height: 72px;
@@ -743,9 +752,9 @@ section.mastwrap{
     -ms-transition: all .4s linear;
      -o-transition: all .4s linear;
       transition: all .4s linear;
-}
+} */
 
-/*SERVICES*/
+/*SERVICES
 .services .service-block{
     text-align: center;
     padding: 10px 30px 20px 30px;
@@ -763,9 +772,9 @@ section.mastwrap{
 }
 .services .liner-small{
   margin-bottom: 10px;
-}
+} */
 
-/*TEAM*/
+/*TEAM
   .team-block{
     overflow: hidden !important;
   }
@@ -802,7 +811,7 @@ section.mastwrap{
     line-height: 22px;
     border-radius: 50%;
     padding-top: 7px;
-  }
+  } */
 
 /*NEWS*/
 
@@ -823,6 +832,7 @@ section.mastwrap{
 
 
 /*PROJECT*/
+/*
 .project-nav-block{
   padding: 80px 40px;
 }
@@ -836,8 +846,8 @@ section.mastwrap{
 .project-nav-block span {
     font-size: 32px;
 }
-
-/*CONTACT*/
+*/
+/*CONTACT
 .contact-tile{
   padding: 100px;
 }
@@ -864,11 +874,11 @@ section.mastwrap{
     font-style: italic;
     font-weight: 200;
     margin-left: 10px;
-}
+} */
 
 
-/*contact form*/
-
+/* Contact Form */
+/*
 .email-wrap {
     padding-top: 20px;
 }
@@ -883,7 +893,7 @@ section.mastwrap{
 }
 
 .contact-item {
-}
+} 
 
 input {
     background: transparent !important;
@@ -932,13 +942,6 @@ textarea {
     -o-transition: all .8s linear;
     transition: all .8s linear;
 }
-
-/* This is replaced in color.less (check to see if necessary code)
-input, textarea {
-  border-color: #232323;
-  color: #999; 
-}
-*/
 
 input.send_message {
     cursor: pointer;
@@ -997,7 +1000,7 @@ fieldset h1 {
     margin-bottom: 10px;
     padding: 10px;
     text-align: left;
-}
+} 
 
 .btn-wrap {
     margin-top: 30px;
@@ -1039,7 +1042,7 @@ fieldset h1 {
     margin-bottom: 20px;
     padding: 0;
 }
-
+*/
 
 /* 6. Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
