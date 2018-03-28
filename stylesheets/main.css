@@ -598,23 +598,25 @@ section.mastwrap{
 }
 .works-masonry-container .works-item-two-third {
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 2.5em !important;
   width: 66.6% !important;
 }
 .works-masonry-container .works-item-one-half {
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 2em !important;
   width: 50% !important;
 }
 .works-masonry-container .works-item-one-fourth {
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 1.5em !important;
   width: 25% !important;
 }
+
+/* CODE FOR WORK ITEMS (WORK.HTML) */
 .works-masonry-container .works-item-full-width {
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 100% !important;
+  margin: 0;
+  padding: 3em !important;
+  width: 80% !important;
 }
 .works-masonry-container .works-item-one-third-spaced{
   margin: 1% !important;
