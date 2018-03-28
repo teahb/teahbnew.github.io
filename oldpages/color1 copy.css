@@ -37,11 +37,11 @@
 .black-bg {
   background-color: #000000;
 }
-a {
+/*a {
   color: #FF0000;
 }
 a:hover {
-  color: #888;
+  color: #f8f8f8;*/
 }
 ::selection {
   background: #cb450f;
@@ -55,26 +55,26 @@ a:hover {
   background-color: #ffffff;
   color: #000000;
 }
-.btn-remark-white:hover {
+/*.btn-remark-white:hover {
   background-color: #888 !important;
   color: #ffffff !important;
-}
+}*/
 .btn-remark-dark {
   background-color: #000000 !important;
   color: #ffffff !important;
 }
-.btn-remark-dark:hover {
+/*.btn-remark-dark:hover {
   background-color: #888 !important;
   color: #000000 !important;
-}
+}*/
 .btn-remark-color {
   background-color: #FF0000 !important;
   color: #ffffff !important;
 }
-.btn-remark-color:hover {
+/*.btn-remark-color:hover {
   background-color: #888 !important;
   color: #000000 !important;
-}
+}*/
 section.mastwrap {
   border-color: #ffffff !important;
 }

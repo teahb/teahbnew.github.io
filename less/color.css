@@ -32,18 +32,20 @@
   color: #10c0ff;
 }
 .yellow {
-  color: #888;
+  color: #fff888;
 }
 .dimgrey {
   color: #696969;
 }
 .textgrey {
-  color: #333;
+  color: #333333;
 }
 .green {
   color: #008000;
 }
 
+
+/* BACKGROUND COLORS */
 .color-bg {
   background-color: #FF0000;
 }
@@ -68,7 +70,7 @@
 
 
 
-
+/* TEXT COLORS */
 html {
   color: #FF0000;
 }
@@ -79,23 +81,23 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333;
+  color: #333333;
 }
 a {
   color: #FF0000;
 }
 a:hover {
-  color: #888;
+  color: #fff888;
 }
 header a {
   color: #000000;
 }
 header a:hover {
-  color: #888;
+  color: #FF8C00;
 }
 
 
-
+/* SELECTION COLORS */
 ::selection {
   background: #FF0000;
   color: #000000;
@@ -106,11 +108,10 @@ header a:hover {
 }
 
 
-
-
+/* BUTTON COLORS */
 .btn-remark-white {
   background-color: #FFFFFF;
-  color: #000000;
+  color: #FF8C00;
 }
 .btn-remark-white:hover {
   background-color: #FF0000 !important;
@@ -129,12 +130,12 @@ header a:hover {
   color: #FFFFFF !important;
 }
 .btn-remark-color:hover {
-  background-color: #696969 !important;
+  background-color: #fff888 !important;
   color: #000000 !important;
 }
 
 
-
+/* HEADER/WRAPPER COLORS */
 section.mastwrap {
   border-color: #FFFFFF;
 }
@@ -146,9 +147,7 @@ header.masthead {
 }
 
 
-
-
-
+/* WORKS ITEM COLORS */
 .featured-work-caption > span:before {
   background-color: #FF0000;
 }
@@ -160,7 +159,7 @@ header.masthead {
 }
 
 
-
+/* NAVIGATION COLORS */
 .menu-bg {
   background-color: #000000;
 }
@@ -172,10 +171,8 @@ header.masthead {
 }
 
 
-
-
-.works-filter li a,
-.works-filter li:after {
+/* FILTER/FOOTER COLORS */
+.works-filter li a, .works-filter li:after {
   color: #292929;
 }
 .filter-notification a {
@@ -191,10 +188,11 @@ header.masthead {
   background-color: #FFFFFF;
 }
 .foot-social li a > img:hover {
-  color: @orange;
+  color: #FF8C00;
 }
 
 
+/* OTHER COLORS */
 input,
 textarea {
   border-color: #FFFFFF;
