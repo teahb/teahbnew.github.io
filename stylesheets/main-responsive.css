@@ -125,7 +125,7 @@ there.
 	.works-masonry-container .works-item-one-fourth-spaced{
 	  margin: 0% !important;
 	  padding: 3em !important;
-	  width: 50% !important;
+	  width: 80% !important;
 	}
 	.works-item-inner {
 	    padding: 0 40px;
@@ -235,7 +235,7 @@ there.
 	.works-masonry-container .works-item-one-fourth-spaced{
 	  margin: 0% !important;
 	  padding: 0 !important;
-	  width: 100% !important;
+	  width: 80% !important;
 	}
 	.works-item-inner {
 	    padding: 0 40px;
