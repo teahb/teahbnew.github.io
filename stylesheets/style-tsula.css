@@ -74,10 +74,6 @@ a:focus {
 	text-transform: uppercase;
 }
 
-.menu__item-name .timelineorange {
-	background: #FF8C00;
-}
-
 .menu--tsula .menu__item:hover .menu__item-name,
 .menu--tsula .menu__item:focus .menu__item-name {
 	color: white;
