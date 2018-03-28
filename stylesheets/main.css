@@ -138,6 +138,10 @@ header.masthead{
       transition: all .8s linear;
 }
 
+header a:hover {
+  text-decoration: none;
+}
+
 /* 3. Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer.mastfoot{
