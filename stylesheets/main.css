@@ -1273,14 +1273,15 @@ fieldset h1 {
     left: 50% !important;
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
-    max-height: 400px;
+    max-height: 60%;
     z-index: 1;
 }
 
 .hometoptext {
     position: absolute;
-    top: 30%;
+    top: 21%;
     left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 10;
 }
 
@@ -1288,6 +1289,7 @@ fieldset h1 {
     position: absolute;
     top: 80%;
     left: 50%;
+    /* transform: translate(-50%, -50%); */
     z-index: 10;
 }
 
