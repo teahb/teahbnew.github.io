@@ -85,7 +85,10 @@ a:focus {
 	color: green;
 }
 
-
+/* Make default text color gray */
+ .menu--tsula .menu__item-label {
+	color: #CAC1BF;
+} 
 
 /* Code for blinking blue square */
 .menu--tsula .menu__item::before {
@@ -100,16 +103,10 @@ a:focus {
 	animation: none; /* For Chrome */
 }
 
-/* Make default text color gray */
- .menu--tsula .menu__item-label {
-	color: #CAC1BF;
-} 
-
 .menu--tsula .menu__item:hover::before,
 .menu--tsula .menu__item:focus::before {
 	animation: blinkblink 0.4s cubic-bezier(0.5,0,1,1) infinite alternate;
 }
-
 
 @keyframes blinkblink {
 	from {
@@ -118,4 +115,22 @@ a:focus {
 	to {
 		opacity: 1;
 	}
+}
+
+/* Code for homepage text location */
+
+.homephraseleft {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.homephraseright {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 5;	
 }

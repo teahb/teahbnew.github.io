@@ -1249,8 +1249,6 @@ fieldset h1 {
         transition-duration: 0s;
     }
 
-
-
 .super-responsive-wrapper {
   width: 100%;
   margin: auto;
@@ -1266,8 +1264,10 @@ fieldset h1 {
   max-width: 100%!important;
 }
 
-/* POSITIONING CLASSES */
 
+
+/* 7. Text and Image Positioning Classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .centered {
     position: fixed !important;
     left: 50% !important;
@@ -1289,9 +1289,11 @@ fieldset h1 {
     position: absolute;
     top: 70%;
     left: 75%;
-    transform: translate(-60%, -50%);
+    transform: translate(-59%, -50%);
     z-index: 10;
 }
+
+
 
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*LESS Compiled to CSS and minified (for live preview purpose only):
