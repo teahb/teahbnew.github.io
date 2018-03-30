@@ -265,6 +265,17 @@ there.
       border: 20px solid;
       border-bottom: 0;
     }
+    .homephraseleft {
+        top: 20%;
+        left: 40%;
+        font-size: 40px;
+    }
+    .homephraseright {
+        top: 80%;
+        left: 40%;
+        font-size: 40px;
+    }
+
 }
 
 /*iPhone 6 Portrait Mode*/
@@ -273,6 +284,16 @@ there.
         width: 335px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .homephraseleft {
+        top: 24%;
+        left: 38%;
+        font-size: 30px;
+    }
+    .homephraseright {
+        top: 80%;
+        left: 40%;
+        font-size: 30px;
     }
 }
 
@@ -283,4 +304,21 @@ there.
         padding-left: 20px;
         padding-right: 20px;
     }
+    .homephraseleft {
+        top: 14%;        
+        left: 38%;
+        font-size: 25px;
+    }
+    .homephraseright {
+        top: 78%;
+        left: 60%;
+        font-size: 25px;
+    }
 }
+
+
+
+
+
+
+

@@ -1294,9 +1294,9 @@ fieldset h1 {
 
 .lastupdated {
   text-align: right;
-  padding-right: 5px;
   position: absolute;
-
+  top: 95%
+  right: 2%;
 }
 
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
