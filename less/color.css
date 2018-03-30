@@ -28,14 +28,14 @@
 .dialuppink {
   color: #ffadc6;
 }
-  a:hover .dialuppink {
+  .dialuppink a:hover {
     color: #10c0ff;
   }
 
 .dialupblue {
   color: #10c0ff;
 }
-  a:hover .dialupblue {
+  .dialupblue a:hover {
     color: #ffadc6;
   }
 
