@@ -1266,14 +1266,30 @@ fieldset h1 {
   max-width: 100%!important;
 }
 
+/* POSITIONING CLASSES */
+
 .centered {
     position: fixed !important;
     left: 50% !important;
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
     max-height: 400px;
+    z-index: 1;
 }
 
+.hometoptext {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    z-index: 10;
+}
+
+.homebottomtext {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    z-index: 10;
+}
 
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*LESS Compiled to CSS and minified (for live preview purpose only):
