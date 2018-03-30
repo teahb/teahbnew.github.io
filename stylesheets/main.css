@@ -1274,7 +1274,6 @@ fieldset h1 {
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
     max-height: 60%;
-    z-index: 1;
 }
 
 .hometoptext {
@@ -1289,11 +1288,16 @@ fieldset h1 {
     position: absolute;
     top: 70%;
     left: 75%;
-    transform: translate(-59%, -50%);
+    transform: translate(-62%, -50%);
     z-index: 10;
 }
 
+.lastupdated {
+  text-align: right;
+  padding-right: 5px;
+  position: absolute;
 
+}
 
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*LESS Compiled to CSS and minified (for live preview purpose only):
