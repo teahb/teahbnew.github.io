@@ -16,7 +16,20 @@ there.
         padding-left: 50px;
         padding-right: 50px;
     }
+    .homephraseleft {
+        top: 13%;        
+        left: 42%;
+        font-size: 65px;
+    }
+    .homephraseright {
+        top: 72.5%;
+        left: 63.2%;
+        font-size: 65px;
+    }
 }
+
+
+
 /* Laptop */
 @media (max-width: 1200px) {
     .container {
@@ -24,7 +37,20 @@ there.
         padding-left: 50px;
         padding-right: 50px;
     }
+    .homephraseleft {
+        top: 10%;        
+        left: 44%;
+        font-size: 55px;
+    }
+    .homephraseright {
+        top: 77%;
+        left: 64%;
+        font-size: 55px;
+    }
 }
+
+
+
 /* Medium Desktops */
 @media (max-width: 1100px) {
     .container {
@@ -36,13 +62,35 @@ there.
         font-size: 36px;
         line-height: 43px;
     }
+    .homephraseleft {
+        top: 10%;        
+        left: 44%;
+        font-size: 50px;
+    }
+    .homephraseright {
+        top: 78%;
+        left: 64%;
+        font-size: 50px;
+    }
 }
+
+
 /* Small Desktops */
 @media (max-width: 1024px) {
     .container {
         max-width: 924px;
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .homephraseleft {
+        top: 12.5%;        
+        left: 46%;
+        font-size: 40px;
+    }
+    .homephraseright {
+        top: 78%;
+        left: 64%;
+        font-size: 40px;
     }
 }
 
@@ -113,7 +161,6 @@ there.
     .foot-social li{
         display: inline-block;
     }
-
 	.works-masonry-container .works-item-one-third,
 	.works-masonry-container .works-item-two-third,
 	.works-masonry-container .works-item-one-half,
@@ -145,6 +192,16 @@ there.
         width: 100%;
         padding-bottom: 35px;
     }
+    .homephraseleft {
+        top: 15%;        
+        left: 36%;
+        font-size: 40px;
+    }
+    .homephraseright {
+        top: 78%;
+        left: 59.9%;
+        font-size: 40px;
+    }
 }
 
 /* Larger than tablet */
@@ -159,8 +216,18 @@ there.
       border: 50px solid;
       border-bottom: 0;
     }
-
+    .homephraseleft {
+        top: 15%;        
+        left: 36%;
+        font-size: 40px;
+    }
+    .homephraseright {
+        top: 78%;
+        left: 59.9%;
+        font-size: 40px;
+    }
 }
+
 /* Tablets */
 @media (max-width: 768px) {
     .container {
@@ -168,6 +235,16 @@ there.
         padding-left: 50px;
         padding-right: 50px;
         text-align: center;
+    }
+    .homephraseleft {
+        top: 15%;        
+        left: 36%;
+        font-size: 40px;
+    }
+    .homephraseright {
+        top: 78%;
+        left: 59.9%;
+        font-size: 40px;
     }
 }
 
@@ -177,6 +254,16 @@ there.
         width: 636px;
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .homephraseleft {
+        top: 8.5%;
+        left: 49%;
+        font-size: 25px;
+    }
+    .homephraseright {
+        top: 77%;
+        left: 62%;
+        font-size: 25px;
     }
 }
 
@@ -188,6 +275,16 @@ there.
         padding-left: 50px;
         padding-right: 50px;
     }
+    .homephraseleft {
+        top: 8.5%;
+        left: 49%;
+        font-size: 25px;
+    }
+    .homephraseright {
+        top: 78%;
+        left: 62%;
+        font-size: 25px;
+    }
 }
 
 
@@ -198,9 +295,19 @@ there.
         padding-left: 50px;
         padding-right: 50px;
     }
+    .homephraseleft {
+        top: 8.5%;
+        left: 49%;
+        font-size: 25px;
+    }
+    .homephraseright {
+        top: 77%;
+        left: 62%;
+        font-size: 25px;
+    }
 }
 
-/*iPhone Landscape Mode and Mediium Smart Phones*/
+/*iPhone Landscape Mode and Medium Smart Phones*/
 @media screen and (max-width: 480px) {
     .container {
         width: 400px;
@@ -251,6 +358,16 @@ there.
     .agency-home-caption, .welcome-text h2, .news-post h2{
         font-size: 20px !important;
         line-height: 27px !important;
+    }
+    .homephraseleft {
+        top: 12.5%;
+        left: 49%;
+        font-size: 25px;
+    }
+    .homephraseright {
+        top: 78%;
+        left: 59%;
+        font-size: 25px;
     }
 }
 
