@@ -571,10 +571,9 @@ section.mastwrap{
         }
         .works-item-inner{
             text-align: left;
-            padding: 0 100px;
+            padding: 20px 100px;
         }
         .works-thumbnails-view .works-item-inner{
-            text-align: center;
             padding: 0;
         }
         .works-item-inner h3{
@@ -584,10 +583,7 @@ section.mastwrap{
             text-transform: uppercase;
             letter-spacing: 2px;
         }
-        .works-item-inner p{ 
-          text-align: left;
-          margin-left: 10px;
-        }
+
 
 .works-item-fade{
   opacity: 0.1;
