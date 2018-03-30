@@ -583,7 +583,9 @@ section.mastwrap{
             text-transform: uppercase;
             letter-spacing: 2px;
         }
-
+        .works-item-inner p{
+          margin-left: 30px;
+        }
 
 .works-item-fade{
   opacity: 0.1;
@@ -604,17 +606,17 @@ section.mastwrap{
 }
 .works-masonry-container .works-item-two-third {
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 3em !important;
   width: 66.6% !important;
 }
 .works-masonry-container .works-item-one-half {
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 3em !important;
   width: 50% !important;
 }
 .works-masonry-container .works-item-one-fourth {
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 2em !important;
   width: 25% !important;
 }
 
