@@ -1,8 +1,13 @@
-NEED HELP WITH:
+TODO:
 
-- colors on hover for diff elements ("nav", footer, grey in general?)
-- picture slideshow on work x (correct sizing)
-- delete unnecessary css / javascript
-- issues on inspect
-- new font?
-- fixing work page - spacing between projects
+- DONE! fixing work page - spacing between projects
+- DONE! colors on hover for diff elements ("nav", footer, grey in general?) (I'll show you what i'm talking about in lib)
+- DONE! delete unnecessary css on main.css (I can do this prolly tho) / javascript (I prob can't do this lmaoo)
+- picture slideshow on work x (correct sizing) (I'll show you what i'm talking about in lib)
+- issues on inspect (something about deprecation IDK lol)
+- new font? (idk any ideas?)
+- dial up hover
+- work hover indent
+- reorganize work page order
+- add new pages
+- update resume

@@ -1172,7 +1172,8 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 
 
 /**********************************************
-	-	FULLSCREEN AND FULLWIDHT CONTAINERS	-
+	-	FULLSCREEN AND FULLWIDTH CONTAINERS	- = WIDTH OF THE ENTIRE SLIDER (CHANGED FROM 100% TO 70%)
+	THIS NEEDS TO BE IMPROVED FOR RESPONSIVENESS ON SMALLER SCREENS
 **********************************************/
 
 .fullscreen-container {
@@ -1180,7 +1181,6 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 		position:relative;
 		padding:0;
 }
-
 
 
 .fullwidthbanner-container{
