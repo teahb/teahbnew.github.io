@@ -51,14 +51,16 @@
 .green {
   color: #008000;
 }
-
+.newyellow {
+  color: #ffdc00;
+}
 
 /* BACKGROUND COLORS */
 .color-bg {
   background-color: #FF0000;
 }
 .white-bg {
-  background-color: #FFFFFF;
+  background-color: #ffdc00;
 }
 .silver-bg {
   background-color: #F8F8F8;

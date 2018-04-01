@@ -47,3 +47,7 @@ p {
 .agency-home-caption {
   font-family: 'montserrat', sans-serif !important;
 }
+nav a, header a {
+  font-weight: 900;
+}
+
