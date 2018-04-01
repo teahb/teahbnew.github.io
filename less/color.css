@@ -94,7 +94,7 @@ a {
   color: #FF0000;
 }
 a:hover {
-  color: #fff888;
+  color: #ffdc00;
 }
 header a {
   color: #000000;
@@ -217,7 +217,7 @@ header.masthead {
 
 .homepage .menu--tsula .menu__item:hover .menu__item-label,
 .menu--tsula .menu__item:focus .menu__item-label {
-  color: #ffdc00;
+  color: green;
 }
 
 .homepage .menu--tsula .menu__item-label {
