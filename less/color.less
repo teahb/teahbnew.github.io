@@ -15,7 +15,7 @@
 @wheat: #F5DEB3;
 @green: #008000;
 @newyellow: #ffdc00;
-
+@tsulagrey: #CAC1BF;
 
 /* COLOR CLASSES */
 .color{
@@ -74,7 +74,9 @@
 .newyellow {
 	color: @newyellow;
 }
-
+.tsulagrey {
+	color: @tsulagrey;
+}
 
 /* BACKGROUND COLORS */
 .color-bg{
@@ -98,7 +100,9 @@
 .wheat-bg {
 	background-color: @wheat;
 }
-
+.newyellow-bg {
+	background-color: @newyellow;
+}
 
 
 
@@ -227,6 +231,58 @@ header.masthead{
 .foot-social li a > img:hover {
 	color: @orange;
 }
+
+
+
+/* TSULA COLORS ON HOMEPAGE */
+.homepage .menu--tsula .menu__item-name {
+	color: dimgray;
+	text-transform: uppercase;
+}
+
+.homepage .menu--tsula .menu__item:hover .menu__item-name,
+.menu--tsula .menu__item:focus .menu__item-name {
+	color: white;
+	background: red;
+}
+
+.homepage .menu--tsula .menu__item:hover .menu__item-label,
+.menu--tsula .menu__item:focus .menu__item-label {
+	color: @newyellow;
+}
+
+.homepage .menu--tsula .menu__item-label {
+	color: @tsulagrey;
+}
+
+
+
+
+/* TSULA COLORS */
+menu--tsula .menu__item-name {
+	font-size: 1em;
+	color: black;
+	text-transform: uppercase;
+}
+
+.menu--tsula .menu__item:hover .menu__item-name,
+.menu--tsula .menu__item:focus .menu__item-name {
+	color: white;
+	background: red;
+}
+
+.menu--tsula .menu__item:hover .menu__item-label,
+.menu--tsula .menu__item:focus .menu__item-label {
+	color: red;
+}
+
+.menu--tsula .menu__item-label {
+	color: white;
+}
+
+
+
+
 
 
 /* OTHER COLORS */

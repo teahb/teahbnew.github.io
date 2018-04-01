@@ -11,3 +11,13 @@ TODO:
 - reorganize work page order
 - add new pages
 - update resume
+
+
+
+    height: 1337px;
+    max-height: 100vw;
+    overflow: visible;
+
+    yellow: #ffdc00
+
+    

@@ -68,7 +68,7 @@ a:focus {
 	font-family: 'Space Mono', monospace;
 } */ 
 
-.menu--tsula .menu__item-name {
+/*.menu--tsula .menu__item-name {
 	font-size: 1em;
 	color: black;
 	text-transform: uppercase;
@@ -82,13 +82,13 @@ a:focus {
 
 .menu--tsula .menu__item:hover .menu__item-label,
 .menu--tsula .menu__item:focus .menu__item-label {
-	color: green;
+	color: red;
 }
 
-/* Make default text color gray */
+/* Make default text color grey #CAC1BF 
  .menu--tsula .menu__item-label {
-	color: #CAC1BF;
-} 
+	color: white;
+} */
 
 /* Code for blinking blue square */
 .menu--tsula .menu__item::before {

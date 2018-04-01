@@ -28,17 +28,9 @@
 .dialuppink {
   color: #ffadc6;
 }
-  .dialuppink a:hover {
-    color: #10c0ff;
-  }
-
 .dialupblue {
   color: #10c0ff;
 }
-  .dialupblue a:hover {
-    color: #ffadc6;
-  }
-
 .yellow {
   color: #fff888;
 }
@@ -53,6 +45,9 @@
 }
 .newyellow {
   color: #ffdc00;
+}
+.tsulagrey {
+  color: #CAC1BF;
 }
 
 /* BACKGROUND COLORS */
@@ -77,7 +72,9 @@
 .wheat-bg {
   background-color: #F5DEB3;
 }
-
+.newyellow-bg {
+  background-color: #ffdc00;
+}
 
 
 /* TEXT COLORS */
@@ -200,6 +197,59 @@ header.masthead {
 .foot-social li a > img:hover {
   color: #FF8C00;
 }
+
+
+
+
+/* TSULA COLORS ON HOMEPAGE */
+.homepage .menu--tsula .menu__item-name {
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.homepage .menu--tsula .menu__item:hover .menu__item-name,
+.menu--tsula .menu__item:focus .menu__item-name {
+  color: #FFFFFF;
+  background: #FF0000;
+}
+
+.homepage .menu--tsula .menu__item:hover .menu__item-label,
+.menu--tsula .menu__item:focus .menu__item-label {
+  color: #ffdc00;
+}
+
+.homepage .menu--tsula .menu__item-label {
+  color: #CAC1BF;
+}
+
+
+
+
+/* TSULA COLORS */
+menu--tsula .menu__item-name {
+  font-size: 1em;
+  color: black;
+  text-transform: uppercase;
+}
+
+.menu--tsula .menu__item:hover .menu__item-name,
+.menu--tsula .menu__item:focus .menu__item-name {
+  color: #FFFFFF;
+  background: #FF0000;
+}
+
+.menu--tsula .menu__item:hover .menu__item-label,
+.menu--tsula .menu__item:focus .menu__item-label {
+  color: #FF0000;
+}
+
+.menu--tsula .menu__item-label {
+  color: #FFFFFF;
+}
+
+
+
+
 
 
 /* OTHER COLORS */
