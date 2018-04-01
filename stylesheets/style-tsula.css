@@ -28,7 +28,7 @@ a:focus {
 }
 
 .menu__item {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.75;
 	position: relative;
 	display: block;
@@ -69,7 +69,6 @@ a:focus {
 } */ 
 
 .menu--tsula .menu__item-name {
-	font-size: 1rem;
 	text-transform: uppercase;
 }
 
