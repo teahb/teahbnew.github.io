@@ -610,7 +610,7 @@ section.mastwrap{
 .works-masonry-container .works-item-full-width {
   margin: 0;
   padding: 3em !important;
-  width: 80% !important;
+  width: 100% !important;
 }
 .works-masonry-container .works-item-one-third-spaced{
   margin: 1% !important;
