@@ -204,7 +204,6 @@ header.masthead {
 /* TSULA COLORS ON HOMEPAGE */
 .homepage .menu--tsula .menu__item-name {
   color: #696969;
-  text-transform: uppercase;
 }
 
 .homepage .menu--tsula .menu__item:hover .menu__item-name,
@@ -227,9 +226,7 @@ header.masthead {
 
 /* TSULA COLORS */
 menu--tsula .menu__item-name {
-  font-size: 1em;
-  color: black;
-  text-transform: uppercase;
+  color: #000000;
 }
 
 .menu--tsula .menu__item:hover .menu__item-name,

@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6{
 
 h1{
   text-transform: uppercase;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 h3 {
   font-size: 16px;
@@ -114,7 +114,7 @@ header.masthead{
   width: 100%;
   z-index: 9990;
   height: 90px;
-  font-size: 40px;
+  font-size: 30px;
   background-color: white;
   -webkit-transition: all .8s linear;
      -moz-transition: all .8s linear;
