@@ -102,6 +102,7 @@
         }, { offset: 50 });
 
         $('.filter-trigger').on('click',function(){
+            console.log('MLMGB');
             $('.works-filter-panel').slideToggle();
         });
         

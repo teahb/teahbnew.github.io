@@ -450,7 +450,7 @@ section.mastwrap{
 /*WORKS*/
 
 .filter-trigger-wrap{
-  display: none;
+  display: block;
   position: fixed;
   width: 30px;
   height: 30px;
@@ -573,19 +573,19 @@ section.mastwrap{
         }
         .info a:hover{
             cursor: url("../images/view.png") 40 40, crosshair;
-            -webkit-transition: all .1s ease-in-out;
+/*            -webkit-transition: all .1s ease-in-out;
                -moz-transition: all .1s ease-in-out;
                 -ms-transition: all .1s ease-in-out;
                  -o-transition: all .1s ease-in-out;
-                    transition: all .1s ease-in-out;
+                    transition: all .1s ease-in-out;*/
         }
         .zoom a:hover{
             cursor: url("../images/zoom.png") 40 40, crosshair;
-            -webkit-transition: all .1s ease-in-out;
+/*            -webkit-transition: all .1s ease-in-out;
                -moz-transition: all .1s ease-in-out;
                 -ms-transition: all .1s ease-in-out;
                  -o-transition: all .1s ease-in-out;
-                    transition: all .1s ease-in-out;
+                    transition: all .1s ease-in-out;*/
         }
         .works-item-inner{
             text-align: left;
@@ -607,11 +607,11 @@ section.mastwrap{
 
 .works-item-fade{
   opacity: 0.1;
-  -webkit-transition: all .4s ease-in-out;
+/*  -webkit-transition: all .4s ease-in-out;
      -moz-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
      -o-transition: all .4s ease-in-out;
-      transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;*/
 }
 
 .works-item-fade a{
@@ -1295,7 +1295,7 @@ fieldset h1 {
 
 .leanright {
     position: fixed !important;
-    left: 70% !important;
+    left: 68% !important;
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
     max-width: 650px;
