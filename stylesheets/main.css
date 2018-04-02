@@ -44,7 +44,7 @@ a:focus {
 }
 @media (min-width: 1024px) and (max-width: 5000px) {
   .container{
-    max-width: 960px;
+    max-width: 1500px;
   }
 }
 /*Preloader*/
@@ -1101,6 +1101,10 @@ fieldset h1 {
 .add-bottom-quarter{
   margin-bottom: 30px;
 }
+.add-bottom-eighth{
+  margin-bottom: 15px;
+}
+
 .pad{
   padding: 60px;
 }
@@ -1111,7 +1115,7 @@ fieldset h1 {
   padding-top: 60px;
 }
 .pad-top-quarter{
-  padding-top: 30px;
+  padding-top: 3em;
 }
 .pad-bottom{
   padding-bottom: 90px;
@@ -1264,6 +1268,14 @@ fieldset h1 {
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
     max-height: 60%;
+}
+
+.leanright {
+    position: fixed !important;
+    left: 70% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    max-width: 650px;
 }
 
 .hometoptext {
