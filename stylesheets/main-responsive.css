@@ -109,7 +109,7 @@ there.
     }
     section.mastwrap{
       border: 60px solid;
-      border-top: 120px solid;
+      border-top: 60px solid;
       border-bottom: 0;
     }
     header.masthead, .menu-trigger-wrap{
@@ -254,6 +254,7 @@ there.
         width: 636px;
         padding-left: 50px;
         padding-right: 50px;
+        padding-top: 20px;
     }
     .homephraseleft {
         top: 8.5%;
@@ -274,6 +275,8 @@ there.
         width: 567px;
         padding-left: 50px;
         padding-right: 50px;
+        padding-top: 20px;
+
     }
     .homephraseleft {
         top: 8.5%;
@@ -294,6 +297,8 @@ there.
         width: 500px;
         padding-left: 50px;
         padding-right: 50px;
+        padding-top: 20px;
+
     }
     .homephraseleft {
         top: 8.5%;
@@ -313,6 +318,8 @@ there.
         width: 400px;
         padding-left: 40px;
         padding-right: 40px;
+        padding-top: 20px;
+
     }
     section.mastwrap{
       border: 40px solid;
@@ -377,6 +384,7 @@ there.
         width: 374px;
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 20px;
     }
     section.mastwrap{
       border: 20px solid;
@@ -401,6 +409,8 @@ there.
         width: 335px;
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 20px;
+
     }
     .homephraseleft {
         top: 24%;
@@ -420,6 +430,8 @@ there.
         width: 280px;
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 20px;
+
     }
     .homephraseleft {
         top: 14%;        

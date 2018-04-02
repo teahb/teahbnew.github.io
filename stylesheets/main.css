@@ -197,7 +197,7 @@ nav.mastnav{
   display: inline-block;
 }
 
-/* Overlay style 
+/* Overlay style */
 .overlay {
   position: fixed;
   width: 100%;
@@ -207,9 +207,9 @@ nav.mastnav{
   background: rgba(0,0,0,0.9);
   z-index: 9999;
 }
-*/
 
-/* Overlay closing cross 
+
+/* Overlay closing cross */
 .overlay .overlay-close {
   width: 40px;
   height: 40px;
@@ -225,9 +225,8 @@ nav.mastnav{
   outline: none;
   z-index: 100;
 }
-*/
+
 /* Menu style */
-/*
 .overlay nav {
   text-align: center;
 }
@@ -266,7 +265,7 @@ nav.mastnav{
   color: #f0f0f0;
 }
 
-/* Menu Effects 
+/* Menu Effects */
 .overlay-cornershape {
   background: transparent;
   visibility: hidden;
@@ -336,7 +335,7 @@ Sub Menu
   font-size: 14px !important;
   line-height: 21px !important;
   letter-spacing: 2px !important;
-} */
+} 
 
 /* 5. Pages
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
