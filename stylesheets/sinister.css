@@ -309,11 +309,11 @@ Content Transform
 
 /* USED IN WORKS ITEMS ON WORK PAGE 
 ____________________________________________ */
-.ContentWrapperB .ContentB {
+/*.ContentWrapperB .ContentB {
 	position: absolute;
-	/*background: #ffffff;*/
-	opacity: 0;visibility: 
-	hidden;width: 100%;
+	opacity: 0;
+	visibility: hidden;
+	width: 100%;
 	height: 100%;
 	display: block;
 	top: -100%;
@@ -323,13 +323,13 @@ ____________________________________________ */
 	-ms-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
-}
+}*/
 
-.ContentWrapperB:hover .ContentB {
+/*.ContentWrapperB:hover .ContentB {
 	opacity: 1;
 	visibility: visible;
 	top: 0;
-}
+}*/
 
 
 

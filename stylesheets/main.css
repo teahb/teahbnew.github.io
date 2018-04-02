@@ -516,11 +516,34 @@ section.mastwrap{
 
 .works-item:hover {
       opacity:1;
-      -webkit-transition: all .1s ease-in-out;
+/*      -webkit-transition: all .1s ease-in-out;
          -moz-transition: all .1s ease-in-out;
           -ms-transition: all .1s ease-in-out;
            -o-transition: all .1s ease-in-out;
-              transition: all .1s ease-in-out;
+              transition: all .1s ease-in-out;*/
+}
+
+.ContentWrapperB .ContentB {
+  position: absolute;
+  /*background: #ffffff;*/
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: -100%;
+  left: 0;
+/*  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;*/
+}
+
+.ContentWrapperB:hover .ContentB {
+  opacity: 1;
+  visibility: visible;
+  top: 0;
 }
 
  .works-item a{
@@ -533,20 +556,20 @@ section.mastwrap{
             z-index: 100;
             text-align: center;
             text-decoration: none !important;
-            -webkit-transition: all .1s ease-in-out;
+/*            -webkit-transition: all .1s ease-in-out;
                -moz-transition: all .1s ease-in-out;
                 -ms-transition: all .1s ease-in-out;
                  -o-transition: all .1s ease-in-out;
-                    transition: all .1s ease-in-out;
+                    transition: all .1s ease-in-out;*/
         }
         .works-item a:hover{
             text-decoration: none !important;
             opacity:1;
-            -webkit-transition: all .1s ease-in-out;
+/*            -webkit-transition: all .1s ease-in-out;
                -moz-transition: all .1s ease-in-out;
                 -ms-transition: all .1s ease-in-out;
                  -o-transition: all .1s ease-in-out;
-                    transition: all .1s ease-in-out;
+                    transition: all .1s ease-in-out;*/
         }
         .info a:hover{
             cursor: url("../images/view.png") 40 40, crosshair;
