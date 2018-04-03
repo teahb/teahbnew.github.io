@@ -1328,6 +1328,15 @@ fieldset h1 {
   right: 2%;
 }
 
+.workimg {
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.worktext {
+  padding: 4%;
+}
+
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*LESS Compiled to CSS and minified (for live preview purpose only):
 Please note: You should remove these CSS rules and work with original LESS files included in the template.
