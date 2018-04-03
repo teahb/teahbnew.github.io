@@ -456,6 +456,7 @@ section.mastwrap{
   right: 30px;
   top: 50%;
   margin-top: -15px;
+  z-index: 1000;
 }
 .filter-trigger span{
   font-size: 42px;
