@@ -180,7 +180,7 @@ footer.mastfoot{
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav.mastnav{
 }
-.menu-trigger-wrap{
+/*.menu-trigger-wrap{
   position: fixed;
   width: 30px;
   height: 30px;
@@ -195,7 +195,7 @@ nav.mastnav{
   font-size: 30px;
   line-height: 42px;
   display: inline-block;
-}
+}*/
 
 /* Overlay style */
 .overlay {
@@ -347,7 +347,7 @@ section.mastwrap{
 /*INTRO*/
 /* NOTE: INFO ON SLIDER AT http://www.designova.net/guides/rs/documentation.html#slides */
 #rev_slider_3_1{
-  margin-top: -90px;
+  margin-top: 0px;
 }
 .rev-image-overlay{
   position: absolute;

@@ -112,12 +112,12 @@ there.
       border-top: 60px solid;
       border-bottom: 0;
     }
-    header.masthead, .menu-trigger-wrap{
+/*    header.masthead, .menu-trigger-wrap{
         display: none;
     }
     .mobile-nav {
         display: block;
-    }
+    }*/
     header.masthead{
         padding: 0px 50px;
     }
@@ -355,9 +355,9 @@ there.
 	    padding: 0 40px;
 	    text-align: left;
 	}
-    .menu-trigger p{
+/*    .menu-trigger p{
     	display: none;
-    }
+    }*/
     .welcome-text h1, .elements-counter .number, .news-post h1{
         font-size: 24px !important;
         line-height: 31px !important;

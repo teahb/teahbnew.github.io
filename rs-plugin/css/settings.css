@@ -1178,13 +1178,16 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 
 .fullscreen-container {
 		width:100%;
+		max-width: 700px;
+		height: 100%;
+		max-height: 500px;
 		position:relative;
 		padding:0;
 }
 
 
 .fullwidthbanner-container{
-	width:100%;
+		width:100%;
 	position:relative;
 	padding:0;
 	overflow:hidden;
