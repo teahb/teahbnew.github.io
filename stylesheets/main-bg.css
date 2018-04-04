@@ -1,0 +1,148 @@
+/* MAIN-BG.CSS contains Background Image paths & definition rules powered by CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to replace any BG image is to add image URL in url('....') area of related classname.
+If you need assistance, please go to http://www.designova.net/downloads.html and request a downloadable 
+ZIP pack contains original live preview version with all preview images linked properly, so you can easily 
+replace preview images directly;
+*/
+
+
+
+.teah-bg{
+    background-image: url('../images/newteah.jpg');
+}
+
+.aframe-CAD-back {
+    background-image: url('../images/aframe/AFrame_CAD_Back.jpg');
+}
+
+.aframe-CAD-grass {
+    background-image: url('../images/aframe/AFrame_CAD_Grass.jpg');
+}
+
+.aframe-logo {
+    background-image: url('../images/aframe/AFrame_Logo.png');
+}
+
+.aframe-sketches-bg {
+    background-image: url('../images/aframe/AFrame_Sketches1.jpg');
+}
+
+.aframe-proto-action {
+    background-image: url('../images/aframe/AFrame_Prototyping_Action.jpg');
+}
+
+.aframe-proto {
+    background-image: url('../images/aframe/AFrame_Prototyping.jpg');
+}
+
+.aframe-proto-2 {
+    background-image: url('../images/aframe/AFrame_Prototyping2.jpg');
+}
+
+.aframe-next {
+    background-image: url('../images/aframe/AFrame_Next.jpg');
+}
+
+.breakroom-stakeholder {
+    background-image: url('../images/breakroom/BreakRoom_Stakeholder_Map.png');
+}
+
+.breakroom-personas {
+    background-image: url('../images/breakroom/BreakRoom_Personas.png');
+}
+
+.breakroom-journey {
+    background-image: url('../images/breakroom/BreakRoom_JourneyMap.png');
+}
+
+.breakroom-proto-1 {
+    background-image: url('../images/breakroom/BreakRoom_Prototyping1.png');
+}
+
+.breakroom-proto-2 {
+    background-image: url('../images/breakroom/BreakRoom_Prototyping2.png');
+}
+
+.nuday-challenge {
+    background-image: url('../images/nuday/NUDay_Challenge1.jpg'); 
+}
+
+.nuday-ideation {
+    background-image: url('../images/nuday/NUDay_Ideation.jpg'); 
+}
+
+.nuday-yikyak {
+    background-image: url('../images/nuday/YikYak.jpg'); 
+}
+
+
+.pathfinder-posters {
+    background-image: url('../images/pathfinder/Pathfinder_Posters.jpg'); 
+}
+
+.pathfinder-research {
+    background-image: url('../images/pathfinder/Pathfinder_Research_Journey_Mapping.jpg'); 
+}
+
+.pathfinder-sari {
+    background-image: url('../images/pathfinder/Pathfinder_Ideation_Sari.jpg'); 
+}
+
+.pathfinder-ideation-1 {
+    background-image: url('../images/pathfinder/Pathfinder_Ideation1.jpg'); 
+}
+
+.pathfinder-ideation-2 {
+    background-image: url('../images/pathfinder/Pathfinder_Ideation2.jpg'); 
+}
+
+.pathfinder-next {
+    background-image: url('../images/pathfinder/Pathfinder_Presentation_Zoom.jpg'); 
+}
+
+
+
+.tin-final {
+    background-image: url('../images/tin/Tin_Final.jpg'); 
+}
+
+.tin-process {
+    background-image: url('../images/tin/Tin_Process.jpg'); 
+}
+
+.tin-perspective {
+    background-image: url('../images/tin/Tin_Prototype_Perspective.jpg'); 
+}
+
+.tin-front {
+    background-image: url('../images/tin/Tin_Prototype_Front.jpg'); 
+}
+
+
+.house-sideview {
+    background-image: url('../images/house/House_Side.jpg');     
+}
+
+.house-topview {
+    background-image: url('../images/house/House_Top.jpg');     
+}
+
+.house-exterior {
+    background-image: url('../images/house/Concept_1.jpg');     
+}
+
+.house-interior {
+    background-image: url('../images/house/Concept_2.jpg');     
+}
+
+.house-guide {
+    background-image: url('../images/house/Concept_Guide.jpg');     
+}
+
+.house-usernotes {
+    background-image: url('../images/house/User_Notes.jpg');     
+}
+
+
