@@ -623,7 +623,7 @@ section.mastwrap{
 }
 .works-masonry-container .works-item-one-third {
   margin: 0 !important;
-  padding: 3em !important;
+  padding: 0em !important;
   width: 33.3% !important;
 }
 .works-masonry-container .works-item-two-third {
@@ -633,7 +633,7 @@ section.mastwrap{
 }
 .works-masonry-container .works-item-one-half {
   margin: 0 !important;
-  padding: 3em !important;
+  padding: 0em !important;
   width: 50% !important;
 }
 .works-masonry-container .works-item-one-fourth {
