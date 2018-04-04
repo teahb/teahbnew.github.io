@@ -298,9 +298,9 @@ Content Transform
 
 
 
-.ContentWrapperB img {-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
+/*.ContentWrapperB img {-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-ms-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
 .ContentWrapperB:hover img {-webkit-transform: translateY(100%);-moz-transform: translateY(100%);-ms-transform: translateY(100%);-o-transform: translateY(100%);transform: translateY(100%);}
-
+*/
 
 
 
