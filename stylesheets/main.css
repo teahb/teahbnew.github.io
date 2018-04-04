@@ -1329,9 +1329,12 @@ fieldset h1 {
 }
 
 .worktext {
-  padding: 4%;
+  padding: 6%;
 }
 
+.backtowork {
+  padding: 15px 0px;
+}
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*LESS Compiled to CSS and minified (for live preview purpose only):
 Please note: You should remove these CSS rules and work with original LESS files included in the template.
