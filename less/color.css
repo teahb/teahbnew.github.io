@@ -49,6 +49,9 @@
 .tsulagrey {
   color: #CAC1BF;
 }
+.blinkblue {
+  color: #5a5bd3;
+}
 
 /* BACKGROUND COLORS */
 .color-bg {
@@ -225,7 +228,7 @@ header.masthead {
 
 .homepage .menu--tsula .menu__item:hover .menu__item-label,
 .menu--tsula .menu__item:focus .menu__item-label {
-  color: green;
+  color: red;
 }
 
 .homepage .menu--tsula .menu__item-label {
@@ -235,28 +238,25 @@ header.masthead {
 
 
 
-/* TSULA COLORS */
+/* TSULA COLORS ON ABOUT PAGE */
 menu--tsula .menu__item-name {
-  color: #333333;
+  color: red;
 }
 
 .menu--tsula .menu__item:hover .menu__item-name,
 .menu--tsula .menu__item:focus .menu__item-name {
-  color: #FFFFFF;
+  color: #333333;
   background: #ffdc00;
 }
 
 .menu--tsula .menu__item:hover .menu__item-label,
 .menu--tsula .menu__item:focus .menu__item-label {
-  color: red;
+  color: black;
 }
 
 .menu--tsula .menu__item-label {
   color: #008000;
 }
-
-
-
 
 
 
@@ -273,4 +273,29 @@ textarea:focus {
 }
 .sub-menu {
   border-color: #FF0000;
+}
+
+
+
+/* BORDER STYLES */
+.blackborder{
+  border: 3px dashed black;
+}
+.orangeborder {
+  border: 3px dashed #FF8C00;
+}
+.redborder {
+  border: 3px dashed red;
+}
+.yellowborder {
+  border: 3px dashed #ffdc00;
+}
+.greenborder {
+  border: 3px dashed green;
+}
+.blueborder {
+  border: 3px dashed #5a5bd3;
+}
+.greyborder {
+  border: 3px dashed #333333;
 }
