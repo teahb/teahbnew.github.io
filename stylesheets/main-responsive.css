@@ -171,9 +171,25 @@ there.
 	.works-masonry-container .works-item-two-third-spaced,
 	.works-masonry-container .works-item-one-fourth-spaced{
 	  margin: 0% !important;
-	  padding: 3em !important;
-	  width: 80% !important;
+	  padding: 2em !important;
+	  width: 90% !important;
 	}
+
+    .projectpage .works-masonry-container .works-item-one-third,
+    .projectpage .works-masonry-container .works-item-two-third,
+    .projectpage .works-masonry-container .works-item-one-half,
+    .projectpage .works-masonry-container .works-item-one-fourth,
+    .projectpage .works-masonry-container .works-item-full-width, 
+    .projectpage .works-masonry-container .works-item-one-third-spaced,
+    .projectpage .works-masonry-container .works-item-one-half-spaced,
+    .projectpage .works-masonry-container .works-item-two-third-spaced,
+    .projectpage .works-masonry-container .works-item-one-fourth-spaced {
+        margin: 0%;
+        padding: 0em !important;
+        width: 100% !important;
+    }
+
+
 	.works-item-inner {
 	    padding: 0 40px;
 	    text-align: left;
