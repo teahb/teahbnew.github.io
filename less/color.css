@@ -170,7 +170,12 @@ header.masthead {
 .works-item-inner h3 > span {
   border-color: #FF0000;
 }
-
+.projectpage .works-container .works-item:hover{
+  background-color: #333333;
+}
+.projectpage .works-container .works-item a{
+  background-color: #333333;
+}
 
 /* NAVIGATION COLORS */
 .menu-bg {
