@@ -340,3 +340,35 @@ input:focus, textarea:focus {
 }
 
 
+/* NAME ANIMATION */
+.nameanimation {
+    color: red;
+    -webkit-animation-name: nameanimation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: nameanimation;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes nameanimation {
+    0%   {color: red;}
+    15%  {color: @orange;}
+    30%  {color: @newyellow;}
+    45% {color: green;}
+    60% {color: @blinkblue;}
+    75% {color: @grey;}
+    90% {color: @black;}
+    100%   {color: red;}
+}
+
+/* Standard syntax */
+@keyframes nameanimation {
+    0%   {color: red;}
+    15%  {color: @orange;}
+    30%  {color: @newyellow;}
+    45% {color: green;}
+    60% {color: @blinkblue;}
+    75% {color: @grey;}
+    90% {color: @black;}
+    100%   {color: red;}
+}

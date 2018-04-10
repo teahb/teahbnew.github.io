@@ -301,3 +301,40 @@ textarea:focus {
 .greyborder {
   border: 1.5px dashed #333333;
 }
+
+
+
+/* NAME ANIMATION */
+.nameanimation {
+    color: red;
+    -webkit-animation-name: nameanimation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: nameanimation;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes nameanimation {
+    0%   {color: red;}
+    15%  {color: #FF8C00;}
+    30%  {color: #ffdc00;}
+    45% {color: green;}
+    60% {color: #5a5bd3;}
+    75% {color: #CCCCCC;}
+    90% {color: black;}
+    100%   {color: red;}
+}
+
+/* Standard syntax */
+@keyframes nameanimation {
+    0%   {color: red;}
+    15%  {color: #FF8C00;}
+    30%  {color: #ffdc00;}
+    45% {color: green;}
+    60% {color: #5a5bd3;}
+    75% {color: #CCCCCC;}
+    90% {color: black;}
+    100%   {color: red;}
+}
+
+
