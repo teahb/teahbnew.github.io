@@ -310,7 +310,7 @@ textarea:focus {
     -webkit-animation-name: nameanimation; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: nameanimation;
-    animation-duration: 4s;
+    animation-duration: 10s;
 }
 
 /* Safari 4.0 - 8.0 */
