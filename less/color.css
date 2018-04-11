@@ -316,11 +316,10 @@ textarea:focus {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes nameanimation {
     0%   {color: red;}
-    15%  {color: #FF8C00;}
-    30%  {color: #ffdc00;}
-    45% {color: green;}
-    60% {color: #5a5bd3;}
-    75% {color: #CCCCCC;}
+    20%  {color: #FF8C00;}
+    40%  {color: #ffdc00;}
+    60% {color: green;}
+    80% {color: #5a5bd3;}
     90% {color: black;}
     100%   {color: red;}
 }
@@ -328,13 +327,11 @@ textarea:focus {
 /* Standard syntax */
 @keyframes nameanimation {
     0%   {color: red;}
-    15%  {color: #FF8C00;}
-    30%  {color: #ffdc00;}
-    45% {color: green;}
-    60% {color: #5a5bd3;}
-    75% {color: #CCCCCC;}
+    20%  {color: #FF8C00;}
+    40%  {color: #ffdc00;}
+    60% {color: green;}
+    80% {color: #5a5bd3;}
     90% {color: black;}
     100%   {color: red;}
 }
-
 

@@ -103,7 +103,7 @@ a:focus {
 /* Code for homepage text location */
 
 .homephraseleft {
-	position: absolute;
+	position: fixed;
     top: 13%;
     left: 45%;
     transform: translate(-50%, -50%);
@@ -113,7 +113,7 @@ a:focus {
 }
 
 .homephraseright {
-	position: absolute;
+	position: fixed;
     top: 76%;
     left: 65%;
     transform: translate(-50%, -50%);
