@@ -17,6 +17,7 @@
 @newyellow: #ffdc00;
 @tsulagrey: #CAC1BF;
 @blinkblue: #5a5bd3;
+@scangrey: #5f7171;
 
 /* COLOR CLASSES */
 .color{
@@ -81,7 +82,9 @@
 .blinkblue {
 	color: @blinkblue;
 }
-
+.scangrey {
+	color: @scangrey;
+}
 
 
 
@@ -257,7 +260,7 @@ header.masthead{
 
 /* TSULA COLORS ON HOMEPAGE */
 .homepage .menu--tsula .menu__item-name {
-	color: dimgray;
+	color: @red;
 	text-transform: uppercase;
 }
 
@@ -269,11 +272,11 @@ header.masthead{
 
 .homepage .menu--tsula .menu__item:hover .menu__item-label,
 .menu--tsula .menu__item:focus .menu__item-label {
-	color: red;
+	color: @red;
 }
 
 .homepage .menu--tsula .menu__item-label {
-	color: @white;
+	color: @scangrey;
 }
 
 

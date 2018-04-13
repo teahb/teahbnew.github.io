@@ -52,6 +52,9 @@
 .blinkblue {
   color: #5a5bd3;
 }
+.scangrey {
+  color: #5f7171;
+}
 
 /* BACKGROUND COLORS */
 .color-bg {
@@ -219,7 +222,7 @@ header.masthead {
 
 /* TSULA COLORS ON HOMEPAGE */
 .homepage .menu--tsula .menu__item-name {
-  color: #696969;
+  color: red;
 }
 
 .homepage .menu--tsula .menu__item:hover .menu__item-name,
@@ -234,7 +237,7 @@ header.masthead {
 }
 
 .homepage .menu--tsula .menu__item-label {
-  color: white;
+  color: #5f7171;
 }
 
 
