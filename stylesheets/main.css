@@ -43,9 +43,8 @@ a:focus {
 }
 @media (min-width: 1024px) and (max-width: 5000px) {
   .container{
-    max-width: 1500px;
-    padding-left: 40px;
-    padding-right: 40px;
+    max-width: 2000px;
+    width: 95%;
   }
 }
 /*Preloader*/
