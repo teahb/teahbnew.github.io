@@ -32,7 +32,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
-  text-transform: uppercase;
   font-size: 3.8rem;
 }
 h3 {
@@ -486,7 +485,7 @@ section.mastwrap{
     text-transform: uppercase;
 }
 .works-filter-panel{
-  height: 90px;
+  height: 50px;
   display: none;
   width: 100%;
   z-index: 9990;
@@ -1336,6 +1335,15 @@ fieldset h1 {
 .backtowork {
   padding: 15px 0px;
 }
+
+header div div div div a img {
+  padding-top: 25px;
+}
+
+
+
+
+
 /*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*LESS Compiled to CSS and minified (for live preview purpose only):
 Please note: You should remove these CSS rules and work with original LESS files included in the template.

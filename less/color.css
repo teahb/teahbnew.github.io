@@ -183,10 +183,10 @@ header.masthead {
   border-color: #FF0000;
 }
 .projectpage .works-container .works-item:hover{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6)
 }
 .projectpage .works-container .works-item a{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6)
 }
 
 
@@ -289,7 +289,7 @@ textarea:focus {
 
 
 /* BORDER STYLES */
-.blackborder{
+/*.blackborder{
   border: 1.5px dashed black;
 }
 .orangeborder {
@@ -309,7 +309,7 @@ textarea:focus {
 }
 .greyborder {
   border: 1.5px dashed #333333;
-}
+}*/
 .newborder {
   border: 40px solid @red;
 }
