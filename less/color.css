@@ -90,6 +90,12 @@
 .red-bg {
   background-color: #FF0000;
 }
+.green-bg {
+  background-color: green;
+}
+.orange-bg {
+  background-color: #FF8C00;
+}
 
 /* TEXT COLORS */
 html {
@@ -183,10 +189,10 @@ header.masthead {
   border-color: #FF0000;
 }
 .projectpage .works-container .works-item:hover{
-  background-color: rgba(255, 255, 255, 0.6)
+  background-color: rgba(255, 255, 255, 0.7)
 }
 .projectpage .works-container .works-item a{
-  background-color: rgba(255, 255, 255, 0.6)
+  background-color: rgba(255, 255, 255, 0.7)
 }
 
 
@@ -313,7 +319,21 @@ textarea:focus {
 .newborder {
   border: 40px solid @red;
 }
-
+.newborderorange {
+  border: 40px solid #FF8C00;
+}
+.newborderyellow {
+  border: 40px solid #ffdc00;
+}
+.newborderblack {
+  border: 40px solid @black;
+}
+.newbordergreen {
+  border: 40px solid @green;
+}
+.newborderblue {
+  border: 40px solid #5a5bd3;
+}
 
 /* NAME ANIMATION */
 .nameanimation {
