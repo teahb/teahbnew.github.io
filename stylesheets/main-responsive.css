@@ -262,6 +262,9 @@ there.
         left: 59.9%;
         font-size: 40px;
     }
+    .newborder {
+        border: 20px solid @red;
+    }
 }
 
 /*iPhone 6Plus Landscape Mode*/
@@ -303,6 +306,9 @@ there.
         top: 78%;
         left: 62%;
         font-size: 25px;
+    }
+    .newborder {
+        border: 10px solid @red;
     }
 }
 
@@ -416,7 +422,9 @@ there.
         left: 40%;
         font-size: 40px;
     }
-
+    .newborder {
+        border: 4px solid @red;
+    }
 }
 
 /*iPhone 6 Portrait Mode*/
