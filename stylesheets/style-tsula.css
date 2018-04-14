@@ -69,9 +69,12 @@ a:focus {
 } */ 
 
 .menu--tsula .menu__item-name {
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
+.menu--tsula .menu__item-label {
+	text-transform: lowercase;
+}
 
 /* Code for blinking blue square */
 .menu--tsula .menu__item::before {

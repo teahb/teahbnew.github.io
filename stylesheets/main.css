@@ -113,9 +113,9 @@ header.masthead{
   left: 0;
   width: 100%;
   z-index: 9990;
-  height: 90px;
+  height: 40px;
   font-size: 30px;
-  background-color: white;
+  background-color: red;
   -webkit-transition: all .8s linear;
      -moz-transition: all .8s linear;
     -ms-transition: all .8s linear;
@@ -130,12 +130,12 @@ header a:hover {
 /* 3. Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer.mastfoot{
-  height: 90px;
+  height: 40px;
   width: 100%;
   position: fixed;
   bottom: 0;
   z-index: 9990;
-  background-color: white;
+  background-color: red;
 
 }
 .credits{

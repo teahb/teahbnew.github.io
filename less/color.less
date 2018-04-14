@@ -18,6 +18,7 @@
 @tsulagrey: #CAC1BF;
 @blinkblue: #5a5bd3;
 @scangrey: #5f7171;
+@cloud: #ECE9E6;
 
 /* COLOR CLASSES */
 .color{
@@ -85,7 +86,9 @@
 .scangrey {
 	color: @scangrey;
 }
-
+.cloud {
+	color: #ECE9E6;
+}
 
 
 
@@ -117,7 +120,9 @@
 .textgrey-bg {
 	background-color: @textgrey;
 }
-
+.red-bg {
+	background-color: @red;
+}
 
 
 /* TEXT COLORS */
@@ -141,7 +146,7 @@ header a {
 }
 
 header a:hover {
-	color: @red;
+	color: @white;
 }
 
 
@@ -299,7 +304,7 @@ header.masthead{
 }
 
 .about .menu--tsula .menu__item-label {
-	color: black;
+	color: @textgrey;
 }
 
 
@@ -341,7 +346,9 @@ input:focus, textarea:focus {
 .greyborder {
 	border: 1.5px dashed @textgrey;
 }
-
+.newborder {
+	border: 40px solid @red;
+}
 
 /* NAME ANIMATION */
 .nameanimation {
@@ -349,7 +356,7 @@ input:focus, textarea:focus {
     -webkit-animation-name: nameanimation; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: nameanimation;
-    animation-duration: 10s;
+    animation-duration: 4s;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -359,8 +366,7 @@ input:focus, textarea:focus {
     40%  {color: @newyellow;}
     60% {color: green;}
     80% {color: @blinkblue;}
-    90% {color: @black;}
-    100%   {color: red;}
+    100% {color: @black;}
 }
 
 /* Standard syntax */
@@ -370,6 +376,14 @@ input:focus, textarea:focus {
     40%  {color: @newyellow;}
     60% {color: green;}
     80% {color: @blinkblue;}
-    90% {color: @black;}
-    100%   {color: red;}
+    100% {color: @black;}
 }
+
+
+/* CLOUDS GRADIENT */
+.cloudgrd {
+	background: @cloud;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, @white, @cloud);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, @white, @cloud); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
