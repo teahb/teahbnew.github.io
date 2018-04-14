@@ -250,9 +250,16 @@ there.
         left: 59.9%;
         font-size: 40px;
     }
-    .newborder {
-        border: 20px solid @red;
-    }
+    .newborder, 
+.newborderorange, 
+.newborderyellow, 
+.newborderblack,
+.newbordergreen,
+.newborderblue {
+    border-left-width: 20px;
+    border-right-width: 20px;
+}
+
 }
 
 /*iPhone 6Plus Landscape Mode*/
@@ -291,9 +298,16 @@ there.
         left: 62%;
         font-size: 25px;
     }
-    .newborder {
-        border: 10px solid @red;
-    }
+.newborder, 
+.newborderorange, 
+.newborderyellow, 
+.newborderblack,
+.newbordergreen,
+.newborderblue {
+    border-left-width: 10px;
+    border-right-width: 10px;
+}
+
 }
 
 
@@ -401,9 +415,16 @@ there.
         left: 40%;
         font-size: 40px;
     }
-    .newborder {
-        border: 4px solid @red;
-    }
+.newborder, 
+.newborderorange, 
+.newborderyellow, 
+.newborderblack,
+.newbordergreen,
+.newborderblue {
+    border-left-width: 4px;
+    border-right-width: 4px;
+}
+
 }
 
 /*iPhone 6 Portrait Mode*/
@@ -445,7 +466,6 @@ there.
         font-size: 25px;
     }
 }
-
 
 
 
