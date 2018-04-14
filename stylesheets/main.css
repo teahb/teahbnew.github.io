@@ -548,10 +548,6 @@ section.mastwrap{
   display: none !important;
 }
 
-.works-masonry-container {
-  padding-top: 2em;
-}
-
 .works-masonry-container .works-item-one-third {
   margin: 0 !important;
   padding: 3em !important;
@@ -850,6 +846,7 @@ section.mastwrap{
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
     max-height: 72%;
+    font-size: 40px;
 }
 
 .leanright {
