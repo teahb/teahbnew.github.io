@@ -111,10 +111,10 @@ a:hover {
   color: black;
 }
 header a {
-  color: #000000;
+  color: #FF0000;
 }
 header a:hover {
-  color: #FF0000;
+  color: #000000;
 }
 
 
@@ -251,7 +251,7 @@ header.masthead {
 
 /* TSULA COLORS ON ABOUT PAGE */
 menu--tsula .menu__item-name {
-  color: red;
+  color: #333333;
 }
 
 .menu--tsula .menu__item:hover .menu__item-name,
@@ -266,7 +266,7 @@ menu--tsula .menu__item-name {
 }
 
 .menu--tsula .menu__item-label {
-  color: #333333;
+  color: red;
 }
 
 
