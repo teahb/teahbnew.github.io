@@ -317,22 +317,28 @@ textarea:focus {
   border: 1.5px dashed #333333;
 }*/
 .newborder {
-  border: 40px solid @red;
+  border-left: 40px solid @red;
+  border-right: 40px solid @red;
 }
 .newborderorange {
-  border: 40px solid #FF8C00;
+  border-left: 40px solid #FF8C00;
+  border-right: 40px solid #FF8C00;
 }
 .newborderyellow {
-  border: 40px solid #ffdc00;
+  border-left: 40px solid #ffdc00;
+  border-right: 40px solid #ffdc00;
 }
 .newborderblack {
-  border: 40px solid @black;
+  border-left: 40px solid @black;
+  border-right: 40px solid @black;
 }
 .newbordergreen {
-  border: 40px solid @green;
+  border-left: 40px solid @green;
+  border-right: 40px solid @green;
 }
 .newborderblue {
-  border: 40px solid #5a5bd3;
+  border-left: 40px solid #5a5bd3;
+  border-right: 40px solid #5a5bd3;
 }
 
 /* NAME ANIMATION */
