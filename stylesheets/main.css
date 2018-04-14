@@ -707,6 +707,9 @@ section.mastwrap{
 .remove-top{
   margin-top: 0 !important;
 }
+.text-justify {
+    text-align: justify;
+}
 .text-left {
     text-align: left;
 }
@@ -716,9 +719,7 @@ section.mastwrap{
 .text-center {
     text-align: center;
 }
-.text-justify {
-    text-align: justify;
-}
+
 
 .ease{
             -webkit-transition: all .4s ease-in-out;
