@@ -23,7 +23,6 @@ a:focus {
 
 /* Common styles for the menus */
 .menu {
-	/* position: relative; */
 	z-index: 10;
 }
 
@@ -61,15 +60,10 @@ a:focus {
 	}
 }
 
-/* Old purple color: #5a5bd3 */
-/* Tsula Style */
-
-/* .menu--tsula {
-	font-family: 'Space Mono', monospace;
-} */ 
-
 .menu--tsula .menu__item-name {
 	text-transform: lowercase;
+    cursor: url("../images/view.png") 40 40, crosshair;
+
 }
 
 .menu--tsula .menu__item-label {
