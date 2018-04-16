@@ -454,7 +454,7 @@ section.mastwrap{
 
 .ContentWrapperB .ContentB {
   position: absolute;
-  /*background: #ffffff;*/
+  background: #ffffff;
   opacity: 0;
   visibility: hidden;
   width: 100%;
@@ -484,7 +484,6 @@ section.mastwrap{
             top: 0;
             z-index: 100;
             text-align: center;
-            background-color: white;
             text-decoration: none !important;
 /*            -webkit-transition: all .1s ease-in-out;
                -moz-transition: all .1s ease-in-out;
