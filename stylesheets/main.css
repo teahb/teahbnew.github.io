@@ -484,6 +484,7 @@ section.mastwrap{
             top: 0;
             z-index: 100;
             text-align: center;
+            background-color: white;
             text-decoration: none !important;
 /*            -webkit-transition: all .1s ease-in-out;
                -moz-transition: all .1s ease-in-out;
@@ -571,7 +572,7 @@ section.mastwrap{
 /* CODE FOR WORK ITEMS (WORK.HTML) */
 .works-masonry-container .works-item-full-width {
   margin: 0;
-  padding: 2.5em !important;
+  padding: 1.5em 3em !important;
   width: 100% !important;
 }
 .works-masonry-container .works-item-one-third-spaced{
