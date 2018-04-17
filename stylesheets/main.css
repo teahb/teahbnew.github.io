@@ -20,8 +20,8 @@
 
 /* 1. Common
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-html{
-  overscroll-behavior: contain;
+body{
+  overscroll-behavior: none;
 }
 
 p{
