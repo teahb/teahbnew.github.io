@@ -441,7 +441,7 @@ section.mastwrap{
 }
 .works-container{
     padding: 0;
-  overflow: hidden;
+    overflow: hidden;
 }
 .works-filter li:last-child:after{
     display: none;
@@ -458,7 +458,7 @@ section.mastwrap{
 
 .ContentWrapperB .ContentB {
   position: absolute;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.3);
   opacity: 0;
   visibility: hidden;
   width: 100%;
@@ -558,12 +558,12 @@ section.mastwrap{
 }
 .works-masonry-container .works-item-two-third {
   margin: 0 !important;
-  padding: 3em !important;
+  padding: 3.5em !important;
   width: 66.6% !important;
 }
 .works-masonry-container .works-item-one-half {
-  margin: 0 !important;
-  padding: 0em !important;
+  margin-top: 1em !important;
+  padding: 1em !important;
   width: 50% !important;
 }
 .works-masonry-container .works-item-one-fourth {
@@ -690,7 +690,7 @@ section.mastwrap{
   padding: 60px;
 }
 .pad-top{
-  padding-top: 90px;
+  padding-top: 80px;
 }
 .pad-top-half{
   padding-top: 60px;
@@ -890,7 +890,8 @@ section.mastwrap{
 }
 
 .backtowork {
-  padding: 15px 0px;
+  padding: 12px 0px;
+  font-size: 16px;
 }
 
 header div div div div a img {
@@ -899,4 +900,8 @@ header div div div div a img {
 
 .about {
   padding-left: 0px;
+}
+
+.eye-cursor {
+  cursor: url("../images/view.png") 40 40, crosshair;
 }
