@@ -336,7 +336,10 @@
     }
 
     function mobileImages() {
-      if (window.matchMedia("(max-width: 768px)")) {
+      console.log(0);
+      console.log(window.matchMedia("(max-width: 992px)").matches);
+      if (window.matchMedia("(max-width: 992px)").matches) {
+        console.log(1);
         imagehere = false;
         var imgst = document.getElementById('hidden-images').children;
         for (var i = 0; i < imgst.length; i++) {
