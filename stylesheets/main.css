@@ -20,6 +20,10 @@
 
 /* 1. Common
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+html{
+  overscroll-behavior: contain;
+}
+
 p{
   font-size: 16px;
   line-height: 18px;

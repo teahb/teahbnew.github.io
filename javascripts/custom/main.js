@@ -36,8 +36,8 @@
 });
 
 //Equal Heights Trigger
-        $('.equal-height').setAllToMaxHeight();
-        $('.team-01-image, .team-01-info').setAllToMaxHeight();
+        // $('.equal-height').setAllToMaxHeight();
+        // $('.team-01-image, .team-01-info').setAllToMaxHeight();
 
 //Featured Side Panel View
             $('.cd-btn').on('click', function(event) {

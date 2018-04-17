@@ -250,12 +250,7 @@ there.
         left: 59.9%;
         font-size: 40px;
     }
-    .newborder, 
-.newborderorange, 
-.newborderyellow, 
-.newborderblack,
-.newbordergreen,
-.newborderblue {
+    .newborder {
     border-left-width: 20px;
     border-right-width: 20px;
 }
@@ -298,12 +293,7 @@ there.
         left: 62%;
         font-size: 25px;
     }
-.newborder, 
-.newborderorange, 
-.newborderyellow, 
-.newborderblack,
-.newbordergreen,
-.newborderblue {
+.newborder {
     border-left-width: 10px;
     border-right-width: 10px;
 }
@@ -415,12 +405,7 @@ there.
         left: 40%;
         font-size: 40px;
     }
-.newborder, 
-.newborderorange, 
-.newborderyellow, 
-.newborderblack,
-.newbordergreen,
-.newborderblue {
+.newborder {
     border-left-width: 4px;
     border-right-width: 4px;
 }

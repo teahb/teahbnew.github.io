@@ -1153,8 +1153,8 @@ if ( typeof define === 'function' && define.amd ) {
 
 //Main Menu
 (function() {
-    var triggerBttn = document.getElementById( 'trigger-overlay' ),
-        overlay = document.querySelector( 'div.overlay' ),
+    var triggerBttn = document.getElementById('trigger-overlay'),
+        overlay = document.querySelector('div.overlay'),
         closeBttn = overlay.querySelector( 'button.overlay-close' );
         transEndEventNames = {
             'WebkitTransition': 'webkitTransitionEnd',
@@ -1190,7 +1190,7 @@ if ( typeof define === 'function' && define.amd ) {
     }
 
     triggerBttn.addEventListener( 'click', toggleOverlay );
-    closeBttn.addEventListener( 'click', toggleOverlay );
+    // closeBttn.addEventListener( 'click', toggleOverlay );
 })();
 
 

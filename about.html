@@ -95,7 +95,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
  
      <section>
-        <div>
+        <div id="hidden-images">
           <img hidden id="teah" class="leanright" src="images/teah/ogt.jpg"/>
           <img hidden id="abroad" class="leanright" src="images/about/abroad.jpg"/>
           <img hidden id="abercrombie" class="leanright" src="images/about/abercrombie.gif"/>
@@ -321,12 +321,34 @@
   <script src="javascripts/custom/main.js"></script>
 
   <script type="text/javascript">
+    imagehere = true;
+
     function showElement(id) {
+      if (imagehere) {
       document.getElementById(id).removeAttribute("hidden");
+    }
     }
 
     function hideElement(id) {
+      if (imagehere) {
       document.getElementById(id).setAttribute("hidden", true);
+    }
+    }
+
+    function mobileImages() {
+      if (window.matchMedia("(max-width: 768px)")) {
+        imagehere = false;
+        var imgst = document.getElementById('hidden-images').children;
+        for (var i = 0; i < imgst.length; i++) {
+           imgst[i].setAttribute("src","about:blank"); //second console output
+        }
+
+        // setAttribute('src','about:blank');
+      }
+    }
+
+    window.onload = function() {
+      mobileImages();
     }
   </script>
 
