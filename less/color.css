@@ -28,13 +28,13 @@
 .dialuppink {
   color: #ffadc6;
 }
-.dialuppink a:hover {
+.dialuppink:hover {
   color: #10c0ff;
 }
 .dialupblue {
   color: #10c0ff;
 }
-.dialupblue a:hover {
+.dialupblue:hover {
   color: #ffadc6;
 }
 .yellow {
@@ -208,10 +208,10 @@ header.masthead {
 .works-item-inner h3 > span {
   border-color: #FF0000;
 }
-.projectpage .works-container .works-item:hover {
+.projectpage .ContentWrapperB .ContentB{
   background-color: rgba(255,255,255,0.3);
 }
-.projectpage .works-container .works-item a {
+.projectpage .ContentWrapperB .ContentB{
   background-color: rgba(255,255,255,0.3);
 }
 
@@ -345,7 +345,8 @@ textarea:focus {
   border-right: 40px solid #5a5bd3;
 }
 .works-filter-panel {
-  border-bottom: 10px solid red;
+  border-top: 8px solid @red; 
+  border-bottom: 8px solid red;
 }
 
 

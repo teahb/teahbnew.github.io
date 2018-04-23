@@ -443,7 +443,9 @@ section.mastwrap{
     padding: 0;
     overflow: hidden;
     min-height: 100vh;
-    margin-bottom: 40px;
+/*    margin-bottom: 40px;
+    margin-top: 15px;*/
+    margin: 0.9em 0.5em 2.8em 0.5em;
 }
 .works-filter li:last-child:after{
     display: none;
@@ -460,7 +462,7 @@ section.mastwrap{
 
 .ContentWrapperB .ContentB {
   position: absolute;
-  background: rgba(255, 255, 255, 0.3);
+  background: white;
   opacity: 0;
   visibility: hidden;
   width: 100%;
@@ -515,7 +517,7 @@ section.mastwrap{
                     transition: all .1s ease-in-out;*/
         }
         .zoom a:hover{
-            cursor: url("../images/plus.png") 40 40, crosshair;
+            cursor: url("../images/zoom.png") 40 40, crosshair;
 /*            -webkit-transition: all .1s ease-in-out;
                -moz-transition: all .1s ease-in-out;
                 -ms-transition: all .1s ease-in-out;
@@ -564,8 +566,8 @@ section.mastwrap{
   width: 66.6% !important;
 }
 .works-masonry-container .works-item-one-half {
-  margin-top: 1em !important;
-  padding: 1em !important;
+  margin-top: 0em !important;
+  padding: 0.5em !important;
   width: 50% !important;
 }
 .works-masonry-container .works-item-one-fourth {
@@ -589,6 +591,7 @@ section.mastwrap{
   margin: 1% !important;
   padding: 0 !important;
   width: 48% !important;
+  /*1.em 0.25em 1em 0.25em*/
 }
 .works-masonry-container .works-item-two-third-spaced{
   margin: 1% !important;
@@ -673,7 +676,7 @@ section.mastwrap{
   margin-top: 60px;
 }
 .add-top-quarter{
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .add-bottom{
   margin-bottom: 90px;
@@ -887,7 +890,7 @@ section.mastwrap{
 }
 
 .worktext {
-  padding: 6%;
+  padding: 6% 10% 5% 4%;
   background-color: white;
 }
 
