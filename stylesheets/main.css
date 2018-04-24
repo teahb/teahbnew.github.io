@@ -864,6 +864,11 @@ section.mastwrap{
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
     max-width: 650px;
+    z-index: 1;
+}
+
+.aboutpic {
+  z-index: 0;
 }
 
 .hometoptext {

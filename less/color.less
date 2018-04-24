@@ -1,17 +1,18 @@
+/* new brown: #1b1a1a;*/
+
 /* COLORS */
-@color: #FF0000;
 @white: #FFFFFF;
 @silver: #F8F8F8;
 @grey: #CCCCCC;
 @dark: #292929;
-@black: #000000;
+@black: #1b1a1a;
 @orange: #FF8C00;
 @red: #FF0000;
 @dialuppink: #ffadc6;
 @dialupblue: #10c0ff;
 @yellow: #fff888;
 @dimgrey: #696969;
-@textgrey: #333333;
+@textgrey: #1b1a1a;
 @wheat: #e8e8e8;
 @green: #008000;
 @newyellow: #ffdc00;
@@ -19,11 +20,9 @@
 @blinkblue: #5a5bd3;
 @scangrey: #5f7171;
 @cloud: #ECE9E6;
+@brown: #1b1a1a;
 
 /* COLOR CLASSES */
-.color{
-	color: @color;
-}
 .white{
 	color: @white;
 }
@@ -89,13 +88,12 @@
 .cloud {
 	color: #ECE9E6;
 }
-
+.brown {
+	color: #1b1a1a;
+}
 
 
 /* BACKGROUND COLORS */
-.color-bg{
-	background-color: @color;
-}
 .white-bg{
 	background-color: @white;
 }
@@ -121,7 +119,7 @@
 	background-color: @textgrey;
 }
 .red-bg {
-	background-color: @red;
+	background-color: @brown;
 }
 .blinkblue-bg {
 	background-color: @blinkblue;
@@ -132,32 +130,35 @@
 .orange-bg {
 	background-color: @orange;
 }
+.brown-bg {
+	background-color: @brown;
+}
 
 /* TEXT COLORS */
 html {
-	color: @color;
-}
+/*	background-color: @brown;
+*/}
 
 p,h1,h2,h3,h4,h5,h6 {
-	color: @textgrey;
+	color: @brown;
 }
 
 a{
-	color: @color;
+	color: @red;
 }
 a:hover{
 	color: @black;
 }
 
 header a {
-	color: @black;
+	color: @white;
 }
 
 header a:hover {
-	color: @white;
+	color: @red;
 }
 .backtowork a{
-	color: @black;
+	color: @red;
 }
 .backtowork a:hover{
 	color: @white;
@@ -167,11 +168,11 @@ header a:hover {
 
 /* SELECTION COLORS */
 ::selection {
-  background: @color;
+  background: @red;
   color: @black;
 }
 ::-moz-selection {
-  background: @color;
+  background: @red;
   color: @black;
 }
 
@@ -184,7 +185,7 @@ header a:hover {
 	color: @orange;
 }
 .btn-remark-white:hover {
-	background-color: @color !important;
+	background-color: @red !important;
 	color: @white !important;
 }
 .btn-remark-dark {
@@ -192,11 +193,11 @@ header a:hover {
 	color: @white !important;
 }
 .btn-remark-dark:hover {
-	background-color: @color !important;
+	background-color: @red !important;
 	color :@black !important;
 }
 .btn-remark-color {
-	background-color: @color !important;
+	background-color: @red !important;
 	color: @white !important;
 }
 .btn-remark-color:hover {
@@ -221,14 +222,14 @@ header.masthead{
 
 /* WORKS ITEM COLORS */
 .featured-work-caption > span:before{
-	background-color: @color;
+	background-color: @red;
 }
 .works-item:hover {
 	background-color: @white;
 
 }
  .works-item-inner h3 > span{ 
-	border-color: @color;
+	border-color: @red;
 }
 .projectpage .ContentWrapperB .ContentB{
 	background-color: rgba(255, 255, 255, 0.3);
@@ -247,7 +248,7 @@ header.masthead{
 	color: @white;
 }
 .menu-panel ul li a:hover{
-	color: @color;
+	color: @red;
 }
 
 
@@ -261,10 +262,10 @@ header.masthead{
 	color: @dark;
 }
 .agency-tile h6:after{
-	background-color: @color;
+	background-color: @red;
 }
 .team-social a:hover span{
-	color: @color;
+	color: @red;
 }
 .filter-notification{
 	background-color: @white;
@@ -292,7 +293,11 @@ header.masthead{
 }
 
 .homepage .menu--tsula .menu__item-label {
-	color: @scangrey;
+	color: @white;
+}
+
+.homepage-bg {
+	background-color: @brown;
 }
 
 
@@ -327,18 +332,18 @@ input, textarea {
 	color: @white !important;
 }
 input:focus, textarea:focus {
-	border-color: @color !important;
-	color: @color !important;
+	border-color: @red !important;
+	color: @red !important;
 }
 .sub-menu{
-	border-color: @color;
+	border-color: @red;
 }
 
 
 /* BORDER STYLES */
 .newborder {
-  border-left: 40px solid @red;
-  border-right: 40px solid @red;
+  border-left: 40px solid @brown;
+  border-right: 40px solid @brown;
 }
 .newborderorange {
   border-left: 40px solid #FF8C00;
