@@ -386,14 +386,14 @@ section.mastwrap{
   position: fixed;
   width: 30px;
   height: 30px;
-  right: 30px;
+  right: 50px;
   top: 50%;
   margin-top: -15px;
   z-index: 1000;
 }
 .filter-trigger span{
-  font-size: 42px;
-  line-height: 42px;
+  font-size: 60px;
+  line-height: 60px;
   display: inline-block;
 }
 .filter-notification{
@@ -445,7 +445,7 @@ section.mastwrap{
     min-height: 100vh;
 /*    margin-bottom: 40px;
     margin-top: 15px;*/
-    margin: 0.9em 0.5em 2.8em 0.5em;
+    margin: 1.3em 0em 2.8em 0em;
 }
 .works-filter li:last-child:after{
     display: none;
@@ -914,4 +914,15 @@ header div div div div a img {
 
 .eye-cursor {
   cursor: url("../images/view.png") 40 40, crosshair;
+}
+
+
+.blinker {
+  padding-left: 90px;
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  60% {opacity: 0.1;}
+  80% {opacity: 0.5}
 }

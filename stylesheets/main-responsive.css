@@ -93,7 +93,7 @@ there.
         max-width: 500px;
     }
     .text-left, .text-right, .mastfoot, .credits, .services-item {
-        text-align: center;
+        text-align: left;
     }
 
     .img-responsive {
@@ -232,13 +232,15 @@ there.
         left: 59.9%;
         font-size: 40px;
     }
+    .menu.menu--tsula {
+        text-align: left;
+    }
 }
 
 /* Tablets */
 @media (max-width: 768px) {
     .container {
         width: 668px;
-        text-align: center;
     }
     .homephraseleft {
         top: 15%;        
@@ -251,8 +253,8 @@ there.
         font-size: 40px;
     }
     .newborder {
-    border-left-width: 20px;
-    border-right-width: 20px;
+    border-left: 20px solid #1b1a1a !important;
+    border-right: 20px solid #1b1a1a !important;
 }
 
 }

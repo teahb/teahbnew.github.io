@@ -69,6 +69,7 @@ a:focus {
 
 .menu--tsula .menu__item-label {
 	text-transform: lowercase;
+	cursor: url("../images/view.png") 40 40, crosshair;
 }
 
 /* Code for blinking blue square */

@@ -145,9 +145,16 @@ p,h1,h2,h3,h4,h5,h6 {
 
 a{
 	color: @red;
+	cursor: url("../images/view.png") 40 40, crosshair;
+
 }
 a:hover{
 	color: @black;
+}
+
+header a.active {
+	color: @red;
+	text-decoration: underline;
 }
 
 header a {
@@ -156,10 +163,13 @@ header a {
 
 header a:hover {
 	color: @red;
+	text-decoration: underline;
 }
-.backtowork a{
-	color: @red;
+
+header a.active:hover {
+	text-decoration: underline;
 }
+
 .backtowork a:hover{
 	color: @white;
 }
@@ -279,6 +289,7 @@ header.masthead{
 /* TSULA COLORS ON HOMEPAGE */
 .homepage .menu--tsula .menu__item-name {
 	color: @red;
+
 }
 
 .homepage .menu--tsula .menu__item:hover .menu__item-name,
@@ -366,8 +377,8 @@ input:focus, textarea:focus {
   border-right: 40px solid #5a5bd3;
 }
 .works-filter-panel {
-	border-top: 8px solid @red;
-	border-bottom: 8px solid @red;
+	border-top: 4px solid @red;
+	border-bottom: 4px solid @red;
 }
 
 
