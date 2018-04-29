@@ -73,7 +73,7 @@ a:focus {
 }
 
 /* Code for blinking blue square */
-.menu--tsula .menu__item::before {
+.menu--tsula .menu__item .menu__item-name::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -85,8 +85,8 @@ a:focus {
 	animation: none; /* For Chrome */
 }
 
-.menu--tsula .menu__item:hover::before,
-.menu--tsula .menu__item:focus::before {
+.menu--tsula .menu__item .menu__item-name:hover::before,
+.menu--tsula .menu__item .menu__item-name:focus::before {
 	animation: blinkblink 0.4s cubic-bezier(0.5,0,1,1) infinite alternate;
 }
 
@@ -97,27 +97,4 @@ a:focus {
 	to {
 		opacity: 1;
 	}
-}
-
-/* Code for homepage text location */
-
-.homephraseleft {
-	position: fixed;
-    top: 13%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-    font-size: 65px;
-    letter-spacing: 0.5em;
-}
-
-.homephraseright {
-	position: fixed;
-    top: 65%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-    font-size: 65px;
-    letter-spacing: 0.5em;
-    text-align: right;
 }

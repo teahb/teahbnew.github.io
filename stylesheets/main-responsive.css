@@ -14,16 +14,6 @@ there.
     .container {
         max-width: 1260px;
     }
-    .homephraseleft {
-        top: 13%;        
-        left: 40%;
-        font-size: 65px;
-    }
-    .homephraseright {
-        top: 65%;
-        left: 60%;
-        font-size: 65px;
-    }
 }
 
 
@@ -32,16 +22,6 @@ there.
 @media (max-width: 1200px) {
     .container {
         max-width: 1100px;
-    }
-    .homephraseleft {
-        top: 10%;        
-        left: 44%;
-        font-size: 55px;
-    }
-    .homephraseright {
-        top: 77%;
-        left: 64%;
-        font-size: 55px;
     }
 }
 
@@ -56,16 +36,6 @@ there.
         font-size: 36px;
         line-height: 43px;
     }
-    .homephraseleft {
-        top: 10%;        
-        left: 44%;
-        font-size: 50px;
-    }
-    .homephraseright {
-        top: 78%;
-        left: 64%;
-        font-size: 50px;
-    }
 }
 
 
@@ -74,23 +44,13 @@ there.
     .container {
         max-width: 924px;
     }
-    .homephraseleft {
-        top: 12.5%;        
-        left: 46%;
-        font-size: 40px;
-    }
-    .homephraseright {
-        top: 78%;
-        left: 64%;
-        font-size: 40px;
-    }
 }
 
 
 /* Other Larger Mobile Devices */
 @media (max-width: 992px) {
     .container {
-        max-width: 500px;
+        max-width: 892px;
     }
     .text-left, .text-right, .mastfoot, .credits, .services-item {
         text-align: left;
@@ -98,7 +58,11 @@ there.
 
     .img-responsive {
         display: inline-block;
+        padding-top: 1em;
     }
+    .pad-top-quarter{
+        padding-top: 1em;
+}
     section.mastwrap{
       border: 60px solid;
       border-top: 60px solid;
@@ -110,9 +74,9 @@ there.
     .mobile-nav {
         display: block;
     }*/
-    header.masthead{
+/*    header.masthead{
         padding: 0px 50px;
-    }
+    }*/
     .header-highlighted{
         padding: 0px 50px !important;
     }
@@ -163,10 +127,8 @@ there.
 	.works-masonry-container .works-item-two-third-spaced,
 	.works-masonry-container .works-item-one-fourth-spaced{
 	  margin: 0% !important;
-	  padding: 2em !important;
-	  width: 90% !important;
+	  padding: 1.5em !important;
 	}
-
     .projectpage .works-masonry-container .works-item-one-third,
     .projectpage .works-masonry-container .works-item-two-third,
     .projectpage .works-masonry-container .works-item-one-half,
@@ -180,13 +142,10 @@ there.
         padding: 0em !important;
         width: 100% !important;
     }
-
-
 	.works-item-inner {
 	    padding: 0 40px;
 	    text-align: left;
 	}
-
     div#preloader {
         width: 100% !important;
         height: 100%;
@@ -200,37 +159,29 @@ there.
         width: 100%;
         padding-bottom: 35px;
     }
-    .homephraseleft {
-        top: 15%;        
-        left: 36%;
-        font-size: 40px;
-    }
-    .homephraseright {
-        top: 78%;
-        left: 59.9%;
-        font-size: 40px;
-    }
+    .leanright {
+    position: relative !important;
+    max-height: 100%;
+    left: auto !important;
+    right: auto !important;
+    transform: inherit !important;
+    max-width: 400px;
+    margin-bottom: 25px;
+    z-index: 1;
 }
+
+
+
+
 
 /* Larger than tablet */
 @media (max-width: 800px) {
     .container {
         width: 700px;
-        text-align: center;
     }
     section.mastwrap{
       border: 50px solid;
       border-bottom: 0;
-    }
-    .homephraseleft {
-        top: 15%;        
-        left: 36%;
-        font-size: 40px;
-    }
-    .homephraseright {
-        top: 78%;
-        left: 59.9%;
-        font-size: 40px;
     }
     .menu.menu--tsula {
         text-align: left;
@@ -242,20 +193,10 @@ there.
     .container {
         width: 668px;
     }
-    .homephraseleft {
-        top: 15%;        
-        left: 36%;
-        font-size: 40px;
-    }
-    .homephraseright {
-        top: 78%;
-        left: 59.9%;
-        font-size: 40px;
-    }
-    .newborder {
+/*    .newborder {
     border-left: 20px solid #1b1a1a !important;
     border-right: 20px solid #1b1a1a !important;
-}
+}*/
 
 }
 
@@ -265,15 +206,10 @@ there.
         width: 636px;
         padding-top: 20px;
     }
-    .homephraseleft {
-        top: 8.5%;
-        left: 49%;
-        font-size: 25px;
-    }
-    .homephraseright {
-        top: 77%;
-        left: 62%;
-        font-size: 25px;
+        .extrapadding {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        padding-top: 4em;
     }
 }
 
@@ -285,20 +221,10 @@ there.
         padding-top: 20px;
 
     }
-    .homephraseleft {
-        top: 8.5%;
-        left: 49%;
-        font-size: 25px;
-    }
-    .homephraseright {
-        top: 78%;
-        left: 62%;
-        font-size: 25px;
-    }
-.newborder {
+/*.newborder {
     border-left-width: 10px;
     border-right-width: 10px;
-}
+}*/
 
 }
 
@@ -310,15 +236,20 @@ there.
         padding-top: 20px;
 
     }
+    .centered {
+    max-width: 80vw;
+    }
     .homephraseleft {
-        top: 8.5%;
-        left: 49%;
+        top: 8%;
+        left: 5%;
         font-size: 25px;
+        letter-spacing: 0.4em;
     }
     .homephraseright {
-        top: 77%;
-        left: 62%;
+        bottom: 14%;
+        right: 7%;
         font-size: 25px;
+        letter-spacing: 0.4em;
     }
 }
 
@@ -337,9 +268,9 @@ there.
     div#preloader {
         top: 80px;
     }
-    header.masthead{
+/*    header.masthead{
         padding: 0 40px;
-    }
+    }*/
     .header-highlighted{
         padding: 0px 40px !important;
     }
@@ -357,7 +288,6 @@ there.
 	.works-masonry-container .works-item-one-fourth-spaced{
 	  margin: 0% !important;
 	  padding: 2em !important;
-	  width: 80% !important;
 	}
 	.works-item-inner {
 	    padding: 0 40px;
@@ -374,17 +304,11 @@ there.
         font-size: 20px !important;
         line-height: 27px !important;
     }
-    .homephraseleft {
-        top: 12.5%;
-        left: 49%;
-        font-size: 25px;
-    }
-    .homephraseright {
-        top: 78%;
-        left: 59%;
-        font-size: 25px;
-    }
 }
+
+
+
+
 
 /*iPhone 6Plus Portrait Mode*/
 @media screen and (max-width: 414px) {
@@ -397,20 +321,10 @@ there.
       border: 20px solid;
       border-bottom: 0;
     }
-    .homephraseleft {
-        top: 20%;
-        left: 40%;
-        font-size: 40px;
-    }
-    .homephraseright {
-        top: 80%;
-        left: 40%;
-        font-size: 40px;
-    }
-.newborder {
+/*.newborder {
     border-left-width: 4px;
     border-right-width: 4px;
-}
+}*/
 
 }
 
@@ -422,16 +336,6 @@ there.
         padding-top: 20px;
 
     }
-    .homephraseleft {
-        top: 24%;
-        left: 38%;
-        font-size: 30px;
-    }
-    .homephraseright {
-        top: 80%;
-        left: 40%;
-        font-size: 30px;
-    }
 }
 
 /*iPhone 5S, 5, 4S & 4 Portrait Mode and Very Small Mobile Phones*/
@@ -441,16 +345,6 @@ there.
         padding-left: 10px;
         padding-top: 20px;
 
-    }
-    .homephraseleft {
-        top: 14%;        
-        left: 38%;
-        font-size: 25px;
-    }
-    .homephraseright {
-        top: 78%;
-        left: 60%;
-        font-size: 25px;
     }
 }
 

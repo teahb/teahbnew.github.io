@@ -28,7 +28,7 @@ p{
   font-size: 16px;
   line-height: 18px;
   margin-bottom: 0;
-  text-align: justify;
+  text-align: left;
 }
 h1,h2,h3,h4,h5,h6{
   margin-top: 0;
@@ -712,6 +712,13 @@ section.mastwrap{
 .pad-bottom-quarter{
   padding-bottom: 30px;
 }
+
+.extrapadding {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+
 .remove-top{
   margin-top: 0 !important;
 }
@@ -854,8 +861,27 @@ section.mastwrap{
     left: 50% !important;
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
-    max-height: 72%;
-    font-size: 40px;
+    max-height: 100%;
+    max-width: 38vw;
+}
+
+.homephraseleft {
+  position: fixed;
+    top: 11%;
+    left: 5%;
+    z-index: 10;
+    font-size: 50px;
+    letter-spacing: 0.4em;
+}
+
+.homephraseright {
+  position: fixed;
+    bottom: 11%;
+    right: 5%;
+    z-index: 10;
+    font-size: 50px;
+    letter-spacing: 0.4em;
+    text-align: right;
 }
 
 .leanright {
@@ -871,27 +897,12 @@ section.mastwrap{
   z-index: 0;
 }
 
-.hometoptext {
-    position: absolute;
-    top: 21%;
-    left: 40%;
-    transform: translate(-40%, -50%);
-    z-index: 10;
-}
-
-.homebottomtext {
-    position: absolute;
-    top: 70%;
-    left: 75%;
-    transform: translate(-62%, -50%);
-    z-index: 10;
-}
-
 .lastupdated {
   text-align: right;
   position: absolute;
-  top: 95%;
+  top: 2%;
   right: 2%;
+  color: #f9f9f9;
 }
 
 .worktext {

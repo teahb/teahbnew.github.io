@@ -95,7 +95,7 @@
 
 /* BACKGROUND COLORS */
 .white-bg{
-	background-color: @white;
+	background-color: rgba(255, 255, 255, 0.6);
 }
 .silver-bg{
 	background-color: @silver;
@@ -158,7 +158,7 @@ header a.active {
 }
 
 header a {
-	color: @white;
+	color: @brown;
 }
 
 header a:hover {
@@ -171,7 +171,7 @@ header a.active:hover {
 }
 
 .backtowork a:hover{
-	color: @white;
+	color: @brown;
 }
 
 
@@ -289,13 +289,14 @@ header.masthead{
 /* TSULA COLORS ON HOMEPAGE */
 .homepage .menu--tsula .menu__item-name {
 	color: @red;
-
+	text-decoration: underline;
 }
 
 .homepage .menu--tsula .menu__item:hover .menu__item-name,
 .menu--tsula .menu__item:focus .menu__item-name {
 	color: white;
 	background: @newyellow;
+	text-decoration: none;
 }
 
 .homepage .menu--tsula .menu__item:hover .menu__item-label,
@@ -304,14 +305,16 @@ header.masthead{
 }
 
 .homepage .menu--tsula .menu__item-label {
-	color: @white;
+	color: @brown;
 }
 
-.homepage-bg {
-	background-color: @brown;
+.imgborder {
+	border: 3px solid @brown;
 }
 
-
+.homeimgborder {
+	border: 8px solid @brown;
+}
 
 
 /* TSULA COLORS ON ABOUT PAGE */
@@ -353,8 +356,8 @@ input:focus, textarea:focus {
 
 /* BORDER STYLES */
 .newborder {
-  border-left: 40px solid @brown;
-  border-right: 40px solid @brown;
+  border-left: 3px solid @brown;
+  border-right: 3px solid @brown;
 }
 .newborderorange {
   border-left: 40px solid #FF8C00;
@@ -379,6 +382,14 @@ input:focus, textarea:focus {
 .works-filter-panel {
 	border-top: 4px solid @red;
 	border-bottom: 4px solid @red;
+}
+
+footer.mastfoot{
+	border-top: 3px solid @brown;
+}
+
+header.masthead{ 
+	border-bottom: 3px solid @brown;
 }
 
 
@@ -415,7 +426,9 @@ input:focus, textarea:focus {
 /* CLOUDS GRADIENT */
 .cloudgrd {
 	background: @cloud;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, @white, @cloud);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, @white, @cloud); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to bottom, @white, @cloud);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, @white, @cloud); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	opacity: 0.5;
+	z-index: 0;
 }
 
