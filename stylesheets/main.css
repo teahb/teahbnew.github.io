@@ -415,13 +415,19 @@ section.mastwrap{
 }
 .works-filter-panel{
   height: 50px;
-  display: none;
-  width: 100%;
+  display: block;
+/*  width: 100%;*/  
   z-index: 9990;
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: absolute;
+/*  top: 0;*/  
+/*left: 8%;
+*/}
+
+.works-container div:nth-child(2) {
+  height: 50px;
 }
+
+
 .works-filter{
   list-style: none;
   padding: 0;
@@ -439,6 +445,8 @@ section.mastwrap{
   margin-left: 10px;
   margin-right: 10px;
 }
+
+
 .works-container{
     padding: 0;
     overflow: hidden;
@@ -447,6 +455,7 @@ section.mastwrap{
     margin-top: 15px;*/
     margin: 1.3em 0em 2.8em 0em;
 }
+
 .works-filter li:last-child:after{
     display: none;
 }
@@ -900,9 +909,8 @@ section.mastwrap{
 .lastupdated {
   text-align: right;
   position: absolute;
-  top: 2%;
+  top: 95%;
   right: 2%;
-  color: #f9f9f9;
 }
 
 .worktext {
