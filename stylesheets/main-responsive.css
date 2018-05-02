@@ -61,7 +61,7 @@ there.
         padding-top: 1em;
     }
     .pad-top-quarter{
-        padding-top: 1em;
+        padding-top: 2em;
 }
     section.mastwrap{
       border: 60px solid;
@@ -251,6 +251,9 @@ there.
         font-size: 25px;
         letter-spacing: 0.4em;
     }
+    header div div div div.col-md-12 {
+        padding-left: 0;
+    }
 }
 
 /*iPhone Landscape Mode and Medium Smart Phones*/
@@ -287,7 +290,7 @@ there.
 	.works-masonry-container .works-item-two-third-spaced,
 	.works-masonry-container .works-item-one-fourth-spaced{
 	  margin: 0% !important;
-	  padding: 2em !important;
+	  padding: 1.4em !important;
 	}
 	.works-item-inner {
 	    padding: 0 40px;

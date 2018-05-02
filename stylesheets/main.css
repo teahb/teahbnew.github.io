@@ -118,17 +118,14 @@ header.masthead{
   width: 100%;
   z-index: 9990;
   height: 40px;
-  font-size: 20px;
+  font-size: 17px;
+  word-spacing: 5px;
   text-transform: lowercase;
   -webkit-transition: all .8s linear;
      -moz-transition: all .8s linear;
     -ms-transition: all .8s linear;
      -o-transition: all .8s linear;
       transition: all .8s linear;
-}
-
-header a:hover {
-  text-decoration: none;
 }
 
 /* 3. Footer
@@ -416,16 +413,16 @@ section.mastwrap{
 .works-filter-panel{
   height: 50px;
   display: block;
-/*  width: 100%;*/  
+  width: 100%;  
   z-index: 9990;
   position: absolute;
 /*  top: 0;*/  
 /*left: 8%;
 */}
 
-.works-container div:nth-child(2) {
+/*.works-container div:nth-child(2) {
   height: 50px;
-}
+}*/
 
 
 .works-filter{
@@ -437,7 +434,7 @@ section.mastwrap{
   display: inline-block;
 }
 .works-filter li a{
-  font-size: 14px;
+  font-size: 14.5px;
   line-height: 21px;
 }
 .works-filter li:after{
@@ -588,7 +585,7 @@ section.mastwrap{
 /* CODE FOR WORK ITEMS (WORK.HTML) */
 .works-masonry-container .works-item-full-width {
   margin: 0;
-  padding: 1.5em 3em !important;
+  padding: 1.5em 2.6em !important;
   width: 100% !important;
 }
 .works-masonry-container .works-item-one-third-spaced{
@@ -899,11 +896,11 @@ section.mastwrap{
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
     max-width: 650px;
-    z-index: 1;
+    z-index: 0;
 }
 
 .aboutpic {
-  z-index: 0;
+  z-index: -1;
 }
 
 .lastupdated {

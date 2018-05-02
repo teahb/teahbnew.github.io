@@ -154,7 +154,8 @@ a:hover{
 
 header a.active {
 	color: @red;
-	text-decoration: underline;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
 }
 
 header a {
@@ -163,11 +164,11 @@ header a {
 
 header a:hover {
 	color: @red;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 header a.active:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .backtowork a:hover{
@@ -271,6 +272,17 @@ footer.mastfoot.white-bg {
 .works-filter li a, .works-filter li:after{
 	color: @dark;
 }
+
+.works-filter li a:hover{
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+}
+
+.works-filter li a.active{
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+}
+
 .filter-notification a{
 	color: @dark;
 }
@@ -382,17 +394,14 @@ input:focus, textarea:focus {
   border-left: 40px solid #5a5bd3;
   border-right: 40px solid #5a5bd3;
 }
-/*.works-filter-panel {
-	border-top: 4px solid @red;
-	border-bottom: 4px solid @red;
-}*/
 
 footer.mastfoot{
 	border-top: 3px solid @brown;
 }
 
 header.masthead{ 
-	border-bottom: 3px solid @brown;
+	border-bottom: 3px solid @brown
+	;
 }
 
 
