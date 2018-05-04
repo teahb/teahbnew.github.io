@@ -22,6 +22,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body{
   overscroll-behavior: none;
+  font-size: 16px;
 }
 
 p{
@@ -541,7 +542,7 @@ section.mastwrap{
             font-size: 16px;
             letter-spacing: normal;
             line-height: 25px;
-            text-transform: uppercase;
+            text-transform: lowercase;
             letter-spacing: 2px;
         }
 /*        .works-item-inner p{
@@ -610,6 +611,10 @@ section.mastwrap{
   width: 23% !important;
 }
 
+.img-responsive {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 /*NEWS*/
@@ -888,6 +893,10 @@ section.mastwrap{
     font-size: 50px;
     letter-spacing: 0.4em;
     text-align: right;
+}
+
+.homephraseleft span.menu__item-name, .homephraseright span.menu__item-name {
+  font-size: 42px;
 }
 
 .leanright {

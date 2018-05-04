@@ -251,6 +251,11 @@ there.
         font-size: 25px;
         letter-spacing: 0.4em;
     }
+
+    .homephraseleft span.menu__item-name, .homephraseright span.menu__item-name {
+  font-size: 22px;
+    }
+
     header div div div div.col-md-12 {
         padding-left: 0;
     }
