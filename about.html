@@ -359,19 +359,18 @@
       }
     }
 
-    window.onload = function() {
-      var bLazy = new Blazy({ 
-        selector: '.leanright'
-      , loadInvisible: true
-      , error: function(ele, msg) {
-        console.log(ele);
-        console.log(msg);
-      }
-    });
-      console.log(bLazy);
-    }
-  </script>
-
+window.onload = function () {
+      var bLazy = new Blazy({
+        loadInvisible: true,
+        container: '#hidden-images',
+        error: function (ele, msg) {
+          console.log(ele);
+          console.log(msg);
+        }
+      });
+      console.log(bLazy);
+    }
+  </script>
 
 </body>
 </html>
