@@ -62,7 +62,7 @@ there.
     }
     .pad-top-quarter{
         padding-top: 2em;
-}
+    }
     section.mastwrap{
       border: 60px solid;
       border-top: 60px solid;
@@ -168,6 +168,10 @@ there.
     max-width: 400px;
     margin-bottom: 25px;
     z-index: 1;
+    }
+    #hidden-images {
+        display: none;
+    }
 }
 
 
