@@ -115,19 +115,6 @@
     <div class="newborder container">
       <section id="works-container" class="works-container works-masonry-container clearfix works-thumbnails-view pad-top-quarter">
 
-<!-- IMG : works-item -->
-              <div class="works-item ImageWrapper ContentWrapperB chrome-fix works-item-one-half zoom">
-                      <img data-no-retina alt="" title="" class="b-lazy img-responsive" src="images/work/navigate/navigate.gif"/>
-                      <a  class="venobox" data-gall="portfolio-gallery" href="images/work/navigate/navigate.gif">
-                          <div class="works-item-inner ContentB">
-                            <div class="valign">
-                                <h3 class="text-center font1"></h3>
-                            </div>
-                          </div>
-                      </a>
-              </div>
-<!-- end : works-item -->
-
 <!-- TEXT : works-item -->
               <div class="works-item chrome-fix works-item-one-half">
                     <article class="text-left worktext imgborder">
@@ -158,6 +145,21 @@
                     </article>
               </div>
 <!-- end : works-item -->
+
+
+<!-- IMG : works-item -->
+              <div class="works-item ImageWrapper ContentWrapperB chrome-fix works-item-one-half zoom">
+                      <img data-no-retina alt="" title="" class="b-lazy img-responsive" src="images/imgloader.gif" data-src="images/work/navigate/navigate.gif"/>
+                      <a  class="venobox" data-gall="portfolio-gallery" href="images/work/navigate/navigate.gif">
+                          <div class="works-item-inner ContentB">
+                            <div class="valign">
+                                <h3 class="text-center font1"></h3>
+                            </div>
+                          </div>
+                      </a>
+              </div>
+<!-- end : works-item -->
+
               </section>
           
         </div>
@@ -183,9 +185,22 @@
 
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
- <script></script>
+  <script src="javascripts/blazy.js"></script>
 
-  <script></script>
+
+  <script type="text/javascript">
+window.onload = function () {
+      var bLazy = new Blazy({
+        loadInvisible: true,
+        container: '#hidden-images',
+        error: function (ele, msg) {
+          console.log(ele);
+          console.log(msg);
+        }
+      });
+      console.log(bLazy);
+    }
+  </script>
   <script src="javascripts/charming.min.js"></script>
   <script src="javascripts/anime.min.js"></script>
   <script src="javascripts/demo-tsula.js"></script>
