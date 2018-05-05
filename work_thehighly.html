@@ -33,7 +33,7 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   
-  <link rel="stylesheet" href="stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="stylesheets/style-tsula.css">  
   <link rel="stylesheet" href="stylesheets/featured.css">
   <link rel="stylesheet" href="stylesheets/elements.css">
@@ -120,7 +120,7 @@
 
 <!-- IMG : works-item -->
               <div class="works-item ImageWrapper ContentWrapperB chrome-fix works-item-one-half zoom">
-                      <img data-no-retina alt="" title="" class="img-responsive imgborder" src="images/work/thehighly/thehighly.gif"/>
+                      <img data-no-retina alt="" title="" class="b-lazy img-responsive imgborder" src="images/imgloader.gif" data-src="images/work/thehighly/thehighly.gif"/>
                       <a  class="venobox" data-gall="portfolio-gallery" href="images/work/thehighly/thehighly.gif">
                           <div class="works-item-inner ContentB">
                             <div class="valign">
@@ -164,7 +164,7 @@
 
 <!-- IMG : works-item -->
               <div class="works-item ImageWrapper ContentWrapperB chrome-fix works-item-one-half zoom">
-                      <img data-no-retina alt="" title="" class="img-responsive" src="images/work/thehighly/highly1.png"/>
+                      <img data-no-retina alt="" title="" class="b-lazy img-responsive" src="images/imgloader.gif" data-src="images/work/thehighly/highly1.png"/>
                       <a  class="venobox" data-gall="portfolio-gallery" href="images/work/thehighly/highly1.png">
                           <div class="works-item-inner ContentB">
                             <div class="valign">
@@ -177,7 +177,7 @@
 
 <!-- IMG : works-item -->
               <div class="works-item ImageWrapper ContentWrapperB chrome-fix works-item-one-half zoom">
-                      <img data-no-retina alt="" title="" class="img-responsive" src="images/work/thehighly/highly5.png"/>
+                      <img data-no-retina alt="" title="" class="b-lazy img-responsive" src="images/imgloader.gif" data-src="images/work/thehighly/highly5.png"/>
                       <a  class="venobox" data-gall="portfolio-gallery" href="images/work/thehighly/highly5.png">
                           <div class="works-item-inner ContentB">
                             <div class="valign">
@@ -223,10 +223,25 @@
   <script src="javascripts/anime.min.js"></script>
   <script src="javascripts/demo-tsula.js"></script>
   <script src="javascripts/libs/common.js"></script>
-  <script src="javascripts/libs/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="javascripts/custom/elements.js"></script>
-  <script src="javascripts/custom/main.js"></script>
 
+<script src="javascripts/custom/main.js"></script>  <script src="javascripts/blazy.js"></script>
+
+
+  <script type="text/javascript">
+window.onload = function () {
+      var bLazy = new Blazy({
+        loadInvisible: true,
+        container: '#hidden-images',
+        error: function (ele, msg) {
+          console.log(ele);
+          console.log(msg);
+        }
+      });
+      console.log(bLazy);
+    }
+  </script>
 
 </body>
 </html>
