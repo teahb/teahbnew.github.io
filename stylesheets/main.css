@@ -454,6 +454,13 @@ section.mastwrap{
     margin: 1.3em 0em 2.8em 0em;
 }
 
+.otherprojects-container{
+    padding: 0;
+    overflow: hidden;
+    min-height: 30vh;
+    margin: 1.3em 0em 2.8em 0em;
+}
+
 .works-filter li:last-child:after{
     display: none;
 }
