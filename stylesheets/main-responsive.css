@@ -176,6 +176,25 @@ there.
 
 
 
+/* MINIMUM - Larger than tablet */
+@media (min-width: 992px) {
+    .workpage {
+   margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    }
+}
+
+/* MINIMUM - Larger than tablet */
+@media (max-width: 991px) {
+        .workpage {
+   padding-left: 15px;
+   padding-right: 15px;
+  position: relative;
+    }
+}
 
 
 /* Larger than tablet */
