@@ -36,7 +36,7 @@ h1,h2,h3,h4,h5,h6{
   margin-top: 0;
   margin-bottom: 0;
   margin: auto;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 /* h1{
@@ -661,43 +661,42 @@ left: 8%;}
   margin-top: 20px;
 }
 .add-bottom{
-  margin-bottom: 90px;
+  margin-bottom: 10%;
 }
 .add-bottom-half{
-  margin-bottom: 60px;
+  margin-bottom: 8%;
 }
 .add-bottom-quarter{
-  margin-bottom: 30px;
+  margin-bottom: 5%;
 }
 .add-bottom-eighth{
-  margin-bottom: 15px;
+  margin-bottom: 2.5%;
 }
 
 .pad{
   padding: 60px;
 }
 .pad-top{
-  padding-top: 80px;
+  padding-top: 10%;
 }
 .pad-top-half{
-  padding-top: 60px;
+  padding-top: 5%;
 }
 .pad-top-quarter{
-  padding-top: 3em;
+  padding-top: 2%;
 }
 .pad-bottom{
-  padding-bottom: 90px;
+  padding-bottom: 10%;
 }
 .pad-bottom-half{
-  padding-bottom: 60px;
+  padding-bottom: 5%;
 }
 .pad-bottom-quarter{
-  padding-bottom: 30px;
+  padding-bottom: 2%;
 }
 
 .extrapadding {
-  /* padding-left: 2.5em;
-  padding-right: 2.5em; */
+  padding-left: 3%;
 }
 
 .remove-top{
@@ -897,7 +896,7 @@ header div div div div a img {
 }
 
 .about {
-  padding-left: 20px;
+  padding-left: 5%;
 }
 
 .eye-cursor {
