@@ -59,11 +59,11 @@ a:focus {
 }
 
 .menu--tsula .menu__item-name {
-    /* cursor: url("../images/view.png") 40 40, crosshair; */
+    cursor: url("../images/view.png") 40 40, crosshair;
 }
 
 .menu--tsula .menu__item-label {
-	/* cursor: url("../images/view.png") 40 40, crosshair; */
+	cursor: url("../images/view.png") 40 40, crosshair; 
 }
 
 /* Code for blinking blue square */

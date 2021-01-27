@@ -40,10 +40,10 @@ body{
     top:50%; 
     margin-left:-16px; 
     margin-top:-16px;
-    background-image: url(../images/venobox/preload-circle.png);
+    background-image: url(../images/teah/green_loader_face_t.gif);
     text-indent: -100px;
     overflow: hidden;
-    -webkit-animation: playload 1.4s steps(18) infinite;
+    /* -webkit-animation: playload 1.4s steps(18) infinite;
        -moz-animation: playload 1.4s steps(18) infinite;
         -ms-animation: playload 1.4s steps(18) infinite;
          -o-animation: playload 1.4s steps(18) infinite;
@@ -67,7 +67,7 @@ body{
 }
 @keyframes playload {
    from { background-position:    0px; }
-     to { background-position: -576px; }
+     to { background-position: -576px; } */
 }
 
 
