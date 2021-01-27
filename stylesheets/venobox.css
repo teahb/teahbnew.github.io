@@ -81,9 +81,8 @@ body{
     height: 40px;
     padding: 10px 20px 10px 0;
     display: block;
-    background: url(../images/venobox/close.gif) no-repeat #eee;
+    background: url(../images/venobox/close.gif) no-repeat;
     background-position:10px center;
-    color: #fff;
     text-indent: -100px;
     overflow: hidden;
 }
