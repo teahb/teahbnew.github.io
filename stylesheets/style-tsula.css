@@ -27,8 +27,6 @@ a:focus {
 }
 
 .menu__item {
-	font-size: 16px;
-	line-height: 1.75;
 	position: relative;
 	display: block;
 	margin: 1em 0;
@@ -43,7 +41,6 @@ a:focus {
 
 .menu__item-label {
 	margin: 0 0 0 0em;
-	font-weight: 400;
 }
 
 
