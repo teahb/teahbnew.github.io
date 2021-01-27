@@ -509,7 +509,7 @@ left: 8%;}
             cursor: url("../images/view.png") 40 40, crosshair;
         }
         .zoom a:hover{
-            cursor: url("../images/zoom.png") 40 40, crosshair;
+            cursor: url("../images/view.png") 40 40, crosshair;
         }
         .works-item-inner{
             /* text-align: left;
