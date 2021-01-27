@@ -68,18 +68,18 @@ a:focus {
 
 /* Code for blinking blue square */
 .menu--tsula .menu__item .menu__item-name::before {
-	content: '';
+	/* content: '';
 	position: absolute;
 	top: 0;
 	right: 100%;
 	width: 0.9em;
 	height: 1em;
 	opacity: 0;
-	background: rgba(90,91,211,0.7);
-	animation: none; /* For Chrome */
+	/* background: rgba(90,91,211,0.7); */
+	/* animation: none; /* For Chrome */ 
 }
 
-.menu--tsula .menu__item .menu__item-name:hover::before,
+/* .menu--tsula .menu__item .menu__item-name:hover::before,
 .menu--tsula .menu__item .menu__item-name:focus::before {
 	animation: blinkblink 0.4s cubic-bezier(0.5,0,1,1) infinite alternate;
 }
@@ -91,4 +91,4 @@ a:focus {
 	to {
 		opacity: 1;
 	}
-}
+} */

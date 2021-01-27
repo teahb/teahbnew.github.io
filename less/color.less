@@ -170,12 +170,15 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 
 a{
-	color: @red;
+	color: @blinkblue;
 	cursor: url("../images/view.png") 40 40, crosshair;
 
 }
 a:hover{
-	color: @black;
+	color: @brown;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: @brown;
 }
 
 header a.active {
@@ -205,11 +208,11 @@ header a.active:hover {
 
 /* SELECTION COLORS */
 ::selection {
-  background: @red;
+  background: @yellow;
   color: @black;
 }
 ::-moz-selection {
-  background: @red;
+  background: @yellow;
   color: @black;
 }
 
@@ -266,20 +269,20 @@ footer.mastfoot.hint-bg {
 
 /* WORKS ITEM COLORS */
 .featured-work-caption > span:before{
-	background-color: @red;
+	background-color: @yellow;
 }
 .works-item:hover {
 	background-color: @white;
 
 }
  .works-item-inner h3 > span{ 
-	border-color: @red;
+	border-color: @yellow;
 }
 .projectpage .ContentWrapperB .ContentB{
-	background-color: rgba(255, 255, 255, 0.3);
+	/* background-color: rgba(255, 255, 255, 0.3); */
 }
 .projectpage .ContentWrapperB .ContentB{
-	background-color: rgba(255, 255, 255, 0.3);
+	/* background-color: rgba(255, 255, 255, 0.3); */
 }
 
 
@@ -340,7 +343,7 @@ footer.mastfoot.hint-bg {
 .homepage .menu--tsula .menu__item:hover .menu__item-name,
 .menu--tsula .menu__item:focus .menu__item-name {
 	color: white;
-	background: @newyellow;
+	background: @blinkblue;
 	text-decoration: none;
 }
 
@@ -368,18 +371,18 @@ footer.mastfoot.hint-bg {
 
 /* TSULA COLORS ON ABOUT PAGE */
 .about .menu--tsula .menu__item-name {
-	color: @textgrey;
+	color: @brown;
 }
 
 .about .menu--tsula .menu__item:hover .menu__item-name,
 .about .menu--tsula .menu__item:focus .menu__item-name {
-	color: @textgrey;
-	background: @newyellow;
+	color: @white;
+	background: @blinkblue;
 }
 
 .about .menu--tsula .menu__item:hover .menu__item-label,
 .about .menu--tsula .menu__item:focus .menu__item-label {
-	color: @green;
+	color: @brown;
 }
 
 .about .menu--tsula .menu__item-label {
@@ -458,3 +461,6 @@ header.masthead{
 	z-index: 0;
 }
 
+.menu--tsula .menu__item .menu__item-name::before {
+	background: @blinkblue;
+}
