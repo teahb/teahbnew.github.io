@@ -98,7 +98,7 @@ there.
     footer.mastfoot {
         height: 50px;
     }
-    footer .credits{
+    /* footer .credits{
         -webkit-transform:none;
         -moz-transform:none;
         -o-transform:none;
@@ -116,7 +116,7 @@ there.
     }
     .foot-social li{
         display: inline-block;
-    }
+    } */
 	.works-masonry-container .works-item-one-third,
 	.works-masonry-container .works-item-two-third,
 	.works-masonry-container .works-item-one-half,
@@ -276,7 +276,7 @@ there.
     }
 
     .homephraseleft span.menu__item-name, .homephraseright span.menu__item-name {
-  font-size: 22px;
+  /* font-size: 22px; */
     }
 
     header div div div div.col-md-12 {
@@ -326,7 +326,7 @@ there.
 	}
 /*    .menu-trigger p{
     	display: none;
-    }*/
+    }
     .welcome-text h1, .elements-counter .number, .news-post h1{
         font-size: 24px !important;
         line-height: 31px !important;
@@ -334,7 +334,7 @@ there.
     .agency-home-caption, .welcome-text h2, .news-post h2{
         font-size: 20px !important;
         line-height: 27px !important;
-    }
+    } */
 }
 
 

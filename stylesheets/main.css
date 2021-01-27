@@ -22,12 +22,9 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body{
   overscroll-behavior: none;
-  font-size: 16px;
 }
 
 p{
-  font-size: 16px;
-  line-height: 18px;
   margin-bottom: 0;
   text-align: left;
 }
@@ -36,12 +33,13 @@ h1,h2,h3,h4,h5,h6{
   margin-bottom: 0;
 }
 
-h1{
+/* h1{
   font-size: 3.8rem;
 }
-h3 {
+
+ h3 {
   font-size: 16px;
-}
+} */
 
 a:focus { 
       outline: none; 
@@ -121,7 +119,7 @@ header.masthead{
   height: 40px;
   font-size: 17px;
   word-spacing: 5px;
-  text-transform: lowercase;
+  text-transform: lowercase; 
   -webkit-transition: all .8s linear;
      -moz-transition: all .8s linear;
     -ms-transition: all .8s linear;
@@ -141,6 +139,8 @@ footer.mastfoot{
 .credits{
   margin-top: 10px;
 }
+
+/*
 .social-wrap{
   padding: 0;
 }
@@ -170,11 +170,11 @@ footer.mastfoot{
      -o-transition: all .2s linear;
       transition: all .2s linear;
 }
-.credits p{
+ .credits p{
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 1px;
-}
+} */
 
 /* 4. Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -304,7 +304,7 @@ nav.mastnav{
   }
 }
 
-Sub Menu
+/* Sub Menu
 .sub-menu{
   display: none;
   border-top: solid 1px;
@@ -320,7 +320,7 @@ Sub Menu
   font-size: 14px !important;
   line-height: 21px !important;
   letter-spacing: 2px !important;
-} 
+} */
 
 /* 5. Pages
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -359,8 +359,8 @@ section.mastwrap{
 .featured-work-caption{
   background: transparent;
   background-color: transparent;
-  font-size: 36px;
-    line-height: 48px;
+  /* font-size: 36px;
+    line-height: 48px; */
   text-align: center;
   text-transform: uppercase;
 }
@@ -379,7 +379,7 @@ section.mastwrap{
 
 /*WORKS*/
 
-.filter-trigger-wrap{
+/* .filter-trigger-wrap{
   display: block;
   position: fixed;
   width: 30px;
@@ -410,21 +410,20 @@ section.mastwrap{
     letter-spacing: 4px;
     line-height: 19px;
     text-transform: uppercase;
-}
+} 
+
 .works-filter-panel{
   height: 50px;
   display: block;
   width: 100%;  
   z-index: 9990;
   position: absolute;
-/*  top: 0;*/  
-/*left: 8%;
-*/}
+top: 0;  
+left: 8%;}
 
-/*.works-container div:nth-child(2) {
+.works-container div:nth-child(2) {
   height: 50px;
-}*/
-
+}
 
 .works-filter{
   list-style: none;
@@ -443,14 +442,12 @@ section.mastwrap{
   margin-left: 10px;
   margin-right: 10px;
 }
-
+*/
 
 .works-container{
     padding: 0;
     overflow: hidden;
     min-height: 100vh;
-/*    margin-bottom: 40px;
-    margin-top: 15px;*/
     margin: 1.3em 0em 2.8em 0em;
 }
 
@@ -467,11 +464,6 @@ section.mastwrap{
 
 .works-item:hover {
       opacity:1;
-/*      -webkit-transition: all .1s ease-in-out;
-         -moz-transition: all .1s ease-in-out;
-          -ms-transition: all .1s ease-in-out;
-           -o-transition: all .1s ease-in-out;
-              transition: all .1s ease-in-out;*/
 }
 
 .ContentWrapperB .ContentB {
@@ -484,11 +476,6 @@ section.mastwrap{
   display: block;
   top: -100%;
   left: 0;
-/*  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -ms-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;*/
 }
 
 .ContentWrapperB:hover .ContentB {
@@ -507,36 +494,16 @@ section.mastwrap{
             z-index: 100;
             text-align: center;
             text-decoration: none !important;
-/*            -webkit-transition: all .1s ease-in-out;
-               -moz-transition: all .1s ease-in-out;
-                -ms-transition: all .1s ease-in-out;
-                 -o-transition: all .1s ease-in-out;
-                    transition: all .1s ease-in-out;*/
         }
         .works-item a:hover{
             text-decoration: none !important;
             opacity:1;
-/*            -webkit-transition: all .1s ease-in-out;
-               -moz-transition: all .1s ease-in-out;
-                -ms-transition: all .1s ease-in-out;
-                 -o-transition: all .1s ease-in-out;
-                    transition: all .1s ease-in-out;*/
         }
         .info a:hover{
             cursor: url("../images/view.png") 40 40, crosshair;
-/*            -webkit-transition: all .1s ease-in-out;
-               -moz-transition: all .1s ease-in-out;
-                -ms-transition: all .1s ease-in-out;
-                 -o-transition: all .1s ease-in-out;
-                    transition: all .1s ease-in-out;*/
         }
         .zoom a:hover{
             cursor: url("../images/zoom.png") 40 40, crosshair;
-/*            -webkit-transition: all .1s ease-in-out;
-               -moz-transition: all .1s ease-in-out;
-                -ms-transition: all .1s ease-in-out;
-                 -o-transition: all .1s ease-in-out;
-                    transition: all .1s ease-in-out;*/
         }
         .works-item-inner{
             text-align: left;
@@ -546,29 +513,22 @@ section.mastwrap{
             padding: 0;
         }
         .works-item-inner h3{
-            font-size: 16px;
+            /* font-size: 16px;
             letter-spacing: normal;
             line-height: 25px;
             text-transform: lowercase;
-            letter-spacing: 2px;
+            letter-spacing: 2px; */
         }
-/*        .works-item-inner p{
-          margin-left: 30px;
-        }*/
 
 .works-item-fade{
   opacity: 0.1;
-/*  -webkit-transition: all .4s ease-in-out;
-     -moz-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-     -o-transition: all .4s ease-in-out;
-      transition: all .4s ease-in-out;*/
 }
 
 .works-item-fade a{
   display: none !important;
 }
 
+/* CODE FOR WORK ITEMS (WORK.HTML) */
 .works-masonry-container .works-item-one-third {
   margin: 0 !important;
   padding: 3em !important;
@@ -590,7 +550,6 @@ section.mastwrap{
   width: 25% !important;
 }
 
-/* CODE FOR WORK ITEMS (WORK.HTML) */
 .works-masonry-container .works-item-full-width {
   margin: 0;
   padding: 1.5em 2.6em !important;
@@ -605,7 +564,6 @@ section.mastwrap{
   margin: 1% !important;
   padding: 0 !important;
   width: 48% !important;
-  /*1.em 0.25em 1em 0.25em*/
 }
 .works-masonry-container .works-item-two-third-spaced{
   margin: 1% !important;
@@ -626,7 +584,7 @@ section.mastwrap{
 
 /*NEWS*/
 
-.news-post h1{
+/* .news-post h1{
   font-size: 48px;
   line-height: 60px;
 }
@@ -639,14 +597,14 @@ section.mastwrap{
 .news-post h3{
   font-size: 14px;
   line-height: 26px;
-}
+} */
 
 
 /* 6. Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /*Buttons*/
-.btn-remark {
+/* .btn-remark {
     border-radius: 0px;
     text-decoration: none;
     padding: 15px 20px;
@@ -682,10 +640,10 @@ section.mastwrap{
     -ms-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-}
+} */
 
 
-/*Additional Helper Calsses*/
+/*Additional Helper Classes*/
 
 .add-top{
   margin-top: 90px;
@@ -736,7 +694,6 @@ section.mastwrap{
   padding-right: 2.5em;
 }
 
-
 .remove-top{
   margin-top: 0 !important;
 }
@@ -782,11 +739,8 @@ section.mastwrap{
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-/*.overlay{
-  position: absolute;
-  top: 0;
-  left: 0;
-}*/
+
+
 .img-bg{
   background-size: cover;
   background-position: center center;
@@ -822,7 +776,7 @@ section.mastwrap{
 
     
 /* Portfolio Isotope Transitions */ 
-
+/*
     .isotope, .isotope .isotope-item {
         -webkit-transition-duration: 0.8s;
         -moz-transition-duration: 0.8s;
@@ -854,6 +808,7 @@ section.mastwrap{
         -o-transition-duration: 0s;
         transition-duration: 0s;
     }
+*/
 
 .super-responsive-wrapper {
   width: 100%;
@@ -903,7 +858,7 @@ section.mastwrap{
 }
 
 .homephraseleft span.menu__item-name, .homephraseright span.menu__item-name {
-  font-size: 42px;
+  /* font-size: 42px; */
 }
 
 .leanright {
@@ -933,7 +888,6 @@ section.mastwrap{
 
 .backtowork {
   padding: 12px 0px;
-  font-size: 16px;
 }
 
 header div div div div a img {
