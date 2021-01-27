@@ -32,10 +32,6 @@ there.
     .container {
         max-width: 1000px;
     }
-    .news-post-head h4{
-        font-size: 36px;
-        line-height: 43px;
-    }
 }
 
 
@@ -165,7 +161,7 @@ there.
     left: auto !important;
     right: auto !important;
     transform: inherit !important;
-    max-width: 400px;
+    max-width: 75vw;
     margin-bottom: 25px;
     z-index: 1;
     }
@@ -230,8 +226,8 @@ there.
         padding-top: 20px;
     }
         .extrapadding {
-        padding-left: 0.5em;
-        padding-right: 0.5em;
+        /* padding-left: 0.5em;
+        padding-right: 0.5em; */
         padding-top: 4em;
     }
 }

@@ -59,13 +59,11 @@ a:focus {
 }
 
 .menu--tsula .menu__item-name {
-	text-transform: lowercase;
     cursor: url("../images/view.png") 40 40, crosshair;
 
 }
 
 .menu--tsula .menu__item-label {
-	text-transform: lowercase;
 	cursor: url("../images/view.png") 40 40, crosshair;
 }
 

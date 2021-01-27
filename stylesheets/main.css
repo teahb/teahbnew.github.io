@@ -696,8 +696,8 @@ left: 8%;}
 }
 
 .extrapadding {
-  padding-left: 2.5em;
-  padding-right: 2.5em;
+  /* padding-left: 2.5em;
+  padding-right: 2.5em; */
 }
 
 .remove-top{
@@ -849,8 +849,8 @@ left: 8%;}
     top: 11%;
     left: 5%;
     z-index: 10;
-    font-size: 50px;
-    letter-spacing: 0.4em;
+    font-size: 42px;
+    letter-spacing: 0.28em;
 }
 
 .homephraseright {
@@ -858,8 +858,8 @@ left: 8%;}
     bottom: 11%;
     right: 5%;
     z-index: 10;
-    font-size: 50px;
-    letter-spacing: 0.4em;
+    font-size: 42px;
+    letter-spacing: 0.28em;
     text-align: right;
 }
 
@@ -867,7 +867,7 @@ left: 8%;}
 .leanright {
     position: fixed !important;
     left: 68% !important;
-    top: 50% !important;
+    top: 45% !important;
     transform: translate(-50%, -50%) !important;
     max-width: 650px;
     z-index: 0;
@@ -884,9 +884,8 @@ left: 8%;}
   right: 2%;
 }
 
-.worktext {
-  padding: 6% 10% 5% 4%;
-  background-color: white;
+.seealso {
+  padding: 6%;
 }
 
 .backtowork {
@@ -898,7 +897,7 @@ header div div div div a img {
 }
 
 .about {
-  padding-left: 0px;
+  padding-left: 20px;
 }
 
 .eye-cursor {
