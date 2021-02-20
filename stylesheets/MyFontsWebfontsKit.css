@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4017718, 2021-02-20T16:20:12-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: VVSNobleman-Display by Vintage Voyage Design Supply
+ * URL: https://www.myfonts.com/fonts/vintage-voyage-design-supply/vvs-nobleman/display/
+ * Copyright: Copyright © 2021 by Pavel Korzhenko. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3d4e36");
+  
+@font-face {
+  font-family: "VVSNobleman-Display";
+  src: url('fonts/webFonts/VVSNoblemanDisplay/font.woff2') format('woff2'), url('fonts/webFonts/VVSNoblemanDisplay/font.woff') format('woff');
+}
+
