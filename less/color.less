@@ -5,6 +5,7 @@
 @wheat: #ceba9f;
 @brown: #402615;
 @black: #24140b;
+@grey: #cccccc;
 
 
 @red: #b54936;
@@ -77,6 +78,7 @@
 .wheat {color: #ceba9f;}
 .brown {color: #402615;}
 .black {color: #24140b;}
+.grey {color: #cccccc;}
 .red {color: #b54936;}
 .purple {color: #9966FF;}
 .yellow {color: #FFFD89;}
@@ -117,6 +119,14 @@ body {
 	z-index: 0;
 }
 
+.greygrd {
+	background: @cloud;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, @cloud, @grey);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, @cloud, @grey); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	z-index: 0;
+	width: 100vw;
+	height: 100vh;
+}
 
 /* BORDER STYLES */
 .newborder {
@@ -262,18 +272,17 @@ header a.active:hover {
 .homepage .menu--tsula .menu__item-name {
 	color: @brown;
 	text-decoration: none;
-	text-shadow: 1px 1px 10px;
+	/*text-shadow: 1px 1px 10px;*/
 }
 .homepage .menu--tsula .menu__item-label {
 	color: @cloud;
-	text-shadow: 1px 1px 10px;
+	/*text-shadow: 1px 1px 10px;*/
 
 }
 
 .homepage .menu--tsula .menu__item:hover .menu__item-name,
 .menu--tsula .menu__item:focus .menu__item-name {
-	color: @cloud;
-	background: @brown;
+	color: @lightgreen;
 	text-decoration: none;
 }
 .homepage .menu--tsula .menu__item:hover .menu__item-label,
