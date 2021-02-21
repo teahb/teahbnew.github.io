@@ -64,7 +64,7 @@
 
 </head>
 
-<body class="indexvhvw">
+<body id="homebody" class="indexvhvw">
 
 
   <!-- Preloader
@@ -77,7 +77,7 @@
   <!-- MASTER CONTENT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<section id="hidden-images" class="container newhomepage">
+<section id="hidden-text" class="container newhomepage">
   <div hidden id="name">
   <div class="row">
     <div class="col md-12">
@@ -140,7 +140,7 @@
       if (window.matchMedia("(max-width: 992px)").matches) {
         console.log(1);
         imagehere = false;
-        var imgst = document.getElementById('hidden-images').children;
+        var imgst = document.getElementById('hidden-text').children;
         for (var i = 0; i < imgst.length; i++) {
            imgst[i].setAttribute("src","about:blank"); //second console output
         }
@@ -152,7 +152,7 @@
 window.onload = function () {
       var bLazy = new Blazy({
         loadInvisible: true,
-        container: '#hidden-images',
+        container: '#hidden-text',
         error: function (ele, msg) {
           console.log(ele);
           console.log(msg);

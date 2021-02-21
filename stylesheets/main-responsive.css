@@ -171,6 +171,9 @@ there.
     .about.bigletters, .seealso.bigletters {
         font-size: 40px;
     }
+    .img-responsive {
+    max-width: 100vw;
+    }
 }
 
 
@@ -208,6 +211,10 @@ there.
     .menu.menu--tsula {
         text-align: left;
     }
+    #hidden-text .newhomephrase {
+        font-size: 60px;
+    }
+
 }
 
 /* Tablets */
@@ -275,6 +282,12 @@ there.
 
     header div div div div.col-md-12 {
         padding-left: 0;
+    }
+    .newborder, .headerborder, .footerborder {
+        border-top: 0px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
     }
 }
 
