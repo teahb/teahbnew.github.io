@@ -866,6 +866,17 @@ left: 8%;}
     text-align: right;
 }
 
+.newhomephrase {
+    z-index: 10;
+    font-size: 110px;
+    position: fixed!important;
+    left: 50%!important;
+    top: 40%!important;
+    transform: translate(-50%,-50%)!important;
+    max-height: 100%;
+    max-width: 38vw;
+    line-height: 0.99em;
+  }
 
 .leanright {
     position: fixed !important;
