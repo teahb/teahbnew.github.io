@@ -25,7 +25,7 @@ body{
   font-size: 17px;
 }
 
-p, article.about div.menu{
+p, .aboutmenu{
   margin-bottom: 0;
   text-align: left;
   margin: auto;
@@ -583,7 +583,7 @@ left: 8%;}
 
 .img-responsive {
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
   min-width: 60vw;
 }
 
