@@ -172,7 +172,7 @@ there.
 
 
 
-/* MINIMUM - Larger than tablet */
+/* MINIMUM - Larger than tablet 
 @media (min-width: 992px) {
     .workpage {
    margin: 0;
@@ -183,7 +183,7 @@ there.
     }
 }
 
-/* MINIMUM - Larger than tablet */
+/* MINIMUM - Larger than tablet 
 @media (max-width: 991px) {
         .workpage {
    padding-left: 15px;
@@ -191,7 +191,7 @@ there.
   position: relative;
     }
 }
-
+*/
 
 /* Larger than tablet */
 @media (max-width: 800px) {

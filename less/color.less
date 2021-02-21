@@ -1,12 +1,35 @@
-/* new brown: #1b1a1a;*/
 
 /* COLORS */
+@white: #FFFFFF;
+@cloud:#FFFDFC;
+@wheat: #ceba9f;
+@brown: #402615;
+@black: #24140b;
+
+
+@red: #b54936;
+@purple: #9966FF;
+@yellow: #FFFD89;
+
+@cobalt: #0e34c3;
+@softblue: #a2b3d6;
+@denim: #464c64;
+
+@algae: #959342;
+@dustygreen: #78917c;
+@army: #3b5007;
+@lightgreen: #7ea37b;
+
+@dialuppink: #ffadc6;
+@dialupblue: #10c0ff;
+
+/* GRADIENTS */
+
+/* v2 COLORS
 @dialuppink: #ffadc6;
 @dialupblue: #10c0ff;
 @white: #FFFFFF;
 @black: #1b1a1a;
-
-
 @dark: #24140b;
 @dimgrey: #24140b;
 @textgrey: #24140b;
@@ -16,7 +39,6 @@
 @silver: #e6dfd7;
 @cloud: #e6dfd7;
 @tsulagrey: #e6dfd7;
-
 @orange: #ce9b7d;
 @red: #a65a4d;
 @yellow: #bbb839;
@@ -24,6 +46,7 @@
 @newyellow: #bbb839;
 @blinkblue: #0e34c3;
 @brown: #402615;
+*/
 
 /* ORIGINAL COLORS 
 @white: #FFFFFF;
@@ -49,135 +72,95 @@
 
 
 /* COLOR CLASSES */
-.white{
-	color: @white;
-}
-.silver{
-	color: @silver;
-}
-.grey{
-	color: @grey ;
-}
-.dark{
-	color: @dark;
-}
-.black{
-	color: @black;
-}
-.orange{
-	color: @orange;
-}
-.red {
-	color: @red;
-}
-.wheat {
-	color: @wheat;
-}
-.dialuppink {
-	color: @dialuppink;
-}
-	.dialuppink a:hover {
-		color: @dialupblue;
-	}
-
-.dialupblue {
-	color: @dialupblue;
-}
-	.dialupblue a:hover {
-		color: @dialuppink;
-	}	
-
-.yellow {
-	color: @yellow;
-}
-.dimgrey {
-	color: @dimgrey;
-}
-.textgrey {
-	color: @textgrey;
-}
-.green {
-	color: @green;
-}
-.newyellow {
-	color: @newyellow;
-}
-.tsulagrey {
-	color: @tsulagrey;
-}
-.blinkblue {
-	color: @blinkblue;
-}
-.scangrey {
-	color: @scangrey;
-}
-.cloud {
-	color: #ECE9E6;
-}
-.brown {
-	color: #1b1a1a;
-}
-
+.white {color: #FFFFFF;}
+.cloud{color: #FFFDFC;}
+.wheat {color: #ceba9f;}
+.brown {color: #402615;}
+.black {color: #24140b;}
+.red {color: #b54936;}
+.purple {#9966FF;}
+.yellow {color: #FFFD89;}
+.cobalt {color: #0e34c3;}
+.softblue {color: #a2b3d6;}
+.denim {color: #464c64;}
+.algae {color: #959342;}
+.dustygreen {color: #78917c;}
+.army {color: #3b5007;}
+.lightgreen {color: #7ea37b;}
+.dialuppink {color: #ffadc6;}
+.dialupblue {color: #10c0ff;}
 
 /* BACKGROUND COLORS */
-.white-bg{
-	background-color: @cloud;
-}
-.silver-bg{
-	background-color: @silver;
-}
-.grey-bg{
-	background-color: @grey;
-}
-.dark-bg{
-	background-color: @dark;
-}
-.black-bg{
-	background-color: @black;
-}
-.wheat-bg {
-	background-color: @white;
-}
-.newyellow-bg {
-	background-color: @newyellow;
-}
-.textgrey-bg {
-	background-color: @textgrey;
-}
-.red-bg {
-	background-color: @brown;
-}
-.blinkblue-bg {
-	background-color: @blinkblue;
-}
-.green-bg {
-	background-color: @green;
-}
-.orange-bg {
-	background-color: @orange;
-}
-.brown-bg {
-	background-color: @brown;
-}
-
-/* TEXT COLORS */
-html {
-/*	background-color: @brown;
-*/}
-
 body {
 	background-color: @cloud;
 }
+
+/* CLOUDS GRADIENT */
+.cloudgrd {
+	background: @cloud;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, @cloud, @wheat);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, @cloud, @wheat); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	opacity: 0.5;
+	z-index: 0;
+}
+
+/* BORDER STYLES */
+.newborder {
+  border-left: 1px solid @brown;
+  border-right: 1px solid @brown;
+  min-height: 100vh;
+}
+
+.imgborder {
+	border: 1px solid @brown;
+}
+.imgshadow {
+	box-shadow: 0px 4px 14px -4px rgb(0,0,0,0.6);
+}
+.homeimgborder {
+	border: 1px solid @brown;
+}
+
+footer.mastfoot{
+	border-top: 1px solid @brown;
+}
+
+header.masthead{ 
+	border-bottom: 1px solid @brown;
+}
+
+
+/* HEADER/WRAPPER COLORS */
+/*section.mastwrap{
+	border-color: @white;
+}
+.header-highlighted{
+  background: @white;
+}
+header.masthead{
+	color: @black;
+}
+
+footer.mastfoot.white-bg {
+	background-color: white;
+}*/
+
+mastfoot.hint-bg {
+	background-color: @cloud;
+}
+
+
+/* TEXT COLORS */
 
 p,h1,h2,h3,h4,h5,h6 {
 	color: @brown;
 }
 
 a{
-	color: @blinkblue;
+	color: @army;
 	cursor: url("../images/view.png") 40 40, crosshair;
-
 }
+
 a:hover{
 	color: @brown;
 	text-decoration: underline;
@@ -186,7 +169,7 @@ a:hover{
 }
 
 header a.active {
-	color: @red;
+	color: @lightgreen;
 	text-decoration-line: underline;
 	text-decoration-style: wavy;
 }
@@ -196,7 +179,7 @@ header a {
 }
 
 header a:hover {
-	color: @red;
+	color: @lightgreen;
 	text-decoration: none;
 }
 
@@ -212,63 +195,17 @@ header a.active:hover {
 
 /* SELECTION COLORS */
 ::selection {
-  background: @yellow;
-  color: @black;
+  background: @army;
+  color: @cloud;
 }
 ::-moz-selection {
-  background: @yellow;
-  color: @black;
+  background: @army;
+  color: @cloud;
 }
 
 
 
 
-/* BUTTON COLORS */
-.btn-remark-white {
-	background-color: @white;
-	color: @orange;
-}
-.btn-remark-white:hover {
-	background-color: @red !important;
-	color: @white !important;
-}
-.btn-remark-dark {
-	background-color: @black !important;
-	color: @white !important;
-}
-.btn-remark-dark:hover {
-	background-color: @red !important;
-	color :@black !important;
-}
-.btn-remark-color {
-	background-color: @red !important;
-	color: @white !important;
-}
-.btn-remark-color:hover {
-	background-color: @yellow !important;
-	color: @black !important;
-}
-
-
-
-/* HEADER/WRAPPER COLORS */
-section.mastwrap{
-	border-color: @white;
-}
-.header-highlighted{
-  background: @white;
-}
-header.masthead{
-	color: @black;
-}
-
-footer.mastfoot.white-bg {
-	background-color: white;
-}
-
-footer.mastfoot.hint-bg {
-	background-color: rgba(255, 255, 255, 0.6);
-}
 
 
 /* WORKS ITEM COLORS */
@@ -297,22 +234,71 @@ footer.mastfoot.hint-bg {
 }
 
 
-/* NAVIGATION COLORS */
-.menu-bg{
-	background-color: @black;
+
+
+
+/* TSULA COLORS*/
+.menu--tsula .menu__item .menu__item-name::before {
+	background: @lightgreen;
 }
-.menu-panel ul li a{
-	color: @white;
+
+/* TSULA COLORS ON HOMEPAGE */
+.homepage .menu--tsula .menu__item-name {
+	color: @lightgreen;
+	text-decoration: none;
 }
-.menu-panel ul li a:hover{
-	color: @red;
+.homepage .menu--tsula .menu__item-label {
+	color: @cloud;
+}
+
+.homepage .menu--tsula .menu__item:hover .menu__item-name,
+.menu--tsula .menu__item:focus .menu__item-name {
+	color: @cloud;
+	background: @army;
+	text-decoration: none;
+}
+.homepage .menu--tsula .menu__item:hover .menu__item-label,
+.menu--tsula .menu__item:focus .menu__item-label {
+	color: @army;
 }
 
 
 
+/* TSULA COLORS ON ABOUT PAGE */
+.about .menu--tsula .menu__item-name {
+	color: @brown;
+}
+.about .menu--tsula .menu__item:hover .menu__item-name,
+.about .menu--tsula .menu__item:focus .menu__item-name {
+	color: @cloud;
+	background: @army;
+}
+.about .menu--tsula .menu__item:hover .menu__item-label,
+.about .menu--tsula .menu__item:focus .menu__item-label {
+	color: @brown;
+}
+.about .menu--tsula .menu__item-label {
+	color: @cloud;
+}
+
+
+
+
+/* OTHER COLORS */
+/* input, textarea {
+	border-color: @white;
+	color: @white !important;
+}
+input:focus, textarea:focus {
+	border-color: @red !important;
+	color: @red !important;
+}
+.sub-menu{
+	border-color: @red;
+} */
 
 /* FILTER/FOOTER COLORS */
-.works-filter li a, .works-filter li:after{
+/* .works-filter li a, .works-filter li:after{
 	color: @dark;
 }
 
@@ -340,137 +326,41 @@ footer.mastfoot.hint-bg {
 }
 .foot-social li a > img:hover {
 	color: @orange;
+} */
+
+/* NAVIGATION COLORS */
+/* .menu-bg{
+	background-color: @black;
 }
-
-
-
-/* TSULA COLORS ON HOMEPAGE */
-.homepage .menu--tsula .menu__item-name {
-	color: @red;
-	text-decoration: none;
-}
-
-.homepage .menu--tsula .menu__item:hover .menu__item-name,
-.menu--tsula .menu__item:focus .menu__item-name {
-	color: white;
-	background: @blinkblue;
-	text-decoration: none;
-}
-
-.homepage .menu--tsula .menu__item:hover .menu__item-label,
-.menu--tsula .menu__item:focus .menu__item-label {
-	color: @red;
-}
-
-.homepage .menu--tsula .menu__item-label {
-	color: @brown;
-}
-
-.imgborder {
-	border: 1px solid @brown;
-}
-
-.imgborder2 {
-	border: 1px solid @brown;
-}
-
-.homeimgborder {
-	border: 1px solid @brown;
-}
-
-
-/* TSULA COLORS ON ABOUT PAGE */
-.about .menu--tsula .menu__item-name {
-	color: @brown;
-}
-
-.about .menu--tsula .menu__item:hover .menu__item-name,
-.about .menu--tsula .menu__item:focus .menu__item-name {
+.menu-panel ul li a{
 	color: @white;
-	background: @blinkblue;
 }
+.menu-panel ul li a:hover{
+	color: @red;
+} */
 
-.about .menu--tsula .menu__item:hover .menu__item-label,
-.about .menu--tsula .menu__item:focus .menu__item-label {
-	color: @brown;
+/* BUTTON COLORS */
+/* .btn-remark-white {
+	background-color: @white;
+	color: @orange;
 }
-
-.about .menu--tsula .menu__item-label {
-	color: @blinkblue;
-}
-
-
-
-
-/* OTHER COLORS */
-input, textarea {
-	border-color: @white;
+.btn-remark-white:hover {
+	background-color: @red !important;
 	color: @white !important;
 }
-input:focus, textarea:focus {
-	border-color: @red !important;
-	color: @red !important;
+.btn-remark-dark {
+	background-color: @black !important;
+	color: @white !important;
 }
-.sub-menu{
-	border-color: @red;
+.btn-remark-dark:hover {
+	background-color: @red !important;
+	color :@black !important;
 }
-
-
-/* BORDER STYLES */
-.newborder {
-  border-left: 1px solid @brown;
-  border-right: 1px solid @brown;
-  min-height: 100vh;
+.btn-remark-color {
+	background-color: @red !important;
+	color: @white !important;
 }
-
-footer.mastfoot{
-	border-top: 1px solid @brown;
-}
-
-header.masthead{ 
-	border-bottom: 1px solid @brown;
-}
-
-
-/* NAME ANIMATION */
-.nameanimation {
-    color: red;
-    -webkit-animation-name: nameanimation; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: nameanimation;
-    animation-duration: 4s;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes nameanimation {
-    0%   {color: red;}
-    20%  {color: @orange;}
-    40%  {color: @newyellow;}
-    60% {color: green;}
-    80% {color: @blinkblue;}
-    100% {color: @black;}
-}
-
-/* Standard syntax */
-@keyframes nameanimation {
-    0%   {color: red;}
-    20%  {color: @orange;}
-    40%  {color: @newyellow;}
-    60% {color: green;}
-    80% {color: @blinkblue;}
-    100% {color: @black;}
-}
-
-
-/* CLOUDS GRADIENT */
-.cloudgrd {
-	background: @cloud;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, @white, @cloud);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, @white, @cloud); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	opacity: 0.5;
-	z-index: 0;
-}
-
-.menu--tsula .menu__item .menu__item-name::before {
-	background: @blinkblue;
-}
+.btn-remark-color:hover {
+	background-color: @yellow !important;
+	color: @black !important;
+} */

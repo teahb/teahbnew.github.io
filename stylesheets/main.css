@@ -22,15 +22,14 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body{
   overscroll-behavior: none;
-  font-size: 22px;
+  font-size: 17px;
 }
 
-p{
+p, article.about div.menu{
   margin-bottom: 0;
   text-align: left;
-  font-size: 22px;
   margin: auto;
-  max-width: 500px;
+  max-width: 550px;
 }
 h1,h2,h3,h4,h5,h6{
   margin-top: 0;
@@ -123,8 +122,8 @@ header.masthead{
   width: 100%;
   z-index: 9990;
   height: 40px;
-  font-size: 22px;
-  word-spacing: 10px;
+  font-size: 18px;
+  word-spacing: 20px;
   text-transform: lowercase; 
   -webkit-transition: all .8s linear;
      -moz-transition: all .8s linear;
@@ -584,7 +583,8 @@ left: 8%;}
 
 .img-responsive {
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto
+  min-width: 60vw;
 }
 
 
@@ -702,6 +702,10 @@ left: 8%;}
 .remove-top{
   margin-top: 0 !important;
 }
+.nobottompadding {
+  padding-bottom: 0 !important;
+}
+
 .text-justify {
     text-align: justify;
 }
@@ -848,8 +852,7 @@ left: 8%;}
     top: 4%;
     left: 5%;
     z-index: 10;
-    font-size: 42px;
-    letter-spacing: 0.28em;
+    font-size: 80px;
 }
 
 .homephraseright {
@@ -857,8 +860,7 @@ left: 8%;}
     bottom: 11%;
     right: 5%;
     z-index: 10;
-    font-size: 42px;
-    letter-spacing: 0.28em;
+    font-size: 80px;
     text-align: right;
 }
 
