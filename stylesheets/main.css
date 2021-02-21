@@ -586,7 +586,7 @@ left: 8%;}
   margin-right: auto;
   min-width: 60vw;
   width: 100%;
-  max-width: 90vw;
+  max-width: 80vw;
 }
 
 
@@ -932,4 +932,8 @@ header div div div div a img {
 .indexvhvw {
   width: 100vw;
   height: 100vh;
+}
+
+.eyecursor {
+  cursor: url("../images/view.png") 40 40, crosshair;
 }
