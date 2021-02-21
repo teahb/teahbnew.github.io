@@ -168,6 +168,9 @@ there.
     #hidden-images {
         display: none;
     }
+    .about.bigletters {
+        font-size: 40px;
+    }
 }
 
 
@@ -261,14 +264,12 @@ there.
     .homephraseleft {
         top: 7%;
         left: 5%;
-        font-size: 25px;
-        letter-spacing: 0.4em;
+        font-size: 40px;
     }
     .homephraseright {
         bottom: 13%;
         right: 7%;
-        font-size: 25px;
-        letter-spacing: 0.4em;
+        font-size: 40px;
     }
 
 
@@ -328,6 +329,9 @@ there.
         font-size: 20px !important;
         line-height: 27px !important;
     } */
+    .about.bigletters {
+        font-size: 26px;
+    }
 }
 
 
