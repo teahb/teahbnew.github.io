@@ -915,3 +915,8 @@ header div div div div a img {
   60% {opacity: 0.1;}
   80% {opacity: 0.5}
 }
+
+.indexvhvw {
+  width: 100vw;
+  height: 100vh;
+}
