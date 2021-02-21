@@ -940,3 +940,11 @@ header div div div div a img {
 .eyecursor {
   cursor: url("../images/view.png") 40 40, crosshair;
 }
+
+.homeface {
+    margin-bottom: 70px;
+}
+
+.supercede {
+  z-index: 999;
+}

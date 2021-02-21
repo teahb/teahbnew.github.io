@@ -284,8 +284,7 @@ header a.active:hover {
 
 .newhomepage .menu--tsula .menu__item:hover .menu__item-name,
 .menu--tsula .menu__item:focus .menu__item-name {
-	color: @cloud;
-	background: @army;
+	color: @cobalt;
 }
 .newhomepage .menu--tsula .menu__item:hover .menu__item-label,
 .menu--tsula .menu__item:focus .menu__item-label {
@@ -293,6 +292,13 @@ header a.active:hover {
 	background: @army;
 }
 
+body .newhomepage .menu--tsula .menu__item:hover .menu__item-name,
+.menu--tsula .menu__item:focus .menu__item-name {
+	background: @cloud;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, @cloud, @softblue);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, @cloud, @softblue); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	z-index: 0;
+}
 
 
 /* TSULA COLORS ON ABOUT PAGE */
