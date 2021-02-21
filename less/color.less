@@ -96,13 +96,27 @@ body {
 }
 
 /* CLOUDS GRADIENT */
-.cloudgrd {
+.wheatgrd {
 	background: @cloud;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to bottom, @cloud, @wheat);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to bottom, @cloud, @wheat); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	opacity: 0.5;
 	z-index: 0;
 }
+
+.greengrd {
+	background: @cloud;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, @cloud, @lightgreen);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, @cloud, @lightgreen); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	z-index: 0;
+}
+
+.bluegrd {
+	background: @cloud;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, @cloud, @softblue);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, @cloud, @softblue); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	z-index: 0;
+}
+
 
 /* BORDER STYLES */
 .newborder {
@@ -145,8 +159,8 @@ footer.mastfoot.white-bg {
 	background-color: white;
 }*/
 
-mastfoot.hint-bg {
-	background-color: @cloud;
+header.masthead .hint-bg {
+	background-color: rgba(255,253,252,0.8);
 }
 
 
@@ -157,7 +171,7 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 
 a{
-	color: @army;
+	color: @cobalt;
 	cursor: url("../images/view.png") 40 40, crosshair;
 }
 
@@ -169,9 +183,7 @@ a:hover{
 }
 
 header a.active {
-	color: @lightgreen;
-	text-decoration-line: underline;
-	text-decoration-style: wavy;
+	color: @cobalt;
 }
 
 header a {
@@ -179,8 +191,11 @@ header a {
 }
 
 header a:hover {
-	color: @lightgreen;
+	color: @cobalt;
 	text-decoration: none;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: @cobalt;
 }
 
 header a.active:hover {

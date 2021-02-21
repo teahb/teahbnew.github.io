@@ -501,8 +501,8 @@ left: 8%;}
             text-decoration: none !important; */
         }
         .works-item a:hover{
-            text-decoration: none !important;
-            opacity:0;
+            /* text-decoration: none !important;
+            opacity:0; */
         }
         .info a:hover{
             cursor: url("../images/view.png") 40 40, crosshair;
@@ -852,7 +852,7 @@ left: 8%;}
     top: 4%;
     left: 5%;
     z-index: 10;
-    font-size: 80px;
+    font-size: 110px;
 }
 
 .homephraseright {
@@ -860,7 +860,7 @@ left: 8%;}
     bottom: 11%;
     right: 5%;
     z-index: 10;
-    font-size: 80px;
+    font-size: 110px;
     text-align: right;
 }
 
