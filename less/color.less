@@ -129,7 +129,7 @@ body {
 	border: 1px solid @brown;
 }
 .imgshadow {
-	box-shadow: 0px 4px 14px -4px rgb(0,0,0,0.6);
+	box-shadow: 0px 4px 14px -4px rgba(0,0,0,0.6);
 }
 .homeimgborder {
 	border: 1px solid @brown;
@@ -159,7 +159,7 @@ footer.mastfoot.white-bg {
 	background-color: white;
 }*/
 
-header.masthead .hint-bg {
+header.masthead.hint-bg {
 	background-color: rgba(255,253,252,0.8);
 }
 
@@ -191,11 +191,8 @@ header a {
 }
 
 header a:hover {
-	color: @cobalt;
-	text-decoration: none;
-	text-decoration: underline;
-	text-decoration-style: wavy;
-	text-decoration-color: @cobalt;
+	color: @cloud;
+	background: @cobalt;
 }
 
 header a.active:hover {
@@ -206,6 +203,10 @@ header a.active:hover {
 	color: @brown;
 }
 
+.seealso a:hover {
+	text-decoration: none;
+	color: @brown;
+}
 
 
 /* SELECTION COLORS */
@@ -274,7 +275,8 @@ header a.active:hover {
 }
 .homepage .menu--tsula .menu__item:hover .menu__item-label,
 .menu--tsula .menu__item:focus .menu__item-label {
-	color: @army;
+	color: @cloud;
+	background: @army;
 }
 
 
