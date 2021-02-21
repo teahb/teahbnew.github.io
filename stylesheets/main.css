@@ -751,6 +751,9 @@ left: 8%;}
     transform: translateY(-50%);
 }
 
+.menupad {
+  padding-left: 6%;
+}
 
 .img-bg{
   background-size: cover;

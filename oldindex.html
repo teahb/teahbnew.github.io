@@ -76,26 +76,24 @@
 
   <!-- MASTER CONTENT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <section class="homepage">
+ 
+        <div>
+          <img class="centered b-lazy imgshadow" alt=" " data-src="images/teah/comict.gif"/>
+        </div>
 
-<section id="hidden-images" class="container newhomepage">
-  <div hidden id="name">
-  <div class="row">
-    <div class="col md-12">
         <div class="menu menu--tsula indexfont">
-          <a class="menu__item newhomephrase" href="work.html">
-            <span class="menu__item-label">teah khadijeh brands</span>
+          <a class="menu__item homephraseleft" href="about.html">
+            <span class="menu__item-name">teah</span>
+            <span class="menu__item-label">khadijeh brands</span>
+          </a>
+          <a class="menu__item homephraseright" href="work.html">
+            <span class="menu__item-label">makes</span>
+            <span class="menu__item-name">space</span>
           </a>
         </div>
-    </div>
-  </div>
-</div>
-</section>
-
-<section class="homepage">
-        <div>
-          <img onmouseover="showElement('name'),hideElement('face')" onmouseout="hideElement('name'),showElement('face')" id="face" class="centered b-lazy imgshadow" alt=" " data-src="images/teah/comict.gif"/>
-        </div>
-</section>  
+       
+      </section>  
 
 
 
@@ -119,36 +117,8 @@
 <script src="javascripts/custom/main.js"></script>
   <script src="javascripts/blazy.js"></script>
 
-<script type="text/javascript">
-    imagehere = true;
 
-    function showElement(id) {
-      if (imagehere) {
-      document.getElementById(id).removeAttribute("hidden");
-    }
-    }
-
-    function hideElement(id) {
-      if (imagehere) {
-      document.getElementById(id).setAttribute("hidden", true);
-    }
-    }
-
-    function mobileImages() {
-      console.log(0);
-      console.log(window.matchMedia("(max-width: 992px)").matches);
-      if (window.matchMedia("(max-width: 992px)").matches) {
-        console.log(1);
-        imagehere = false;
-        var imgst = document.getElementById('hidden-images').children;
-        for (var i = 0; i < imgst.length; i++) {
-           imgst[i].setAttribute("src","about:blank"); //second console output
-        }
-
-        // setAttribute('src','about:blank');
-      }
-    }
-
+  <script type="text/javascript">
 window.onload = function () {
       var bLazy = new Blazy({
         loadInvisible: true,

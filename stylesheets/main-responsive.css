@@ -168,7 +168,7 @@ there.
     #hidden-images {
         display: none;
     }
-    .about.bigletters {
+    .about.bigletters, .seealso.bigletters {
         font-size: 40px;
     }
 }
