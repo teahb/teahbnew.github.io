@@ -22,7 +22,13 @@
 @import url("//hello.myfonts.net/count/3d4e36");
   
 @font-face {
-  font-family: "VVSNobleman-Display";
-  src: url('fonts/webFonts/VVSNoblemanDisplay/font.woff2') format('woff2'), url('fonts/webFonts/VVSNoblemanDisplay/font.woff') format('woff');
+  font-family: 'VVSNobleman-Display';
+  src: url('/fonts/nobleman/VVSNobleman-Display.eot');
+  src: url('/fonts/nobleman/VVSNobleman-Display.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/nobleman/VVSNobleman-Display.svg#VVSNobleman-Display') format('svg'),
+       url('/fonts/nobleman/VVSNobleman-Display.ttf') format('truetype'),
+       url('/fonts/nobleman/VVSNobleman-Display.woff') format('woff'),
+       url('/fonts/nobleman/VVSNobleman-Display.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
-
