@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6{
   margin-top: 0;
   margin-bottom: 0;
   margin: auto;
-  max-width: 600px;
+  max-width: 550px;
 }
 
 /* h1{
@@ -678,6 +678,9 @@ left: 8%;}
 .pad{
   padding: 60px;
 }
+.pad-intro {
+  padding-top: 14%;
+}
 .pad-top{
   padding-top: 10%;
 }
@@ -752,7 +755,7 @@ left: 8%;}
 }
 
 .menupad {
-  padding-left: 6%;
+  padding-left: 6% !important;
 }
 
 .img-bg{
@@ -913,9 +916,9 @@ header div div div div a img {
   padding-top: 25px;
 }
 
-.about {
+/* .about {
   padding-left: 2%;
-}
+} */
 
 .eye-cursor {
   cursor: url("../images/view.png") 40 40, crosshair;
