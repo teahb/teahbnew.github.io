@@ -699,6 +699,9 @@ left: 8%;}
 .pad-bottom{
   padding-bottom: 10%;
 }
+.pad-bottom-double {
+  padding-bottom: 20%;
+}
 .pad-bottom-half{
   padding-bottom: 5%;
 }
