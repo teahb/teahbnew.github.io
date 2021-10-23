@@ -685,7 +685,7 @@ left: 8%;}
   padding: 60px;
 }
 .pad-intro {
-  padding-top: 14%;
+  padding-top: 9%;
 }
 .pad-top{
   padding-top: 10%;
@@ -896,7 +896,7 @@ left: 8%;}
 .leanright {
     position: fixed !important;
     left: 68% !important;
-    top: 45% !important;
+    top: 50% !important;
     transform: translate(-50%, -50%) !important;
     max-width: 650px;
     z-index: 0;
