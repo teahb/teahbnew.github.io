@@ -226,6 +226,9 @@ there.
     border-left: 20px solid #1b1a1a !important;
     border-right: 20px solid #1b1a1a !important;
 }*/
+.bigletters {
+    font-size: 12vw;
+}
 
 }
 
