@@ -168,9 +168,9 @@ there.
     #hidden-images {
         display: none;
     }
-    .about.bigletters, .seealso.bigletters {
+    /*.about.bigletters, .seealso.bigletters {
         font-size: 40px;
-    }
+    }*/
     .img-responsive {
     max-width: 100vw;
     }
@@ -226,9 +226,9 @@ there.
     border-left: 20px solid #1b1a1a !important;
     border-right: 20px solid #1b1a1a !important;
 }*/
-.bigletters {
+/*.bigletters {
     font-size: 12vw;
-}
+}*/
 
 }
 
@@ -345,9 +345,9 @@ there.
         font-size: 20px !important;
         line-height: 27px !important;
     } */
-    .about.bigletters {
+    /*.about.bigletters {
         font-size: 26px;
-    }
+    }*/
 }
 
 
