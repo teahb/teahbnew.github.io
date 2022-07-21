@@ -22,7 +22,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body{
   overscroll-behavior: none;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 p, .aboutmenu{
@@ -660,7 +660,7 @@ left: 8%;}
 /*Additional Helper Classes*/
 
 .add-top{
-  margin-top: 90px;
+  margin-top: 60%;
 }
 .add-top-half{
   margin-top: 60px;
@@ -669,7 +669,7 @@ left: 8%;}
   margin-top: 20px;
 }
 .add-bottom{
-  margin-bottom: 10%;
+  margin-bottom: 60%;
 }
 .add-bottom-half{
   margin-bottom: 8%;
