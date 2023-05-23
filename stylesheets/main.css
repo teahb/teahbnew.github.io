@@ -898,7 +898,7 @@ left: 8%;}
     left: 68% !important;
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
-    max-width: 650px;
+    max-width: 300px;
     z-index: 0;
 }
 
