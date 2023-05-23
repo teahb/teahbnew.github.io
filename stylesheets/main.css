@@ -45,7 +45,7 @@ h1 {
 }
 
 h1{
-  font-size: 80px;
+  font-size: 20px;
 }
 
  /*h3 {
@@ -898,7 +898,8 @@ left: 8%;}
     left: 68% !important;
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
-    max-width: 300px;
+    rotate: 30deg;
+    max-width: 100px;
     z-index: 0;
 }
 
